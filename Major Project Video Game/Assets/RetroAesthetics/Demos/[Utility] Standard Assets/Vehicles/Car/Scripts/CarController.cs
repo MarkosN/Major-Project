@@ -1,5 +1,7 @@
 using System;
 using UnityEngine;
+using TMPro;
+
 #pragma warning disable 0649
 namespace UnityStandardAssets.Vehicles.Car
 {
@@ -32,15 +34,18 @@ namespace UnityStandardAssets.Vehicles.Car
         [SerializeField] private float m_Downforce = 100f;
         [SerializeField] private SpeedType m_SpeedType;
         [SerializeField] private float m_Topspeed = 200;
-        [SerializeField] private static int NoOfGears = 5;
+        [SerializeField] private static int NoOfGears = 8;
         [SerializeField] private float m_RevRangeBoundary = 1f;
         [SerializeField] private float m_SlipLimit;
         [SerializeField] private float m_BrakeTorque;
 
+        public TMP_Text speedUiText;
+        public TMP_Text gearsUiText;
+
         private Quaternion[] m_WheelMeshLocalRotations;
         private Vector3 m_Prevpos, m_Pos;
         private float m_SteerAngle;
-        private int m_GearNum;
+        private int m_GearNum = 1;
         private float m_GearFactor;
         private float m_OldRotation;
         private float m_CurrentTorque;
@@ -71,6 +76,11 @@ namespace UnityStandardAssets.Vehicles.Car
             m_CurrentTorque = m_FullTorqueOverAllWheels - (m_TractionControl*m_FullTorqueOverAllWheels);
         }
 
+        private void Update()
+        {
+            speedUiText.text = CurrentSpeed.ToString("0");
+            gearsUiText.text = m_GearNum.ToString();
+        }
 
         private void GearChanging()
         {
@@ -78,7 +88,7 @@ namespace UnityStandardAssets.Vehicles.Car
             float upgearlimit = (1/(float) NoOfGears)*(m_GearNum + 1);
             float downgearlimit = (1/(float) NoOfGears)*m_GearNum;
 
-            if (m_GearNum > 0 && f < downgearlimit)
+            if (m_GearNum > 1 && f < downgearlimit)
             {
                 m_GearNum--;
             }
