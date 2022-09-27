@@ -1,11 +1,12 @@
 using System;
 using UnityEngine;
 using Random = UnityEngine.Random;
+using Cinemachine;
 
 namespace RetroAesthetics {
 
     [ExecuteInEditMode]
-    [RequireComponent(typeof(Camera))]
+    [RequireComponent(typeof(ICinemachineCamera))]
     #if UNITY_5_4_OR_NEWER && !RETRO_SCENE_VIEW_OFF
         [ImageEffectAllowedInSceneView]
     #endif

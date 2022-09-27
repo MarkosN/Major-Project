@@ -2,6 +2,7 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - AutomatedCameraSystem
+    - RetroAesthetics.RetroCameraEffect
     - UnityStandardAssets.Vehicles.Car.CarAudio
     - UnityStandardAssets.Vehicles.Car.CarController
     - UnityStandardAssets.Vehicles.Car.CarUserControl
@@ -29,12 +30,22 @@ ScriptsOnlyBuild:
     - UnityEditor.TerrainTools.StrataFractalType
     - UnityEditor.TerrainTools.ValueNoise
     - UnityEditor.TerrainTools.VoronoiNoise
-    Unity.Timeline.dll:
-    - UnityEngine.Timeline.TimelineAsset
+    Unity.TextMeshPro.dll:
+    - TMPro.TMP_FontAsset
+    - TMPro.TMP_Settings
+    - TMPro.TMP_SpriteAsset
+    - TMPro.TMP_StyleSheet
+    - TMPro.TextMeshProUGUI
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.RawImage
   serializedClasses:
     Cinemachine:
     - Cinemachine.CinemachineBlendDefinition
@@ -42,8 +53,30 @@ ScriptsOnlyBuild:
     - Cinemachine.CinemachineBrain/VcamActivatedEvent
     - Cinemachine.CinemachineVirtualCameraBase/TransitionParams
     - Cinemachine.LensSettings
+    Unity.TextMeshPro:
+    - TMPro.FaceInfo_Legacy
+    - TMPro.FontAssetCreationSettings
+    - TMPro.KerningTable
+    - TMPro.TMP_Character
+    - TMPro.TMP_FontFeatureTable
+    - TMPro.TMP_FontWeightPair
+    - TMPro.TMP_GlyphAdjustmentRecord
+    - TMPro.TMP_GlyphPairAdjustmentRecord
+    - TMPro.TMP_GlyphValueRecord
+    - TMPro.TMP_Sprite
+    - TMPro.TMP_SpriteCharacter
+    - TMPro.TMP_SpriteGlyph
+    - TMPro.TMP_Style
+    - TMPro.VertexGradient
     UnityEngine.CoreModule:
     - UnityEngine.Events.PersistentCallGroup
+    UnityEngine.TextCoreFontEngineModule:
+    - UnityEngine.TextCore.FaceInfo
+    - UnityEngine.TextCore.Glyph
+    - UnityEngine.TextCore.GlyphMetrics
+    - UnityEngine.TextCore.GlyphRect
+    UnityEngine.UI:
+    - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
   methodsToPreserve: []
   sceneClasses:
     Assets/Scenes/Car Set Up Scene.unity:
@@ -65,6 +98,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
     - Class: 54
       Script: {instanceID: 0}
     - Class: 64
@@ -84,30 +119,54 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1900}
+      Script: {instanceID: 1930}
     - Class: 114
-      Script: {instanceID: 2966}
+      Script: {instanceID: 2538}
     - Class: 114
-      Script: {instanceID: 3150}
+      Script: {instanceID: 2688}
     - Class: 114
-      Script: {instanceID: 3204}
+      Script: {instanceID: 2996}
     - Class: 114
-      Script: {instanceID: 4062}
+      Script: {instanceID: 3074}
     - Class: 114
-      Script: {instanceID: 5064}
+      Script: {instanceID: 3180}
     - Class: 114
-      Script: {instanceID: 5776}
+      Script: {instanceID: 3234}
     - Class: 114
-      Script: {instanceID: 6352}
+      Script: {instanceID: 3366}
     - Class: 114
-      Script: {instanceID: 6984}
+      Script: {instanceID: 4092}
     - Class: 114
-      Script: {instanceID: 7190}
+      Script: {instanceID: 4702}
     - Class: 114
-      Script: {instanceID: 8834}
+      Script: {instanceID: 5094}
     - Class: 114
-      Script: {instanceID: 9670}
+      Script: {instanceID: 5122}
+    - Class: 114
+      Script: {instanceID: 5476}
+    - Class: 114
+      Script: {instanceID: 5806}
+    - Class: 114
+      Script: {instanceID: 6382}
+    - Class: 114
+      Script: {instanceID: 6464}
+    - Class: 114
+      Script: {instanceID: 7014}
+    - Class: 114
+      Script: {instanceID: 7220}
+    - Class: 114
+      Script: {instanceID: 7266}
+    - Class: 114
+      Script: {instanceID: 7488}
+    - Class: 114
+      Script: {instanceID: 7934}
+    - Class: 114
+      Script: {instanceID: 8864}
+    - Class: 114
+      Script: {instanceID: 9700}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
       Script: {instanceID: 0}
     - Class: 134
       Script: {instanceID: 0}
@@ -120,6 +179,12 @@ ScriptsOnlyBuild:
     - Class: 198
       Script: {instanceID: 0}
     - Class: 199
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
       Script: {instanceID: 0}
     - Class: 850595691
       Script: {instanceID: 0}
@@ -1062,7 +1127,7 @@ ScriptsOnlyBuild:
     className: Suspension
   - hash:
       serializedVersion: 2
-      Hash: e08b7fd025e5743e5563e22fdd827075
+      Hash: f0c07bc0cebb2ef32fd4c3bba9a1b98f
     assemblyName: Assembly-CSharp.dll
     namespaceName: UnityStandardAssets.Vehicles.Car
     className: CarController
@@ -1585,5 +1650,5 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/Scenes/Car Set Up Scene.unity
-  playerPath: "C:/Users/\u039C\u03B1\u03C1\u03BA\u03BF\u03C2/Desktop/Major Project
-    Early Prototype Exe/Major Project Video Game.exe"
+  playerPath: "C:/Users/\u039C\u03B1\u03C1\u03BA\u03BF\u03C2/Desktop/exe/Major Project
+    Video Game.exe"
