@@ -2486,7 +2486,7 @@ GameObject:
   - component: {fileID: 249682643}
   - component: {fileID: 249682646}
   - component: {fileID: 249682645}
-  - component: {fileID: 249682644}
+  - component: {fileID: 249682647}
   m_Layer: 0
   m_Name: cm
   m_TagString: Untagged
@@ -2509,18 +2509,6 @@ Transform:
   m_Father: {fileID: 1958903858}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &249682644
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 249682642}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e8b78ac948f05a46a6d8339a503172b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &249682645
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -2555,6 +2543,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac0b09e7857660247b1477e93731de29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &249682647
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 249682642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4c41ac9245b87c4192012080077d830, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Damping: 0
 --- !u!1001 &252811154
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2621,6 +2622,53 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: aecc133b2406045ea91a6ae0a0ae8c56, type: 3}
   m_PrefabInstance: {fileID: 252811154}
   m_PrefabAsset: {fileID: 0}
+--- !u!21 &257047304
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Hidden/RetroCameraEffect
+  m_Shader: {fileID: 4800000, guid: 2cfdcae76c757405786f1219a383da6e, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SecondaryTex:
+        m_Texture: {fileID: 2800000, guid: 2ee566ccadfe14d0cadbd3e2107180cf, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ChromaticAberration: 0
+    - _DisplacementAmplitude: 0
+    - _DisplacementFrequency: 150
+    - _DisplacementSpeed: 0
+    - _NoiseBottomHeight: 0.04
+    - _NoiseBottomIntensity: 1
+    - _OffsetNoiseX: 0
+    - _OffsetNoiseY: 0
+    - _StaticIntensity: 1
+    - _UseChromaticAberration: 1
+    - _UseDisplacement: 1
+    - _UseStaticNoise: 1
+    - _UseVignette: 0
+    - _Vignette: 0
+    m_Colors:
+    - _OffsetPos: {r: 0, g: 0, b: 0, a: 1}
+  m_BuildTextureStacks: []
 --- !u!1001 &265470080
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4911,6 +4959,53 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: c7a823cd0668540b5a01f1e80c33a816, type: 3}
   m_PrefabInstance: {fileID: 496589124}
   m_PrefabAsset: {fileID: 0}
+--- !u!21 &498222571
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Hidden/RetroCameraEffect
+  m_Shader: {fileID: 4800000, guid: 2cfdcae76c757405786f1219a383da6e, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SecondaryTex:
+        m_Texture: {fileID: 2800000, guid: 2ee566ccadfe14d0cadbd3e2107180cf, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ChromaticAberration: 0
+    - _DisplacementAmplitude: 0
+    - _DisplacementFrequency: 150
+    - _DisplacementSpeed: 0
+    - _NoiseBottomHeight: 0.04
+    - _NoiseBottomIntensity: 1
+    - _OffsetNoiseX: 0
+    - _OffsetNoiseY: 0
+    - _StaticIntensity: 1
+    - _UseChromaticAberration: 1
+    - _UseDisplacement: 1
+    - _UseStaticNoise: 1
+    - _UseVignette: 0
+    - _Vignette: 0
+    m_Colors:
+    - _OffsetPos: {r: 0, g: 0, b: 0, a: 1}
+  m_BuildTextureStacks: []
 --- !u!4 &498790042 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 5b86c693acc5f4805b033c23b06b3a69, type: 3}
@@ -5139,7 +5234,7 @@ MonoBehaviour:
   useScanlines: 1
   scanlineSize: 512
   scanlineIntensity: 0.5
-  _material: {fileID: 1224512741}
+  _material: {fileID: 1417714624}
 --- !u!1 &517699355
 GameObject:
   m_ObjectHideFlags: 0
@@ -7284,6 +7379,53 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400008, guid: c7cde7b93013e41c6af56d0a5ff42129, type: 3}
   m_PrefabInstance: {fileID: 722784121}
   m_PrefabAsset: {fileID: 0}
+--- !u!21 &731576561
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Hidden/RetroCameraEffect
+  m_Shader: {fileID: 4800000, guid: 2cfdcae76c757405786f1219a383da6e, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SecondaryTex:
+        m_Texture: {fileID: 2800000, guid: 2ee566ccadfe14d0cadbd3e2107180cf, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ChromaticAberration: 0
+    - _DisplacementAmplitude: 0
+    - _DisplacementFrequency: 150
+    - _DisplacementSpeed: 0
+    - _NoiseBottomHeight: 0.04
+    - _NoiseBottomIntensity: 1
+    - _OffsetNoiseX: 0
+    - _OffsetNoiseY: 0
+    - _StaticIntensity: 1
+    - _UseChromaticAberration: 1
+    - _UseDisplacement: 1
+    - _UseStaticNoise: 1
+    - _UseVignette: 0
+    - _Vignette: 0
+    m_Colors:
+    - _OffsetPos: {r: 0, g: 0, b: 0, a: 1}
+  m_BuildTextureStacks: []
 --- !u!1001 &734813627
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8137,6 +8279,53 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400006, guid: 48fbce12d4169422dbc54c2d3a70885d, type: 3}
   m_PrefabInstance: {fileID: 804020423}
   m_PrefabAsset: {fileID: 0}
+--- !u!21 &806375250
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Hidden/RetroCameraEffect
+  m_Shader: {fileID: 4800000, guid: 2cfdcae76c757405786f1219a383da6e, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SecondaryTex:
+        m_Texture: {fileID: 2800000, guid: 2ee566ccadfe14d0cadbd3e2107180cf, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ChromaticAberration: 0
+    - _DisplacementAmplitude: 0
+    - _DisplacementFrequency: 150
+    - _DisplacementSpeed: 0
+    - _NoiseBottomHeight: 0.04
+    - _NoiseBottomIntensity: 1
+    - _OffsetNoiseX: 0
+    - _OffsetNoiseY: 0
+    - _StaticIntensity: 1
+    - _UseChromaticAberration: 1
+    - _UseDisplacement: 1
+    - _UseStaticNoise: 1
+    - _UseVignette: 0
+    - _Vignette: 0
+    m_Colors:
+    - _OffsetPos: {r: 0, g: 0, b: 0, a: 1}
+  m_BuildTextureStacks: []
 --- !u!1001 &813770362
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8280,7 +8469,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh62068
+  m_Name: pb_Mesh26244
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -8773,7 +8962,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh62552
+  m_Name: pb_Mesh26422
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -23158,12 +23347,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_BindingMode: 1
   m_FollowOffset: {x: 0, y: 5, z: -20}
-  m_XDamping: 0.25
-  m_YDamping: 0.25
-  m_ZDamping: 0.25
+  m_XDamping: 0.3
+  m_YDamping: 0.3
+  m_ZDamping: 0.3
   m_AngularDampingMode: 0
   m_PitchDamping: 0
-  m_YawDamping: 0.25
+  m_YawDamping: 0.3
   m_RollDamping: 0
   m_AngularDamping: 0
 --- !u!114 &1042295722
@@ -23187,9 +23376,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1042295718}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e8b78ac948f05a46a6d8339a503172b, type: 3}
+  m_Script: {fileID: 11500000, guid: a4c41ac9245b87c4192012080077d830, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Damping: 0
 --- !u!1001 &1043046036
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23459,6 +23649,53 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 178d8e1be9372450a8e630795c2848a6, type: 3}
   m_PrefabInstance: {fileID: 1078081665}
   m_PrefabAsset: {fileID: 0}
+--- !u!21 &1079964027
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Hidden/RetroCameraEffect
+  m_Shader: {fileID: 4800000, guid: 2cfdcae76c757405786f1219a383da6e, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SecondaryTex:
+        m_Texture: {fileID: 2800000, guid: 2ee566ccadfe14d0cadbd3e2107180cf, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ChromaticAberration: 0
+    - _DisplacementAmplitude: 0
+    - _DisplacementFrequency: 150
+    - _DisplacementSpeed: 0
+    - _NoiseBottomHeight: 0.04
+    - _NoiseBottomIntensity: 1
+    - _OffsetNoiseX: 0
+    - _OffsetNoiseY: 0
+    - _StaticIntensity: 1
+    - _UseChromaticAberration: 1
+    - _UseDisplacement: 1
+    - _UseStaticNoise: 1
+    - _UseVignette: 0
+    - _Vignette: 0
+    m_Colors:
+    - _OffsetPos: {r: 0, g: 0, b: 0, a: 1}
+  m_BuildTextureStacks: []
 --- !u!1001 &1084252211
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34878,61 +35115,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1206183627}
   m_CullTransparentMesh: 1
---- !u!21 &1224512741
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Hidden/RetroCameraEffect
-  m_Shader: {fileID: 4800000, guid: 2cfdcae76c757405786f1219a383da6e, type: 3}
-  m_ValidKeywords:
-  - BOTTOM_STRETCH_ON
-  - CHROMATIC_ON
-  - DISPLACEMENT_ON
-  - NOISE_BOTTOM_ON
-  - NOISE_ON
-  - RADIAL_DISTORTION_ON
-  - SCANLINES_ON
-  - VIGNETTE_ON
-  m_InvalidKeywords: []
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SecondaryTex:
-        m_Texture: {fileID: 2800000, guid: 2ee566ccadfe14d0cadbd3e2107180cf, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _ChromaticAberration: 0
-    - _DisplacementAmplitude: 0
-    - _DisplacementFrequency: 150
-    - _DisplacementSpeed: 0
-    - _NoiseBottomHeight: 0.04
-    - _NoiseBottomIntensity: 1
-    - _OffsetNoiseX: 0.3254692
-    - _OffsetNoiseY: 0.04298058
-    - _StaticIntensity: 2
-    - _UseChromaticAberration: 1
-    - _UseDisplacement: 1
-    - _UseStaticNoise: 1
-    - _UseVignette: 0
-    - _Vignette: 0.1
-    m_Colors:
-    - _OffsetPos: {r: 0, g: 0, b: 0, a: 0}
-  m_BuildTextureStacks: []
 --- !u!1001 &1224530877
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -36559,7 +36741,7 @@ GameObject:
   - component: {fileID: 1330179392}
   - component: {fileID: 1330179395}
   - component: {fileID: 1330179394}
-  - component: {fileID: 1330179393}
+  - component: {fileID: 1330179396}
   m_Layer: 0
   m_Name: cm
   m_TagString: Untagged
@@ -36582,18 +36764,6 @@ Transform:
   m_Father: {fileID: 1896735495}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1330179393
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1330179391}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e8b78ac948f05a46a6d8339a503172b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1330179394
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -36628,6 +36798,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac0b09e7857660247b1477e93731de29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1330179396
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1330179391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4c41ac9245b87c4192012080077d830, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Damping: 0
 --- !u!1001 &1331727098
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37283,7 +37466,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7346939, y: 1}
+    m_SensorSize: {x: 1.7094395, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -37299,8 +37482,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1379431320}
-  m_LocalRotation: {x: 4.0280791e-13, y: 1, z: -0.000005429983, w: 0.0000000756979}
-  m_LocalPosition: {x: -7.72, y: -3.7, z: 16.340002}
+  m_LocalRotation: {x: 1.1964626e-13, y: 1, z: -0.0000054298, w: 0.00000011755994}
+  m_LocalPosition: {x: -114.136375, y: -3.5580924, z: 72.09749}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -37345,7 +37528,7 @@ MonoBehaviour:
   useScanlines: 1
   scanlineSize: 512
   scanlineIntensity: 0.5
-  _material: {fileID: 1513137722}
+  _material: {fileID: 806375250}
 --- !u!1001 &1385668375
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37681,6 +37864,61 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 178d8e1be9372450a8e630795c2848a6, type: 3}
   m_PrefabInstance: {fileID: 1416138677}
   m_PrefabAsset: {fileID: 0}
+--- !u!21 &1417714624
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Hidden/RetroCameraEffect
+  m_Shader: {fileID: 4800000, guid: 2cfdcae76c757405786f1219a383da6e, type: 3}
+  m_ValidKeywords:
+  - BOTTOM_STRETCH_ON
+  - CHROMATIC_ON
+  - DISPLACEMENT_ON
+  - NOISE_BOTTOM_ON
+  - NOISE_ON
+  - RADIAL_DISTORTION_ON
+  - SCANLINES_ON
+  - VIGNETTE_ON
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SecondaryTex:
+        m_Texture: {fileID: 2800000, guid: 2ee566ccadfe14d0cadbd3e2107180cf, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ChromaticAberration: 0
+    - _DisplacementAmplitude: 0
+    - _DisplacementFrequency: 150
+    - _DisplacementSpeed: 0
+    - _NoiseBottomHeight: 0.04
+    - _NoiseBottomIntensity: 1
+    - _OffsetNoiseX: 0.41758233
+    - _OffsetNoiseY: -0.0762703
+    - _StaticIntensity: 2
+    - _UseChromaticAberration: 1
+    - _UseDisplacement: 1
+    - _UseStaticNoise: 1
+    - _UseVignette: 0
+    - _Vignette: 0.1
+    m_Colors:
+    - _OffsetPos: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
 --- !u!1 &1429713417
 GameObject:
   m_ObjectHideFlags: 0
@@ -38768,61 +39006,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 5b86c693acc5f4805b033c23b06b3a69, type: 3}
   m_PrefabInstance: {fileID: 1511761334}
   m_PrefabAsset: {fileID: 0}
---- !u!21 &1513137722
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Hidden/RetroCameraEffect
-  m_Shader: {fileID: 4800000, guid: 2cfdcae76c757405786f1219a383da6e, type: 3}
-  m_ValidKeywords:
-  - BOTTOM_STRETCH_ON
-  - CHROMATIC_ON
-  - DISPLACEMENT_ON
-  - NOISE_BOTTOM_ON
-  - NOISE_ON
-  - RADIAL_DISTORTION_ON
-  - SCANLINES_ON
-  - VIGNETTE_ON
-  m_InvalidKeywords: []
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SecondaryTex:
-        m_Texture: {fileID: 2800000, guid: 2ee566ccadfe14d0cadbd3e2107180cf, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _ChromaticAberration: 0
-    - _DisplacementAmplitude: 0
-    - _DisplacementFrequency: 150
-    - _DisplacementSpeed: 0
-    - _NoiseBottomHeight: 0.04
-    - _NoiseBottomIntensity: 1
-    - _OffsetNoiseX: 0.25040978
-    - _OffsetNoiseY: -0.18797596
-    - _StaticIntensity: 2
-    - _UseChromaticAberration: 1
-    - _UseDisplacement: 1
-    - _UseStaticNoise: 1
-    - _UseVignette: 0
-    - _Vignette: 0.1
-    m_Colors:
-    - _OffsetPos: {r: 0, g: 0, b: 0, a: 0}
-  m_BuildTextureStacks: []
 --- !u!1001 &1525647132
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -40207,7 +40390,7 @@ GameObject:
   - component: {fileID: 1640969152}
   - component: {fileID: 1640969155}
   - component: {fileID: 1640969154}
-  - component: {fileID: 1640969153}
+  - component: {fileID: 1640969156}
   m_Layer: 0
   m_Name: cm
   m_TagString: Untagged
@@ -40230,18 +40413,6 @@ Transform:
   m_Father: {fileID: 2055153659}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1640969153
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1640969151}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e8b78ac948f05a46a6d8339a503172b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1640969154
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -40256,12 +40427,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_BindingMode: 1
   m_FollowOffset: {x: 0, y: 4, z: -10}
-  m_XDamping: 0.25
-  m_YDamping: 0.25
-  m_ZDamping: 0.25
+  m_XDamping: 0.3
+  m_YDamping: 0.3
+  m_ZDamping: 0.3
   m_AngularDampingMode: 0
   m_PitchDamping: 0
-  m_YawDamping: 0.25
+  m_YawDamping: 0.3
   m_RollDamping: 0
   m_AngularDamping: 0
 --- !u!114 &1640969155
@@ -40276,6 +40447,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac0b09e7857660247b1477e93731de29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1640969156
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640969151}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4c41ac9245b87c4192012080077d830, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Damping: 0
 --- !u!1001 &1643516322
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -41743,7 +41927,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7079647, y: 1}
+    m_SensorSize: {x: 1.7094395, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -41823,7 +42007,7 @@ MonoBehaviour:
   useScanlines: 1
   scanlineSize: 512
   scanlineIntensity: 0.5
-  _material: {fileID: 2084162757}
+  _material: {fileID: 1079964027}
 --- !u!1001 &1772314705
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -42627,7 +42811,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7346939, y: 1}
+    m_SensorSize: {x: 1.7094395, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -42643,8 +42827,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1896735492}
-  m_LocalRotation: {x: 4.0280791e-13, y: 1, z: -0.000005429983, w: 0.0000000756979}
-  m_LocalPosition: {x: -7.723622, y: -2.8119347, z: 18.342497}
+  m_LocalRotation: {x: 1.943897e-13, y: 1, z: -0.0000054291286, w: 0.000000103782625}
+  m_LocalPosition: {x: -114.14, y: -2.670027, z: 74.099976}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -42689,7 +42873,7 @@ MonoBehaviour:
   useScanlines: 1
   scanlineSize: 512
   scanlineIntensity: 0.5
-  _material: {fileID: 1513137722}
+  _material: {fileID: 257047304}
 --- !u!1001 &1896837957
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -43613,7 +43797,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7346939, y: 1}
+    m_SensorSize: {x: 1.7094395, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -43675,7 +43859,7 @@ MonoBehaviour:
   useScanlines: 1
   scanlineSize: 512
   scanlineIntensity: 0.5
-  _material: {fileID: 1513137722}
+  _material: {fileID: 731576561}
 --- !u!1001 &1959573707
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -44834,7 +45018,7 @@ GameObject:
   - component: {fileID: 2043955033}
   - component: {fileID: 2043955036}
   - component: {fileID: 2043955035}
-  - component: {fileID: 2043955034}
+  - component: {fileID: 2043955037}
   m_Layer: 0
   m_Name: cm
   m_TagString: Untagged
@@ -44857,18 +45041,6 @@ Transform:
   m_Father: {fileID: 1379431323}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2043955034
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2043955032}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e8b78ac948f05a46a6d8339a503172b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &2043955035
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -44903,6 +45075,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac0b09e7857660247b1477e93731de29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2043955037
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2043955032}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4c41ac9245b87c4192012080077d830, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Damping: 0
 --- !u!1 &2046551734
 GameObject:
   m_ObjectHideFlags: 0
@@ -45380,7 +45565,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7346939, y: 1}
+    m_SensorSize: {x: 1.7094395, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -45396,8 +45581,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2055153656}
-  m_LocalRotation: {x: 4.0604445e-13, y: 1, z: -0.000005429983, w: 0.00000007510185}
-  m_LocalPosition: {x: -7.7236238, y: -0.61179876, z: 30.842472}
+  m_LocalRotation: {x: 3.4374145e-13, y: 1, z: -0.000005429983, w: 0.000000076293944}
+  m_LocalPosition: {x: -114.14, y: -0.46989107, z: 86.59995}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -45442,7 +45627,7 @@ MonoBehaviour:
   useScanlines: 1
   scanlineSize: 512
   scanlineIntensity: 0.5
-  _material: {fileID: 1513137722}
+  _material: {fileID: 498222571}
 --- !u!1001 &2057515985
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -45575,53 +45760,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 8d86f142ce82a4fcd886dd0a96b9fdd4, type: 3}
   m_PrefabInstance: {fileID: 2075133280}
   m_PrefabAsset: {fileID: 0}
---- !u!21 &2084162757
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Hidden/RetroCameraEffect
-  m_Shader: {fileID: 4800000, guid: 2cfdcae76c757405786f1219a383da6e, type: 3}
-  m_ValidKeywords: []
-  m_InvalidKeywords: []
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SecondaryTex:
-        m_Texture: {fileID: 2800000, guid: 2ee566ccadfe14d0cadbd3e2107180cf, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _ChromaticAberration: 0
-    - _DisplacementAmplitude: 0
-    - _DisplacementFrequency: 150
-    - _DisplacementSpeed: 0
-    - _NoiseBottomHeight: 0.04
-    - _NoiseBottomIntensity: 1
-    - _OffsetNoiseX: 0
-    - _OffsetNoiseY: 0
-    - _StaticIntensity: 1
-    - _UseChromaticAberration: 1
-    - _UseDisplacement: 1
-    - _UseStaticNoise: 1
-    - _UseVignette: 0
-    - _Vignette: 0
-    m_Colors:
-    - _OffsetPos: {r: 0, g: 0, b: 0, a: 1}
-  m_BuildTextureStacks: []
 --- !u!1001 &2086930972
 PrefabInstance:
   m_ObjectHideFlags: 0
