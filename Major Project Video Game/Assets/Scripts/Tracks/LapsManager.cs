@@ -26,7 +26,7 @@ public class LapsManager : MonoBehaviour // Managing when a lap is complete, whe
     {
         if (lapsNumber == 3)
         {
-            raceComplete.SetActive(true); // Finishing race sequence
+            raceComplete.SetActive(true); // Finishing race sequence(s)
         }
     }
 
@@ -58,7 +58,7 @@ public class LapsManager : MonoBehaviour // Managing when a lap is complete, whe
             }
 
             // Timer's milliseconds
-            displayMilliseconds_.GetComponent<TMP_Text>().text = "" + LapsTimer.millisecondsCounter_;
+            displayMilliseconds_.GetComponent<TMP_Text>().text = "" + ((int)LapsTimer.millisecondsCounter_).ToString(); // Casting it to int only for UI purposes
         }
 
         // Saving the best lap time

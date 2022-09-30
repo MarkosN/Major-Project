@@ -23,6 +23,6 @@ public class SaveLapTime : MonoBehaviour //  The best lap time will be saved and
         // Display the best lap time
         displayMinutes.GetComponent<TMP_Text>().text = "" + minutesCounter + ":";
         displaySeconds.GetComponent<TMP_Text>().text = "" + secondsCounter + ".";
-        displayMilliseconds.GetComponent<TMP_Text>().text = "" + millisecondsCounter;
+        displayMilliseconds.GetComponent<TMP_Text>().text = "" + ((int)millisecondsCounter).ToString(); // Casting it to int only for UI purposes
     }
 }
