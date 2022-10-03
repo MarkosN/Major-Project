@@ -5,6 +5,8 @@ ScriptsOnlyBuild:
     - LapsManager
     - LapsTimer
     - LapsTracker
+    - PositionCounterBack
+    - PositionCounterFront
     - RetroAesthetics.RetroCameraEffect
     - SaveLapTime
     - UnityStandardAssets.Vehicles.Car.CarAudio
@@ -19,6 +21,7 @@ ScriptsOnlyBuild:
     - Cinemachine.CinemachineTransposer
     - Cinemachine.CinemachineVirtualCamera
     Unity.ProBuilder.Editor.dll:
+    - UnityEditor.ProBuilder.PolyShapeTool
     - UnityEditor.ProBuilder.ProBuilderEditor
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
@@ -39,6 +42,8 @@ ScriptsOnlyBuild:
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
     - TMPro.TextMeshProUGUI
+    Unity.Timeline.dll:
+    - UnityEngine.Timeline.TimelineAsset
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -149,35 +154,39 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4702}
     - Class: 114
-      Script: {instanceID: 5094}
+      Script: {instanceID: 4976}
     - Class: 114
-      Script: {instanceID: 5122}
+      Script: {instanceID: 5096}
     - Class: 114
-      Script: {instanceID: 5476}
+      Script: {instanceID: 5124}
     - Class: 114
-      Script: {instanceID: 5806}
+      Script: {instanceID: 5478}
     - Class: 114
-      Script: {instanceID: 6382}
+      Script: {instanceID: 5808}
     - Class: 114
-      Script: {instanceID: 6464}
+      Script: {instanceID: 6384}
     - Class: 114
-      Script: {instanceID: 6730}
+      Script: {instanceID: 6466}
     - Class: 114
-      Script: {instanceID: 7016}
+      Script: {instanceID: 6732}
     - Class: 114
-      Script: {instanceID: 7222}
+      Script: {instanceID: 7018}
     - Class: 114
-      Script: {instanceID: 7268}
+      Script: {instanceID: 7224}
     - Class: 114
-      Script: {instanceID: 7490}
+      Script: {instanceID: 7270}
     - Class: 114
-      Script: {instanceID: 7936}
+      Script: {instanceID: 7492}
     - Class: 114
-      Script: {instanceID: 8866}
+      Script: {instanceID: 7938}
     - Class: 114
-      Script: {instanceID: 9356}
+      Script: {instanceID: 8868}
     - Class: 114
-      Script: {instanceID: 9704}
+      Script: {instanceID: 9358}
+    - Class: 114
+      Script: {instanceID: 9706}
+    - Class: 114
+      Script: {instanceID: 10170}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -821,6 +830,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: UnityStandardAssets.Utility
     className: AutoMoveAndRotate
+  - hash:
+      serializedVersion: 2
+      Hash: 067441450251cc56286890b6eccc45cb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PositionCounterFront
   - hash:
       serializedVersion: 2
       Hash: 3165968ba45c74472d279ba04455fccb
@@ -1649,6 +1664,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: UnityStandardAssets.Cameras
     className: LookatTarget
+  - hash:
+      serializedVersion: 2
+      Hash: 067441450251cc56286890b6eccc45cb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PositionCounterBack
   - hash:
       serializedVersion: 2
       Hash: fdd7177da17032ba94d98037cc97bb49
