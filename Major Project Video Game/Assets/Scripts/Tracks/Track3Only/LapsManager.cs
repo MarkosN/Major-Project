@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class LapsManager : MonoBehaviour // Managing when a lap is complete, when the race is over and the lap's timer.
+public class LapsManager : MonoBehaviour // Managing when a lap is complete, when the race is over and the lap's timer. (TRACK 3)
 {
     // Tracking when a full or half lap has been complete
     public GameObject fullLapTrigger;
@@ -50,11 +50,11 @@ public class LapsManager : MonoBehaviour // Managing when a lap is complete, whe
 
             if (LapsTimer.minutesCounter_ <= 9) // Timer's minutes
             {
-                displayMinutes_.GetComponent<TMP_Text>().text = "" + LapsTimer.minutesCounter_ + ".";
+                displayMinutes_.GetComponent<TMP_Text>().text = "" + LapsTimer.minutesCounter_ + ":";
             }
             else
             {
-                displayMinutes_.GetComponent<TMP_Text>().text = "" + LapsTimer.minutesCounter_ + ".";
+                displayMinutes_.GetComponent<TMP_Text>().text = "" + LapsTimer.minutesCounter_ + ":";
             }
 
             // Timer's milliseconds

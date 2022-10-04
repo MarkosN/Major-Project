@@ -1,7 +1,7 @@
 using UnityEngine;
 using TMPro;
 
-public class SaveLapTime : MonoBehaviour //  The best lap time will be saved and will be viewed as the best one
+public class SaveLapTime : MonoBehaviour //  The best lap time will be saved and will be viewed as the best one (TRACK 3)
 {
     // The "lap" numbers that the lap's time counter will contain
     public int minutesCounter;

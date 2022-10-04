@@ -1,7 +1,7 @@
 using UnityEngine;
 using TMPro;
 
-public class LapsTimer : MonoBehaviour // Count the player's current lap time real time
+public class LapsTimer : MonoBehaviour // Count the player's current lap time real time (TRACK 3)
 {
     // What the timer will count
     public static int minutesCounter_;
