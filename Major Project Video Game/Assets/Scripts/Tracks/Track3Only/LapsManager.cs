@@ -24,7 +24,7 @@ public class LapsManager : MonoBehaviour // Managing when a lap is complete, whe
 
     void Update()
     {
-        if (lapsNumber == 3)
+        if (lapsNumber == 1)
         {
             raceComplete.SetActive(true); // Finishing race sequence(s)
         }
