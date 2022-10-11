@@ -24,59 +24,62 @@ public class LapsManager : MonoBehaviour // Managing when a lap is complete, whe
 
     void Update()
     {
-        if (lapsNumber == 1)
+        if (lapsNumber == 3)
         {
             raceComplete.SetActive(true); // Finishing race sequence(s)
         }
     }
 
-    void OnTriggerEnter()
+    void OnTriggerEnter(Collider other)
     {
-        // Adding a complete lap after the player has done one
-        lapsNumber += 1;
-
-        realTime = PlayerPrefs.GetFloat("realTime");
-
-        if (LapsTimer.realTime <= realTime) // Lap's (current) Timer (what and how it will show)
+        if (other.tag == "Player")
         {
-            if (LapsTimer.secondsCounter_ <= 9) // Timer's seconds
+            // Adding a complete lap after the player has done one
+            lapsNumber += 1;
+
+            realTime = PlayerPrefs.GetFloat("realTime");
+
+            if (LapsTimer.realTime <= realTime) // Lap's (current) Timer (what and how it will show)
             {
-                displaySeconds_.GetComponent<TMP_Text>().text = "0" + LapsTimer.secondsCounter_ + ".";
-            }
-            else
-            {
-                displaySeconds_.GetComponent<TMP_Text>().text = "" + LapsTimer.secondsCounter_ + ".";
+                if (LapsTimer.secondsCounter_ <= 9) // Timer's seconds
+                {
+                    displaySeconds_.GetComponent<TMP_Text>().text = "0" + LapsTimer.secondsCounter_ + ".";
+                }
+                else
+                {
+                    displaySeconds_.GetComponent<TMP_Text>().text = "" + LapsTimer.secondsCounter_ + ".";
+                }
+
+                if (LapsTimer.minutesCounter_ <= 9) // Timer's minutes
+                {
+                    displayMinutes_.GetComponent<TMP_Text>().text = "" + LapsTimer.minutesCounter_ + ":";
+                }
+                else
+                {
+                    displayMinutes_.GetComponent<TMP_Text>().text = "" + LapsTimer.minutesCounter_ + ":";
+                }
+
+                // Timer's milliseconds
+                displayMilliseconds_.GetComponent<TMP_Text>().text = "" + ((int)LapsTimer.millisecondsCounter_).ToString(); // Casting it to int only for UI purposes
             }
 
-            if (LapsTimer.minutesCounter_ <= 9) // Timer's minutes
-            {
-                displayMinutes_.GetComponent<TMP_Text>().text = "" + LapsTimer.minutesCounter_ + ":";
-            }
-            else
-            {
-                displayMinutes_.GetComponent<TMP_Text>().text = "" + LapsTimer.minutesCounter_ + ":";
-            }
+            // Saving the best lap time
+            PlayerPrefs.SetInt("MinSave", LapsTimer.minutesCounter_);
+            PlayerPrefs.SetInt("SecSave", LapsTimer.secondsCounter_);
+            PlayerPrefs.SetFloat("MilliSave", LapsTimer.millisecondsCounter_);
+            PlayerPrefs.SetFloat("realTime", LapsTimer.realTime);
 
-            // Timer's milliseconds
-            displayMilliseconds_.GetComponent<TMP_Text>().text = "" + ((int)LapsTimer.millisecondsCounter_).ToString(); // Casting it to int only for UI purposes
+            // From when the timer will start
+            LapsTimer.minutesCounter_ = 0;
+            LapsTimer.secondsCounter_ = 0;
+            LapsTimer.millisecondsCounter_ = 0;
+            LapsTimer.realTime = 0;
+
+            // Laps' number that will be shown on the game's UI
+            lapsNumberCounter.GetComponent<TMP_Text>().text = "" + lapsNumber;
+
+            halfLapTrigger.SetActive(true);  // Half lap trigger box
+            fullLapTrigger.SetActive(false); // Full lap trigger box
         }
-
-        // Saving the best lap time
-        PlayerPrefs.SetInt("MinSave", LapsTimer.minutesCounter_);
-        PlayerPrefs.SetInt("SecSave", LapsTimer.secondsCounter_);
-        PlayerPrefs.SetFloat("MilliSave", LapsTimer.millisecondsCounter_);
-        PlayerPrefs.SetFloat("realTime", LapsTimer.realTime);
-
-        // From when the timer will start
-        LapsTimer.minutesCounter_ = 0;
-        LapsTimer.secondsCounter_ = 0;
-        LapsTimer.millisecondsCounter_ = 0;
-        LapsTimer.realTime = 0;
-
-        // Laps' number that will be shown on the game's UI
-        lapsNumberCounter.GetComponent<TMP_Text>().text = "" + lapsNumber;
-
-        halfLapTrigger.SetActive(true);  // Half lap trigger box
-        fullLapTrigger.SetActive(false); // Full lap trigger box
     }
 }

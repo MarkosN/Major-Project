@@ -2,14 +2,24 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - AutomatedCameraSystem
-    - LapsManagerII
-    - LapsTimerII
+    - AutomatedCameraSystem2
+    - FinishSequence
+    - FinishSequence2
+    - LapsManager
+    - LapsManagerMultiplayer
+    - LapsTimer
+    - LapsTimerMultiplayer
     - LapsTracker
+    - LapsTrackerMultiplayer
     - PositionCounterBack
     - PositionCounterFront
+    - RaceFinish
+    - RaceFinish2
     - RaceStart
+    - RaceStartMultiplayer
     - RetroAesthetics.RetroCameraEffect
-    - SaveLapTimeII
+    - SaveLapTime
+    - SaveLapTimeMultiplayer
     - UnityStandardAssets.Vehicles.Car.CarAudio
     - UnityStandardAssets.Vehicles.Car.CarController
     - UnityStandardAssets.Vehicles.Car.CarUserControl
@@ -92,7 +102,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
   methodsToPreserve: []
   sceneClasses:
-    Assets/Scenes/Track1.unity:
+    Assets/Scenes/Track3Multiplayer.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -140,65 +150,85 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1742}
+      Script: {instanceID: 1688}
     - Class: 114
-      Script: {instanceID: 1926}
+      Script: {instanceID: 1834}
     - Class: 114
-      Script: {instanceID: 2534}
+      Script: {instanceID: 1928}
     - Class: 114
-      Script: {instanceID: 2686}
+      Script: {instanceID: 2500}
     - Class: 114
-      Script: {instanceID: 2994}
+      Script: {instanceID: 2538}
     - Class: 114
-      Script: {instanceID: 3072}
+      Script: {instanceID: 2690}
     - Class: 114
-      Script: {instanceID: 3178}
+      Script: {instanceID: 2998}
     - Class: 114
-      Script: {instanceID: 3364}
+      Script: {instanceID: 3076}
     - Class: 114
-      Script: {instanceID: 3910}
+      Script: {instanceID: 3182}
     - Class: 114
-      Script: {instanceID: 4092}
+      Script: {instanceID: 3220}
     - Class: 114
-      Script: {instanceID: 4094}
+      Script: {instanceID: 3370}
     - Class: 114
-      Script: {instanceID: 4140}
+      Script: {instanceID: 4098}
     - Class: 114
-      Script: {instanceID: 4710}
+      Script: {instanceID: 4100}
     - Class: 114
-      Script: {instanceID: 4984}
+      Script: {instanceID: 4126}
     - Class: 114
-      Script: {instanceID: 5104}
+      Script: {instanceID: 4146}
     - Class: 114
-      Script: {instanceID: 5132}
+      Script: {instanceID: 4716}
     - Class: 114
-      Script: {instanceID: 5342}
+      Script: {instanceID: 4990}
     - Class: 114
-      Script: {instanceID: 5488}
+      Script: {instanceID: 5056}
     - Class: 114
-      Script: {instanceID: 5818}
+      Script: {instanceID: 5112}
     - Class: 114
-      Script: {instanceID: 6394}
+      Script: {instanceID: 5140}
     - Class: 114
-      Script: {instanceID: 6476}
+      Script: {instanceID: 5266}
     - Class: 114
-      Script: {instanceID: 7028}
+      Script: {instanceID: 5498}
     - Class: 114
-      Script: {instanceID: 7234}
+      Script: {instanceID: 5802}
     - Class: 114
-      Script: {instanceID: 7280}
+      Script: {instanceID: 5830}
     - Class: 114
-      Script: {instanceID: 7502}
+      Script: {instanceID: 5864}
     - Class: 114
-      Script: {instanceID: 7948}
+      Script: {instanceID: 6408}
     - Class: 114
-      Script: {instanceID: 8878}
+      Script: {instanceID: 6490}
     - Class: 114
-      Script: {instanceID: 9710}
+      Script: {instanceID: 6756}
     - Class: 114
-      Script: {instanceID: 9718}
+      Script: {instanceID: 7042}
     - Class: 114
-      Script: {instanceID: 10184}
+      Script: {instanceID: 7248}
+    - Class: 114
+      Script: {instanceID: 7294}
+    - Class: 114
+      Script: {instanceID: 7516}
+    - Class: 114
+      Script: {instanceID: 7962}
+    - Class: 114
+      Script: {instanceID: 7964}
+    - Class: 114
+      Script: {instanceID: 8894}
+    - Class: 114
+      Script: {instanceID: 9384}
+    - Class: 114
+      Script: {instanceID: 9734}
+    - Class: 114
+      Script: {instanceID: 9834}
+    - Class: 114
+      Script: {instanceID: 10202}
+    - Class: 114
+      Script: {instanceID: 10310}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -238,16 +268,22 @@ ScriptsOnlyBuild:
     className: Text
   - hash:
       serializedVersion: 2
+      Hash: a6e561615949734e9f12f9b61661f43e
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Image
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UIElements
     className: PanelRaycaster
   - hash:
       serializedVersion: 2
-      Hash: a6e561615949734e9f12f9b61661f43e
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Image
+      Hash: 3a775062306086b86d4ae02c634aecf0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FinishSequence2
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -368,6 +404,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnTriggerEnterMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: fbe1a449bb9fb0e3b14d3db204ee18dd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SaveLapTimeMultiplayer
   - hash:
       serializedVersion: 2
       Hash: 385666d964b0eabb4136cbb95125e502
@@ -512,6 +554,12 @@ ScriptsOnlyBuild:
     assemblyName: Cinemachine.dll
     namespaceName: Cinemachine
     className: CinemachinePipeline
+  - hash:
+      serializedVersion: 2
+      Hash: 13953f8f6236508c4b9f1fc3829d81dc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LapsTimerMultiplayer
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -904,6 +952,12 @@ ScriptsOnlyBuild:
     className: VariablesSaver
   - hash:
       serializedVersion: 2
+      Hash: 4acc7891e869472c35e52abfb5246f4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FinishSequence
+  - hash:
+      serializedVersion: 2
       Hash: 18c222bef9ae745ce69ddde9b74337ca
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
@@ -956,6 +1010,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: DictionaryAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 884c4420623d6dc4ec9b2cf003b12d16
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RaceStartMultiplayer
   - hash:
       serializedVersion: 2
       Hash: af56f77a30c1a2da1680c736a6f5c6e8
@@ -1018,10 +1078,22 @@ ScriptsOnlyBuild:
     className: UnityOnPointerClickMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 4b88795c6e53c69b982c71f93e80da07
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LapsTrackerMultiplayer
+  - hash:
+      serializedVersion: 2
       Hash: a909505c7e9870f1ee552a40f203397a
     assemblyName: Assembly-CSharp.dll
     namespaceName: UnityStandardAssets.Vehicles.Car
     className: CarAudio
+  - hash:
+      serializedVersion: 2
+      Hash: 72163a2c8d4e42048afb21c53591d0f4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AutomatedCameraSystem2
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1348,6 +1420,12 @@ ScriptsOnlyBuild:
     className: StandaloneInputModule
   - hash:
       serializedVersion: 2
+      Hash: a5e6cff56bc5ccc2c47a5a660c1db5a4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RaceFinish2
+  - hash:
+      serializedVersion: 2
       Hash: f7858108331b563fb41b80b729297acd
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -1648,6 +1726,12 @@ ScriptsOnlyBuild:
     className: UnityOnMouseOverMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 7956338df733eff95d99a79a4287b3e5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LapsManagerMultiplayer
+  - hash:
+      serializedVersion: 2
       Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
@@ -1738,6 +1822,12 @@ ScriptsOnlyBuild:
     className: SignalEmitter
   - hash:
       serializedVersion: 2
+      Hash: e31ab3cc3f93fb20f2f16220644a80f3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RaceFinish
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
@@ -1768,6 +1858,6 @@ ScriptsOnlyBuild:
     className: UnityOnSliderValueChangedMessageListener
   platform: 19
   scenePathNames:
-  - Assets/Scenes/Track1.unity
+  - Assets/Scenes/Track3Multiplayer.unity
   playerPath: "C:/Users/\u039C\u03B1\u03C1\u03BA\u03BF\u03C2/Desktop/exe/Major Project
     Video Game.exe"
