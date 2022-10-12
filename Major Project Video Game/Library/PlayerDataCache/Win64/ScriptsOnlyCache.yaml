@@ -56,10 +56,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -227,13 +225,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9734}
     - Class: 114
-      Script: {instanceID: 9834}
+      Script: {instanceID: 9794}
     - Class: 114
-      Script: {instanceID: 10202}
+      Script: {instanceID: 9836}
     - Class: 114
-      Script: {instanceID: 10310}
+      Script: {instanceID: 10204}
     - Class: 114
-      Script: {instanceID: 28226}
+      Script: {instanceID: 10312}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1731,6 +1729,12 @@ ScriptsOnlyBuild:
     className: UnityOnMouseOverMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: UnityStandardAssets.Vehicles.Car
+    className: CarUserControl2
+  - hash:
+      serializedVersion: 2
       Hash: 7956338df733eff95d99a79a4287b3e5
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -1861,12 +1865,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: UnityStandardAssets.Vehicles.Car
-    className: CarUserControl2
   platform: 19
   scenePathNames:
   - Assets/Scenes/Track3Multiplayer.unity
