@@ -23,6 +23,7 @@ ScriptsOnlyBuild:
     - UnityStandardAssets.Vehicles.Car.CarAudio
     - UnityStandardAssets.Vehicles.Car.CarController
     - UnityStandardAssets.Vehicles.Car.CarUserControl
+    - UnityStandardAssets.Vehicles.Car.CarUserControl2
     - UnityStandardAssets.Vehicles.Car.SkidTrail
     - UnityStandardAssets.Vehicles.Car.WheelEffects
     Cinemachine.dll:
@@ -55,8 +56,10 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -229,6 +232,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 10202}
     - Class: 114
       Script: {instanceID: 10310}
+    - Class: 114
+      Script: {instanceID: 28226}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1856,6 +1861,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: UnityStandardAssets.Vehicles.Car
+    className: CarUserControl2
   platform: 19
   scenePathNames:
   - Assets/Scenes/Track3Multiplayer.unity

@@ -9,7 +9,7 @@ public class RaceFinish2 : MonoBehaviour // For Player 2 Only
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "Player2")
+        if(other.gameObject.tag == "Player2")
         {
             raceFinishSequencePlayer2.SetActive(true);
             Destroy(finishRacePlayer1);
