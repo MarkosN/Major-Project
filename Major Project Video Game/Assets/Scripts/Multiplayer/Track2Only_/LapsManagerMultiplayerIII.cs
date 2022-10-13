@@ -17,6 +17,7 @@ public class LapsManagerMultiplayerIII : MonoBehaviour // Managing when a lap is
     // The number fo the laps that will have and need to be completed
     public GameObject lapsNumberCounter;
     public int lapsNumberMultiplayerIII;
+    public int lapsToComplete;
 
     public float realTime; // Game's current real time
 
@@ -24,7 +25,7 @@ public class LapsManagerMultiplayerIII : MonoBehaviour // Managing when a lap is
 
     void Update()
     {
-        if (lapsNumberMultiplayerIII == 3)
+        if (lapsNumberMultiplayerIII == lapsToComplete)
         {
             raceCompleteMultiplayerIII.SetActive(true); // Finishing race sequence(s)
         }

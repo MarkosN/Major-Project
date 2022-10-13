@@ -1,7 +1,7 @@
 using UnityEngine;
 using TMPro;
 
-public class SaveLapTimeMultiplayer : MonoBehaviour //  The best lap time for PLAYER 2 will be saved and will be viewed as the best one (TRACK 3) - Multiplayer
+public class SaveLapTimeMultiplayer : MonoBehaviour //  The best lap time for PLAYER 2 will be saved and will be viewed by the player (TRACK 3) - Multiplayer
 {
     // The "lap" numbers that the lap's time counter will contain
     public int minutesCounter;
