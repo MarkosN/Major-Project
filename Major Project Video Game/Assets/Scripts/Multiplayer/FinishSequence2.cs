@@ -12,6 +12,9 @@ public class FinishSequence2 : MonoBehaviour // Race Finish Sequence Manager - W
     public GameObject winCanvasCar2; // Win Canvas UI
     public GameObject loseCanvasCar1; // Lose Canvas UI
 
+    public GameObject winParticleEffectCar2; // Win particle effect for car 2
+    public GameObject loseParticleEffectCar1; // Lose particle effect for car 1
+
     public Rigidbody car1; // Player's 1 car
     public Rigidbody car2; // Player's 2 car
 
@@ -28,6 +31,8 @@ public class FinishSequence2 : MonoBehaviour // Race Finish Sequence Manager - W
         car2Canvas.SetActive(false);
         winCanvasCar2.SetActive(true);
         loseCanvasCar1.SetActive(true);
+        winParticleEffectCar2.SetActive(true);
+        loseParticleEffectCar1.SetActive(true);
         StartCoroutine(DisableCarPositionandRotation());
         StartCoroutine(ReturnToMenu());
     }
