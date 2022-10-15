@@ -2,28 +2,16 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - AutomatedCameraSystem
-    - AutomatedCameraSystem2
-    - FinishSequence
-    - FinishSequence2
-    - LapsManagerIII
-    - LapsManagerMultiplayerIII
-    - LapsTimerIII
-    - LapsTimerMultiplayerIII
+    - LapsManager
+    - LapsTimer
     - LapsTracker
-    - LapsTrackerMultiplayer
-    - PositionCounterBack
-    - PositionCounterFront
-    - RaceFinish
-    - RaceFinish2
     - RaceStart
-    - RaceStartMultiplayer
     - RetroAesthetics.RetroCameraEffect
-    - SaveLapTimeIII
-    - SaveLapTimeMultiplayerIII
+    - SaveLapTime
+    - TotalTimeCounter
     - UnityStandardAssets.Vehicles.Car.CarAudio
     - UnityStandardAssets.Vehicles.Car.CarController
     - UnityStandardAssets.Vehicles.Car.CarUserControl
-    - UnityStandardAssets.Vehicles.Car.CarUserControl2
     - UnityStandardAssets.Vehicles.Car.SkidTrail
     - UnityStandardAssets.Vehicles.Car.WheelEffects
     Cinemachine.dll:
@@ -53,11 +41,15 @@ ScriptsOnlyBuild:
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
     - TMPro.TextMeshProUGUI
+    Unity.Timeline.dll:
+    - UnityEngine.Timeline.TimelineAsset
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -103,7 +95,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
   methodsToPreserve: []
   sceneClasses:
-    Assets/Scenes/Track2Multiplayer.unity:
+    Assets/Scenes/Track3TimeTrials.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -155,83 +147,59 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1690}
     - Class: 114
-      Script: {instanceID: 1836}
-    - Class: 114
       Script: {instanceID: 1930}
     - Class: 114
       Script: {instanceID: 2540}
     - Class: 114
-      Script: {instanceID: 2664}
-    - Class: 114
       Script: {instanceID: 2694}
     - Class: 114
-      Script: {instanceID: 3002}
+      Script: {instanceID: 3004}
     - Class: 114
-      Script: {instanceID: 3080}
+      Script: {instanceID: 3084}
     - Class: 114
-      Script: {instanceID: 3186}
+      Script: {instanceID: 3190}
     - Class: 114
-      Script: {instanceID: 4104}
+      Script: {instanceID: 4110}
     - Class: 114
-      Script: {instanceID: 4106}
+      Script: {instanceID: 4112}
     - Class: 114
-      Script: {instanceID: 4152}
+      Script: {instanceID: 4138}
     - Class: 114
-      Script: {instanceID: 4622}
+      Script: {instanceID: 4158}
     - Class: 114
-      Script: {instanceID: 4644}
+      Script: {instanceID: 4730}
     - Class: 114
-      Script: {instanceID: 4724}
+      Script: {instanceID: 5126}
     - Class: 114
-      Script: {instanceID: 4998}
+      Script: {instanceID: 5154}
     - Class: 114
-      Script: {instanceID: 5064}
+      Script: {instanceID: 5514}
     - Class: 114
-      Script: {instanceID: 5120}
+      Script: {instanceID: 5846}
     - Class: 114
-      Script: {instanceID: 5148}
+      Script: {instanceID: 6428}
     - Class: 114
-      Script: {instanceID: 5274}
+      Script: {instanceID: 6510}
     - Class: 114
-      Script: {instanceID: 5506}
+      Script: {instanceID: 6776}
     - Class: 114
-      Script: {instanceID: 5810}
+      Script: {instanceID: 7062}
     - Class: 114
-      Script: {instanceID: 5838}
+      Script: {instanceID: 7268}
     - Class: 114
-      Script: {instanceID: 5872}
+      Script: {instanceID: 7314}
     - Class: 114
-      Script: {instanceID: 6338}
+      Script: {instanceID: 7536}
     - Class: 114
-      Script: {instanceID: 6418}
+      Script: {instanceID: 7982}
     - Class: 114
-      Script: {instanceID: 6500}
+      Script: {instanceID: 8914}
     - Class: 114
-      Script: {instanceID: 7052}
+      Script: {instanceID: 9404}
     - Class: 114
-      Script: {instanceID: 7258}
+      Script: {instanceID: 9756}
     - Class: 114
-      Script: {instanceID: 7304}
-    - Class: 114
-      Script: {instanceID: 7526}
-    - Class: 114
-      Script: {instanceID: 7972}
-    - Class: 114
-      Script: {instanceID: 7974}
-    - Class: 114
-      Script: {instanceID: 8904}
-    - Class: 114
-      Script: {instanceID: 9744}
-    - Class: 114
-      Script: {instanceID: 9804}
-    - Class: 114
-      Script: {instanceID: 10054}
-    - Class: 114
-      Script: {instanceID: 10214}
-    - Class: 114
-      Script: {instanceID: 10322}
-    - Class: 114
-      Script: {instanceID: 10362}
+      Script: {instanceID: 75584}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -260,6 +228,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 258
       Script: {instanceID: 0}
+    - Class: 850595691
+      Script: {instanceID: 0}
   scriptHashData:
   - hash:
       serializedVersion: 2
@@ -287,7 +257,7 @@ ScriptsOnlyBuild:
     className: PanelRaycaster
   - hash:
       serializedVersion: 2
-      Hash: 3a775062306086b86d4ae02c634aecf0
+      Hash: 7ab6a3f4a783d826cf48b1189682adc9
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: FinishSequence2
@@ -467,7 +437,7 @@ ScriptsOnlyBuild:
     className: HandHeldCam
   - hash:
       serializedVersion: 2
-      Hash: f6296f67a15ac7882166843dca0ba419
+      Hash: dfa98ef0732326239bfc9c0e76579126
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: LapsManagerIII
@@ -491,6 +461,12 @@ ScriptsOnlyBuild:
     className: TerrainGroup
   - hash:
       serializedVersion: 2
+      Hash: fbe1a449bb9fb0e3b14d3db204ee18dd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SaveLatestLapTimeIII
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
@@ -501,6 +477,12 @@ ScriptsOnlyBuild:
     assemblyName: Cinemachine.dll
     namespaceName: Cinemachine
     className: CinemachineVirtualCamera
+  - hash:
+      serializedVersion: 2
+      Hash: fbe1a449bb9fb0e3b14d3db204ee18dd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: "SaveLatestLapTimeMultiplayer\u0399\u0399\u0399"
   - hash:
       serializedVersion: 2
       Hash: cc4274b586df3c02688bac01b88bd16c
@@ -567,6 +549,12 @@ ScriptsOnlyBuild:
     assemblyName: Cinemachine.dll
     namespaceName: Cinemachine
     className: CinemachinePipeline
+  - hash:
+      serializedVersion: 2
+      Hash: fbe1a449bb9fb0e3b14d3db204ee18dd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SaveLatestLapTime
   - hash:
       serializedVersion: 2
       Hash: 13953f8f6236508c4b9f1fc3829d81dc
@@ -677,7 +665,7 @@ ScriptsOnlyBuild:
     className: UnityOnDropdownValueChangedMessageListener
   - hash:
       serializedVersion: 2
-      Hash: bc06724631e478e6cd3f2d4bbb18f6e3
+      Hash: ca5a4345d46ccdaa07dd65496e54520a
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: LapsManagerMultiplayerII
@@ -977,7 +965,7 @@ ScriptsOnlyBuild:
     className: VariablesSaver
   - hash:
       serializedVersion: 2
-      Hash: 4acc7891e869472c35e52abfb5246f4f
+      Hash: 5252fc4271f915937ae1538050847d58
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: FinishSequence
@@ -1025,6 +1013,12 @@ ScriptsOnlyBuild:
     className: UnityOnJointBreak2DMessageListener
   - hash:
       serializedVersion: 2
+      Hash: fbe1a449bb9fb0e3b14d3db204ee18dd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SaveLatestLapTimeII
+  - hash:
+      serializedVersion: 2
       Hash: dbfb4270852b0008a423a7418d9de4cf
     assemblyName: Cinemachine.dll
     namespaceName: Cinemachine
@@ -1055,7 +1049,7 @@ ScriptsOnlyBuild:
     className: SpeedTilt
   - hash:
       serializedVersion: 2
-      Hash: f6296f67a15ac7882166843dca0ba419
+      Hash: dfa98ef0732326239bfc9c0e76579126
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: LapsManagerII
@@ -1181,6 +1175,12 @@ ScriptsOnlyBuild:
     className: SimpleActivatorMenu
   - hash:
       serializedVersion: 2
+      Hash: fbe1a449bb9fb0e3b14d3db204ee18dd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: "SaveLatestLapTimeMultiplayer\u0399\u0399"
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
@@ -1229,7 +1229,7 @@ ScriptsOnlyBuild:
     className: Toggle
   - hash:
       serializedVersion: 2
-      Hash: ee9529d0918ec99f4e1ea35d5411c863
+      Hash: 6d9a785bfd7269856f64f1d0a13cd188
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: LapsManagerMultiplayerIII
@@ -1295,7 +1295,7 @@ ScriptsOnlyBuild:
     className: PanelEventHandler
   - hash:
       serializedVersion: 2
-      Hash: f6296f67a15ac7882166843dca0ba419
+      Hash: dfa98ef0732326239bfc9c0e76579126
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: LapsManager
@@ -1721,6 +1721,12 @@ ScriptsOnlyBuild:
     className: CinemachineStoryboard
   - hash:
       serializedVersion: 2
+      Hash: fbe1a449bb9fb0e3b14d3db204ee18dd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SaveLatestLapTimeMultiplayer
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.Polybrush.dll
     namespaceName: UnityEngine.Polybrush
@@ -1763,7 +1769,7 @@ ScriptsOnlyBuild:
     className: CarUserControl2
   - hash:
       serializedVersion: 2
-      Hash: 7956338df733eff95d99a79a4287b3e5
+      Hash: bce3575e371508f5c2d042bc5fb7c311
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: LapsManagerMultiplayer
@@ -1899,8 +1905,14 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 415f72017141b3634df0aaff46f68f2c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TotalTimeCounter
   platform: 19
   scenePathNames:
-  - Assets/Scenes/Track2Multiplayer.unity
+  - Assets/Scenes/Track3TimeTrials.unity
   playerPath: "C:/Users/\u039C\u03B1\u03C1\u03BA\u03BF\u03C2/Desktop/exe/Major Project
     Video Game.exe"

@@ -4937,6 +4937,53 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 68445c611a9f348eea27b60cebeb14aa, type: 3}
   m_PrefabInstance: {fileID: 486045260}
   m_PrefabAsset: {fileID: 0}
+--- !u!21 &489425937
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Hidden/RetroCameraEffect
+  m_Shader: {fileID: 4800000, guid: 2cfdcae76c757405786f1219a383da6e, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SecondaryTex:
+        m_Texture: {fileID: 2800000, guid: fb05fd8d491864b72947d96a3c6a189a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ChromaticAberration: 0
+    - _DisplacementAmplitude: 0
+    - _DisplacementFrequency: 150
+    - _DisplacementSpeed: 0
+    - _NoiseBottomHeight: 0.04
+    - _NoiseBottomIntensity: 1
+    - _OffsetNoiseX: 0
+    - _OffsetNoiseY: 0
+    - _StaticIntensity: 1
+    - _UseChromaticAberration: 1
+    - _UseDisplacement: 1
+    - _UseStaticNoise: 1
+    - _UseVignette: 0
+    - _Vignette: 0
+    m_Colors:
+    - _OffsetPos: {r: 0, g: 0, b: 0, a: 1}
+  m_BuildTextureStacks: []
 --- !u!1001 &496589124
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5231,7 +5278,7 @@ MonoBehaviour:
   useScanlines: 1
   scanlineSize: 512
   scanlineIntensity: 0.5
-  _material: {fileID: 1853934097}
+  _material: {fileID: 860802054}
 --- !u!1 &517699355
 GameObject:
   m_ObjectHideFlags: 0
@@ -7663,61 +7710,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 178d8e1be9372450a8e630795c2848a6, type: 3}
   m_PrefabInstance: {fileID: 752469293}
   m_PrefabAsset: {fileID: 0}
---- !u!21 &758624318
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Hidden/RetroCameraEffect
-  m_Shader: {fileID: 4800000, guid: 2cfdcae76c757405786f1219a383da6e, type: 3}
-  m_ValidKeywords:
-  - BOTTOM_STRETCH_ON
-  - CHROMATIC_ON
-  - DISPLACEMENT_ON
-  - NOISE_BOTTOM_ON
-  - NOISE_ON
-  - RADIAL_DISTORTION_ON
-  - SCANLINES_ON
-  - VIGNETTE_ON
-  m_InvalidKeywords: []
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SecondaryTex:
-        m_Texture: {fileID: 2800000, guid: 0ecedd370a77a4a3dbbb9cc9e09081cd, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _ChromaticAberration: 0
-    - _DisplacementAmplitude: 0
-    - _DisplacementFrequency: 150
-    - _DisplacementSpeed: 0
-    - _NoiseBottomHeight: 0.04
-    - _NoiseBottomIntensity: 1
-    - _OffsetNoiseX: 0.8081943
-    - _OffsetNoiseY: 0.37652272
-    - _StaticIntensity: 2
-    - _UseChromaticAberration: 1
-    - _UseDisplacement: 1
-    - _UseStaticNoise: 1
-    - _UseVignette: 0
-    - _Vignette: 0.1
-    m_Colors:
-    - _OffsetPos: {r: 0, g: 0, b: 0, a: 0}
-  m_BuildTextureStacks: []
 --- !u!1001 &760019750
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8288,6 +8280,61 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: aecc133b2406045ea91a6ae0a0ae8c56, type: 3}
   m_PrefabInstance: {fileID: 789809263}
   m_PrefabAsset: {fileID: 0}
+--- !u!21 &800591076
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Hidden/RetroCameraEffect
+  m_Shader: {fileID: 4800000, guid: 2cfdcae76c757405786f1219a383da6e, type: 3}
+  m_ValidKeywords:
+  - BOTTOM_STRETCH_ON
+  - CHROMATIC_ON
+  - DISPLACEMENT_ON
+  - NOISE_BOTTOM_ON
+  - NOISE_ON
+  - RADIAL_DISTORTION_ON
+  - SCANLINES_ON
+  - VIGNETTE_ON
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SecondaryTex:
+        m_Texture: {fileID: 2800000, guid: 0ecedd370a77a4a3dbbb9cc9e09081cd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ChromaticAberration: 0
+    - _DisplacementAmplitude: 0
+    - _DisplacementFrequency: 150
+    - _DisplacementSpeed: 0
+    - _NoiseBottomHeight: 0.04
+    - _NoiseBottomIntensity: 1
+    - _OffsetNoiseX: 0.014008164
+    - _OffsetNoiseY: 0.12562504
+    - _StaticIntensity: 2
+    - _UseChromaticAberration: 1
+    - _UseDisplacement: 1
+    - _UseStaticNoise: 1
+    - _UseVignette: 0
+    - _Vignette: 0.1
+    m_Colors:
+    - _OffsetPos: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
 --- !u!1001 &804020423
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8497,7 +8544,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh315630
+  m_Name: pb_Mesh208936
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -8855,7 +8902,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh315816
+  m_Name: pb_Mesh209120
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -9177,6 +9224,53 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: e8bf06dc24ecf45589dc05f2e5735580, type: 3}
   m_PrefabInstance: {fileID: 854054691}
   m_PrefabAsset: {fileID: 0}
+--- !u!21 &860802054
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Hidden/RetroCameraEffect
+  m_Shader: {fileID: 4800000, guid: 2cfdcae76c757405786f1219a383da6e, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SecondaryTex:
+        m_Texture: {fileID: 2800000, guid: 0ecedd370a77a4a3dbbb9cc9e09081cd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ChromaticAberration: 0
+    - _DisplacementAmplitude: 0
+    - _DisplacementFrequency: 150
+    - _DisplacementSpeed: 0
+    - _NoiseBottomHeight: 0.04
+    - _NoiseBottomIntensity: 1
+    - _OffsetNoiseX: 0
+    - _OffsetNoiseY: 0
+    - _StaticIntensity: 1
+    - _UseChromaticAberration: 1
+    - _UseDisplacement: 1
+    - _UseStaticNoise: 1
+    - _UseVignette: 0
+    - _Vignette: 0
+    m_Colors:
+    - _OffsetPos: {r: 0, g: 0, b: 0, a: 1}
+  m_BuildTextureStacks: []
 --- !u!1001 &861104173
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34879,6 +34973,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2221266103267753474, guid: ee4400080a841e3408c469f3289278f3, type: 3}
+      propertyPath: m_fontColor.b
+      value: 0.827451
+      objectReference: {fileID: 0}
+    - target: {fileID: 2221266103267753474, guid: ee4400080a841e3408c469f3289278f3, type: 3}
+      propertyPath: m_fontColor.g
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2221266103267753474, guid: ee4400080a841e3408c469f3289278f3, type: 3}
+      propertyPath: m_fontColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2221266103294852408, guid: ee4400080a841e3408c469f3289278f3, type: 3}
+      propertyPath: m_fontColor.b
+      value: 0.827451
+      objectReference: {fileID: 0}
+    - target: {fileID: 2221266103294852408, guid: ee4400080a841e3408c469f3289278f3, type: 3}
+      propertyPath: m_fontColor.g
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2221266103294852408, guid: ee4400080a841e3408c469f3289278f3, type: 3}
+      propertyPath: m_fontColor.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2221266103305463342, guid: ee4400080a841e3408c469f3289278f3, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -34887,6 +35005,30 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: dfb855ff0a450544998ad08dbd40fbce, type: 3}
+    - target: {fileID: 2221266103394223169, guid: ee4400080a841e3408c469f3289278f3, type: 3}
+      propertyPath: m_fontColor.b
+      value: 0.827451
+      objectReference: {fileID: 0}
+    - target: {fileID: 2221266103394223169, guid: ee4400080a841e3408c469f3289278f3, type: 3}
+      propertyPath: m_fontColor.g
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2221266103394223169, guid: ee4400080a841e3408c469f3289278f3, type: 3}
+      propertyPath: m_fontColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2221266103570535732, guid: ee4400080a841e3408c469f3289278f3, type: 3}
+      propertyPath: m_fontColor.b
+      value: 0.827451
+      objectReference: {fileID: 0}
+    - target: {fileID: 2221266103570535732, guid: ee4400080a841e3408c469f3289278f3, type: 3}
+      propertyPath: m_fontColor.g
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2221266103570535732, guid: ee4400080a841e3408c469f3289278f3, type: 3}
+      propertyPath: m_fontColor.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2221266104688013850, guid: ee4400080a841e3408c469f3289278f3, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -35035,6 +35177,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: 'Last Lap Seconds:'
       objectReference: {fileID: 0}
+    - target: {fileID: 3733925655394160277, guid: ee4400080a841e3408c469f3289278f3, type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3733925655432936009, guid: ee4400080a841e3408c469f3289278f3, type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 3733925655432936023, guid: ee4400080a841e3408c469f3289278f3, type: 3}
       propertyPath: m_Name
       value: 'Last Lap Minutes:'
@@ -35054,6 +35204,10 @@ PrefabInstance:
     - target: {fileID: 3733925655494226713, guid: ee4400080a841e3408c469f3289278f3, type: 3}
       propertyPath: m_YawDamping
       value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 3733925655511597051, guid: ee4400080a841e3408c469f3289278f3, type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3733925655560991074, guid: ee4400080a841e3408c469f3289278f3, type: 3}
       propertyPath: _material
@@ -35111,6 +35265,10 @@ PrefabInstance:
       propertyPath: m_Texture
       value: 
       objectReference: {fileID: 2800000, guid: f897b8453188b3344a0ee15289f8c37e, type: 3}
+    - target: {fileID: 3733925656361856954, guid: ee4400080a841e3408c469f3289278f3, type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 3733925656631982447, guid: ee4400080a841e3408c469f3289278f3, type: 3}
       propertyPath: m_text
       value: 2
@@ -36344,53 +36502,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: f81131e7392f64fdaac065f38cf0fab6, type: 3}
   m_PrefabInstance: {fileID: 1314665477}
   m_PrefabAsset: {fileID: 0}
---- !u!21 &1314954657
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Hidden/RetroCameraEffect
-  m_Shader: {fileID: 4800000, guid: 2cfdcae76c757405786f1219a383da6e, type: 3}
-  m_ValidKeywords: []
-  m_InvalidKeywords: []
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SecondaryTex:
-        m_Texture: {fileID: 2800000, guid: fb05fd8d491864b72947d96a3c6a189a, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _ChromaticAberration: 0
-    - _DisplacementAmplitude: 0
-    - _DisplacementFrequency: 150
-    - _DisplacementSpeed: 0
-    - _NoiseBottomHeight: 0.04
-    - _NoiseBottomIntensity: 1
-    - _OffsetNoiseX: 0
-    - _OffsetNoiseY: 0
-    - _StaticIntensity: 1
-    - _UseChromaticAberration: 1
-    - _UseDisplacement: 1
-    - _UseStaticNoise: 1
-    - _UseVignette: 0
-    - _Vignette: 0
-    m_Colors:
-    - _OffsetPos: {r: 0, g: 0, b: 0, a: 1}
-  m_BuildTextureStacks: []
 --- !u!1001 &1318394600
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -40748,6 +40859,53 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: f568e8fa33ffc4ba886368a1970a6b41, type: 3}
   m_PrefabInstance: {fileID: 1689166542}
   m_PrefabAsset: {fileID: 0}
+--- !u!21 &1692233950
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Hidden/RetroCameraEffect
+  m_Shader: {fileID: 4800000, guid: 2cfdcae76c757405786f1219a383da6e, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SecondaryTex:
+        m_Texture: {fileID: 2800000, guid: 2ee566ccadfe14d0cadbd3e2107180cf, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ChromaticAberration: 0
+    - _DisplacementAmplitude: 0
+    - _DisplacementFrequency: 150
+    - _DisplacementSpeed: 0
+    - _NoiseBottomHeight: 0.04
+    - _NoiseBottomIntensity: 1
+    - _OffsetNoiseX: 0
+    - _OffsetNoiseY: 0
+    - _StaticIntensity: 1
+    - _UseChromaticAberration: 1
+    - _UseDisplacement: 1
+    - _UseStaticNoise: 1
+    - _UseVignette: 0
+    - _Vignette: 0
+    m_Colors:
+    - _OffsetPos: {r: 0, g: 0, b: 0, a: 1}
+  m_BuildTextureStacks: []
 --- !u!1001 &1698976055
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -41508,7 +41666,7 @@ MonoBehaviour:
   useScanlines: 1
   scanlineSize: 512
   scanlineIntensity: 0.5
-  _material: {fileID: 1841231758}
+  _material: {fileID: 1692233950}
 --- !u!1001 &1772314705
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -41944,108 +42102,6 @@ MonoBehaviour:
   cockpitCam: {fileID: 1958903855}
   bonnetCam: {fileID: 1379431320}
   bumperCam: {fileID: 1896735492}
---- !u!21 &1841231758
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Hidden/RetroCameraEffect
-  m_Shader: {fileID: 4800000, guid: 2cfdcae76c757405786f1219a383da6e, type: 3}
-  m_ValidKeywords: []
-  m_InvalidKeywords: []
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SecondaryTex:
-        m_Texture: {fileID: 2800000, guid: 2ee566ccadfe14d0cadbd3e2107180cf, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _ChromaticAberration: 0
-    - _DisplacementAmplitude: 0
-    - _DisplacementFrequency: 150
-    - _DisplacementSpeed: 0
-    - _NoiseBottomHeight: 0.04
-    - _NoiseBottomIntensity: 1
-    - _OffsetNoiseX: 0
-    - _OffsetNoiseY: 0
-    - _StaticIntensity: 1
-    - _UseChromaticAberration: 1
-    - _UseDisplacement: 1
-    - _UseStaticNoise: 1
-    - _UseVignette: 0
-    - _Vignette: 0
-    m_Colors:
-    - _OffsetPos: {r: 0, g: 0, b: 0, a: 1}
-  m_BuildTextureStacks: []
---- !u!21 &1853934097
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Hidden/RetroCameraEffect
-  m_Shader: {fileID: 4800000, guid: 2cfdcae76c757405786f1219a383da6e, type: 3}
-  m_ValidKeywords:
-  - BOTTOM_STRETCH_ON
-  - CHROMATIC_ON
-  - DISPLACEMENT_ON
-  - NOISE_BOTTOM_ON
-  - NOISE_ON
-  - RADIAL_DISTORTION_ON
-  - SCANLINES_ON
-  - VIGNETTE_ON
-  m_InvalidKeywords: []
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SecondaryTex:
-        m_Texture: {fileID: 2800000, guid: 0ecedd370a77a4a3dbbb9cc9e09081cd, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _ChromaticAberration: 0
-    - _DisplacementAmplitude: 0
-    - _DisplacementFrequency: 150
-    - _DisplacementSpeed: 0
-    - _NoiseBottomHeight: 0.04
-    - _NoiseBottomIntensity: 1
-    - _OffsetNoiseX: 0.6589103
-    - _OffsetNoiseY: 0.2962529
-    - _StaticIntensity: 2
-    - _UseChromaticAberration: 1
-    - _UseDisplacement: 1
-    - _UseStaticNoise: 1
-    - _UseVignette: 0
-    - _Vignette: 0.1
-    m_Colors:
-    - _OffsetPos: {r: 0, g: 0, b: 0, a: 0}
-  m_BuildTextureStacks: []
 --- !u!21 &1867981840
 Material:
   serializedVersion: 8
@@ -43101,6 +43157,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 'Last Lap Milliseconds:'
       objectReference: {fileID: 0}
+    - target: {fileID: 6088936440547280954, guid: 515158fd032346d44aac3b25e46c17df, type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 6088936440807413604, guid: 515158fd032346d44aac3b25e46c17df, type: 3}
       propertyPath: m_Name
       value: 'Last Lap Time:'
@@ -43229,6 +43289,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 'Last Lap Seconds:'
       objectReference: {fileID: 0}
+    - target: {fileID: 6088936441229438502, guid: 515158fd032346d44aac3b25e46c17df, type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 6088936441235093942, guid: 515158fd032346d44aac3b25e46c17df, type: 3}
       propertyPath: m_Color.b
       value: 0.67058825
@@ -43240,6 +43304,10 @@ PrefabInstance:
     - target: {fileID: 6088936441371159026, guid: 515158fd032346d44aac3b25e46c17df, type: 3}
       propertyPath: m_Name
       value: 'Last Lap Minutes:'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6088936441371159036, guid: 515158fd032346d44aac3b25e46c17df, type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 6088936441781782608, guid: 515158fd032346d44aac3b25e46c17df, type: 3}
       propertyPath: m_Color.b
@@ -43261,6 +43329,10 @@ PrefabInstance:
       propertyPath: m_text
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 6088936442175802177, guid: 515158fd032346d44aac3b25e46c17df, type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 8755608143543461808, guid: 515158fd032346d44aac3b25e46c17df, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -43273,10 +43345,58 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: d05ce3d92179270448dc0d7dad5e1da7, type: 3}
+    - target: {fileID: 8755608144170429435, guid: 515158fd032346d44aac3b25e46c17df, type: 3}
+      propertyPath: m_fontColor.b
+      value: 0.827451
+      objectReference: {fileID: 0}
+    - target: {fileID: 8755608144170429435, guid: 515158fd032346d44aac3b25e46c17df, type: 3}
+      propertyPath: m_fontColor.g
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8755608144170429435, guid: 515158fd032346d44aac3b25e46c17df, type: 3}
+      propertyPath: m_fontColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8755608144201722049, guid: 515158fd032346d44aac3b25e46c17df, type: 3}
+      propertyPath: m_fontColor.b
+      value: 0.827451
+      objectReference: {fileID: 0}
+    - target: {fileID: 8755608144201722049, guid: 515158fd032346d44aac3b25e46c17df, type: 3}
+      propertyPath: m_fontColor.g
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8755608144201722049, guid: 515158fd032346d44aac3b25e46c17df, type: 3}
+      propertyPath: m_fontColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8755608144327414402, guid: 515158fd032346d44aac3b25e46c17df, type: 3}
+      propertyPath: m_fontColor.b
+      value: 0.827451
+      objectReference: {fileID: 0}
+    - target: {fileID: 8755608144327414402, guid: 515158fd032346d44aac3b25e46c17df, type: 3}
+      propertyPath: m_fontColor.g
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8755608144327414402, guid: 515158fd032346d44aac3b25e46c17df, type: 3}
+      propertyPath: m_fontColor.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8755608144391783685, guid: 515158fd032346d44aac3b25e46c17df, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: dfb855ff0a450544998ad08dbd40fbce, type: 3}
+    - target: {fileID: 8755608144437756919, guid: 515158fd032346d44aac3b25e46c17df, type: 3}
+      propertyPath: m_fontColor.b
+      value: 0.827451
+      objectReference: {fileID: 0}
+    - target: {fileID: 8755608144437756919, guid: 515158fd032346d44aac3b25e46c17df, type: 3}
+      propertyPath: m_fontColor.g
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8755608144437756919, guid: 515158fd032346d44aac3b25e46c17df, type: 3}
+      propertyPath: m_fontColor.r
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 515158fd032346d44aac3b25e46c17df, type: 3}
 --- !u!1 &1942806561 stripped
