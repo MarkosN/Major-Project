@@ -2425,61 +2425,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: aecc133b2406045ea91a6ae0a0ae8c56, type: 3}
   m_PrefabInstance: {fileID: 252811154}
   m_PrefabAsset: {fileID: 0}
---- !u!21 &255361302
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Hidden/RetroCameraEffect
-  m_Shader: {fileID: 4800000, guid: 2cfdcae76c757405786f1219a383da6e, type: 3}
-  m_ValidKeywords:
-  - BOTTOM_STRETCH_ON
-  - CHROMATIC_ON
-  - DISPLACEMENT_ON
-  - NOISE_BOTTOM_ON
-  - NOISE_ON
-  - RADIAL_DISTORTION_ON
-  - SCANLINES_ON
-  - VIGNETTE_ON
-  m_InvalidKeywords: []
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SecondaryTex:
-        m_Texture: {fileID: 2800000, guid: 0ecedd370a77a4a3dbbb9cc9e09081cd, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _ChromaticAberration: 0
-    - _DisplacementAmplitude: 0
-    - _DisplacementFrequency: 150
-    - _DisplacementSpeed: 0
-    - _NoiseBottomHeight: 0.04
-    - _NoiseBottomIntensity: 1
-    - _OffsetNoiseX: 0.81117916
-    - _OffsetNoiseY: -4.029322
-    - _StaticIntensity: 2
-    - _UseChromaticAberration: 1
-    - _UseDisplacement: 1
-    - _UseStaticNoise: 1
-    - _UseVignette: 0
-    - _Vignette: 0.1
-    m_Colors:
-    - _OffsetPos: {r: 0, g: 0, b: 0, a: 0}
-  m_BuildTextureStacks: []
 --- !u!1001 &265470080
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4433,61 +4378,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: ecad1f72f30474a519f2a7f0cb7eab8a, type: 3}
   m_PrefabInstance: {fileID: 440086300}
   m_PrefabAsset: {fileID: 0}
---- !u!21 &445742966
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Hidden/RetroCameraEffect
-  m_Shader: {fileID: 4800000, guid: 2cfdcae76c757405786f1219a383da6e, type: 3}
-  m_ValidKeywords:
-  - BOTTOM_STRETCH_ON
-  - CHROMATIC_ON
-  - DISPLACEMENT_ON
-  - NOISE_BOTTOM_ON
-  - NOISE_ON
-  - RADIAL_DISTORTION_ON
-  - SCANLINES_ON
-  - VIGNETTE_ON
-  m_InvalidKeywords: []
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SecondaryTex:
-        m_Texture: {fileID: 2800000, guid: 0ecedd370a77a4a3dbbb9cc9e09081cd, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _ChromaticAberration: 0
-    - _DisplacementAmplitude: 0
-    - _DisplacementFrequency: 150
-    - _DisplacementSpeed: 0
-    - _NoiseBottomHeight: 0.04
-    - _NoiseBottomIntensity: 1
-    - _OffsetNoiseX: 0.85864425
-    - _OffsetNoiseY: 0.8288369
-    - _StaticIntensity: 2
-    - _UseChromaticAberration: 1
-    - _UseDisplacement: 1
-    - _UseStaticNoise: 1
-    - _UseVignette: 0
-    - _Vignette: 0.1
-    m_Colors:
-    - _OffsetPos: {r: 0, g: 0, b: 0, a: 0}
-  m_BuildTextureStacks: []
 --- !u!1001 &446606863
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5341,7 +5231,7 @@ MonoBehaviour:
   useScanlines: 1
   scanlineSize: 512
   scanlineIntensity: 0.5
-  _material: {fileID: 445742966}
+  _material: {fileID: 1853934097}
 --- !u!1 &517699355
 GameObject:
   m_ObjectHideFlags: 0
@@ -7773,6 +7663,61 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 178d8e1be9372450a8e630795c2848a6, type: 3}
   m_PrefabInstance: {fileID: 752469293}
   m_PrefabAsset: {fileID: 0}
+--- !u!21 &758624318
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Hidden/RetroCameraEffect
+  m_Shader: {fileID: 4800000, guid: 2cfdcae76c757405786f1219a383da6e, type: 3}
+  m_ValidKeywords:
+  - BOTTOM_STRETCH_ON
+  - CHROMATIC_ON
+  - DISPLACEMENT_ON
+  - NOISE_BOTTOM_ON
+  - NOISE_ON
+  - RADIAL_DISTORTION_ON
+  - SCANLINES_ON
+  - VIGNETTE_ON
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SecondaryTex:
+        m_Texture: {fileID: 2800000, guid: 0ecedd370a77a4a3dbbb9cc9e09081cd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ChromaticAberration: 0
+    - _DisplacementAmplitude: 0
+    - _DisplacementFrequency: 150
+    - _DisplacementSpeed: 0
+    - _NoiseBottomHeight: 0.04
+    - _NoiseBottomIntensity: 1
+    - _OffsetNoiseX: 0.8081943
+    - _OffsetNoiseY: 0.37652272
+    - _StaticIntensity: 2
+    - _UseChromaticAberration: 1
+    - _UseDisplacement: 1
+    - _UseStaticNoise: 1
+    - _UseVignette: 0
+    - _Vignette: 0.1
+    m_Colors:
+    - _OffsetPos: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
 --- !u!1001 &760019750
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8552,7 +8497,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh76304
+  m_Name: pb_Mesh315630
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -8910,7 +8855,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh76484
+  m_Name: pb_Mesh315816
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -9587,7 +9532,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 86229032593602047, guid: 03602fe1a9655944f99661f0755731f8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 9
+      value: 5.5
       objectReference: {fileID: 0}
     - target: {fileID: 86229032593602047, guid: 03602fe1a9655944f99661f0755731f8, type: 3}
       propertyPath: m_LocalPosition.z
@@ -23427,12 +23372,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_BindingMode: 1
   m_FollowOffset: {x: 0, y: 5, z: -20}
-  m_XDamping: 0.1
-  m_YDamping: 0.1
-  m_ZDamping: 0.1
+  m_XDamping: 0.03
+  m_YDamping: 0.03
+  m_ZDamping: 0.03
   m_AngularDampingMode: 0
   m_PitchDamping: 0
-  m_YawDamping: 0.1
+  m_YawDamping: 0.03
   m_RollDamping: 0
   m_AngularDamping: 0
 --- !u!114 &1042295722
@@ -23549,7 +23494,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5677183536578804585, guid: 97be42360ca464c43921bc5fc20f077d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 9
+      value: 5.5
       objectReference: {fileID: 0}
     - target: {fileID: 5677183536578804585, guid: 97be42360ca464c43921bc5fc20f077d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -35022,6 +34967,38 @@ PrefabInstance:
       propertyPath: m_text
       value: 'Last:'
       objectReference: {fileID: 0}
+    - target: {fileID: 3733925654602119324, guid: ee4400080a841e3408c469f3289278f3, type: 3}
+      propertyPath: m_XDamping
+      value: 0.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 3733925654602119324, guid: ee4400080a841e3408c469f3289278f3, type: 3}
+      propertyPath: m_YDamping
+      value: 0.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 3733925654602119324, guid: ee4400080a841e3408c469f3289278f3, type: 3}
+      propertyPath: m_ZDamping
+      value: 0.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 3733925654602119324, guid: ee4400080a841e3408c469f3289278f3, type: 3}
+      propertyPath: m_YawDamping
+      value: 0.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 3733925654610911968, guid: ee4400080a841e3408c469f3289278f3, type: 3}
+      propertyPath: m_XDamping
+      value: 0.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 3733925654610911968, guid: ee4400080a841e3408c469f3289278f3, type: 3}
+      propertyPath: m_YDamping
+      value: 0.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 3733925654610911968, guid: ee4400080a841e3408c469f3289278f3, type: 3}
+      propertyPath: m_ZDamping
+      value: 0.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 3733925654610911968, guid: ee4400080a841e3408c469f3289278f3, type: 3}
+      propertyPath: m_YawDamping
+      value: 0.03
+      objectReference: {fileID: 0}
     - target: {fileID: 3733925654710486564, guid: ee4400080a841e3408c469f3289278f3, type: 3}
       propertyPath: m_Name
       value: 'Last Lap Milliseconds:'
@@ -35062,6 +35039,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: 'Last Lap Minutes:'
       objectReference: {fileID: 0}
+    - target: {fileID: 3733925655494226713, guid: ee4400080a841e3408c469f3289278f3, type: 3}
+      propertyPath: m_XDamping
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 3733925655494226713, guid: ee4400080a841e3408c469f3289278f3, type: 3}
+      propertyPath: m_YDamping
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 3733925655494226713, guid: ee4400080a841e3408c469f3289278f3, type: 3}
+      propertyPath: m_ZDamping
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 3733925655494226713, guid: ee4400080a841e3408c469f3289278f3, type: 3}
+      propertyPath: m_YawDamping
+      value: 0.01
+      objectReference: {fileID: 0}
     - target: {fileID: 3733925655560991074, guid: ee4400080a841e3408c469f3289278f3, type: 3}
       propertyPath: _material
       value: 
@@ -35077,6 +35070,22 @@ PrefabInstance:
     - target: {fileID: 3733925655655090004, guid: ee4400080a841e3408c469f3289278f3, type: 3}
       propertyPath: m_Color.r
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3733925655807866429, guid: ee4400080a841e3408c469f3289278f3, type: 3}
+      propertyPath: m_XDamping
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 3733925655807866429, guid: ee4400080a841e3408c469f3289278f3, type: 3}
+      propertyPath: m_YDamping
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 3733925655807866429, guid: ee4400080a841e3408c469f3289278f3, type: 3}
+      propertyPath: m_ZDamping
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 3733925655807866429, guid: ee4400080a841e3408c469f3289278f3, type: 3}
+      propertyPath: m_YawDamping
+      value: 0.01
       objectReference: {fileID: 0}
     - target: {fileID: 3733925655892099186, guid: ee4400080a841e3408c469f3289278f3, type: 3}
       propertyPath: m_Color.b
@@ -36335,6 +36344,53 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: f81131e7392f64fdaac065f38cf0fab6, type: 3}
   m_PrefabInstance: {fileID: 1314665477}
   m_PrefabAsset: {fileID: 0}
+--- !u!21 &1314954657
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Hidden/RetroCameraEffect
+  m_Shader: {fileID: 4800000, guid: 2cfdcae76c757405786f1219a383da6e, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SecondaryTex:
+        m_Texture: {fileID: 2800000, guid: fb05fd8d491864b72947d96a3c6a189a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ChromaticAberration: 0
+    - _DisplacementAmplitude: 0
+    - _DisplacementFrequency: 150
+    - _DisplacementSpeed: 0
+    - _NoiseBottomHeight: 0.04
+    - _NoiseBottomIntensity: 1
+    - _OffsetNoiseX: 0
+    - _OffsetNoiseY: 0
+    - _StaticIntensity: 1
+    - _UseChromaticAberration: 1
+    - _UseDisplacement: 1
+    - _UseStaticNoise: 1
+    - _UseVignette: 0
+    - _Vignette: 0
+    m_Colors:
+    - _OffsetPos: {r: 0, g: 0, b: 0, a: 1}
+  m_BuildTextureStacks: []
 --- !u!1001 &1318394600
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -36514,12 +36570,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_BindingMode: 1
   m_FollowOffset: {x: 0, y: 1.8, z: 2.5}
-  m_XDamping: 0.03
-  m_YDamping: 0.03
-  m_ZDamping: 0.03
+  m_XDamping: 0.01
+  m_YDamping: 0.01
+  m_ZDamping: 0.01
   m_AngularDampingMode: 1
   m_PitchDamping: 0.5
-  m_YawDamping: 0.03
+  m_YawDamping: 0.01
   m_RollDamping: 0.5
   m_AngularDamping: 20
 --- !u!114 &1330179395
@@ -38455,53 +38511,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 5b86c693acc5f4805b033c23b06b3a69, type: 3}
   m_PrefabInstance: {fileID: 1511761334}
   m_PrefabAsset: {fileID: 0}
---- !u!21 &1522953123
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Hidden/RetroCameraEffect
-  m_Shader: {fileID: 4800000, guid: 2cfdcae76c757405786f1219a383da6e, type: 3}
-  m_ValidKeywords: []
-  m_InvalidKeywords: []
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SecondaryTex:
-        m_Texture: {fileID: 2800000, guid: 2ee566ccadfe14d0cadbd3e2107180cf, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _ChromaticAberration: 0
-    - _DisplacementAmplitude: 0
-    - _DisplacementFrequency: 150
-    - _DisplacementSpeed: 0
-    - _NoiseBottomHeight: 0.04
-    - _NoiseBottomIntensity: 1
-    - _OffsetNoiseX: 0
-    - _OffsetNoiseY: 0
-    - _StaticIntensity: 1
-    - _UseChromaticAberration: 1
-    - _UseDisplacement: 1
-    - _UseStaticNoise: 1
-    - _UseVignette: 0
-    - _Vignette: 0
-    m_Colors:
-    - _OffsetPos: {r: 0, g: 0, b: 0, a: 1}
-  m_BuildTextureStacks: []
 --- !u!1001 &1525647132
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -39880,53 +39889,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 09819032ea2bd4e0297380470c26354e, type: 3}
   m_PrefabInstance: {fileID: 1617174703}
   m_PrefabAsset: {fileID: 0}
---- !u!21 &1622525707
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Hidden/RetroCameraEffect
-  m_Shader: {fileID: 4800000, guid: 2cfdcae76c757405786f1219a383da6e, type: 3}
-  m_ValidKeywords: []
-  m_InvalidKeywords: []
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SecondaryTex:
-        m_Texture: {fileID: 2800000, guid: fb05fd8d491864b72947d96a3c6a189a, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _ChromaticAberration: 0
-    - _DisplacementAmplitude: 0
-    - _DisplacementFrequency: 150
-    - _DisplacementSpeed: 0
-    - _NoiseBottomHeight: 0.04
-    - _NoiseBottomIntensity: 1
-    - _OffsetNoiseX: 0
-    - _OffsetNoiseY: 0
-    - _StaticIntensity: 1
-    - _UseChromaticAberration: 1
-    - _UseDisplacement: 1
-    - _UseStaticNoise: 1
-    - _UseVignette: 0
-    - _Vignette: 0
-    m_Colors:
-    - _OffsetPos: {r: 0, g: 0, b: 0, a: 1}
-  m_BuildTextureStacks: []
 --- !u!1 &1640969151
 GameObject:
   m_ObjectHideFlags: 3
@@ -39974,12 +39936,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_BindingMode: 1
   m_FollowOffset: {x: 0, y: 4, z: -10}
-  m_XDamping: 0.1
-  m_YDamping: 0.1
-  m_ZDamping: 0.1
+  m_XDamping: 0.03
+  m_YDamping: 0.03
+  m_ZDamping: 0.03
   m_AngularDampingMode: 0
   m_PitchDamping: 0
-  m_YawDamping: 0.1
+  m_YawDamping: 0.03
   m_RollDamping: 0
   m_AngularDamping: 0
 --- !u!114 &1640969155
@@ -41546,7 +41508,7 @@ MonoBehaviour:
   useScanlines: 1
   scanlineSize: 512
   scanlineIntensity: 0.5
-  _material: {fileID: 1522953123}
+  _material: {fileID: 1841231758}
 --- !u!1001 &1772314705
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -41982,6 +41944,108 @@ MonoBehaviour:
   cockpitCam: {fileID: 1958903855}
   bonnetCam: {fileID: 1379431320}
   bumperCam: {fileID: 1896735492}
+--- !u!21 &1841231758
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Hidden/RetroCameraEffect
+  m_Shader: {fileID: 4800000, guid: 2cfdcae76c757405786f1219a383da6e, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SecondaryTex:
+        m_Texture: {fileID: 2800000, guid: 2ee566ccadfe14d0cadbd3e2107180cf, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ChromaticAberration: 0
+    - _DisplacementAmplitude: 0
+    - _DisplacementFrequency: 150
+    - _DisplacementSpeed: 0
+    - _NoiseBottomHeight: 0.04
+    - _NoiseBottomIntensity: 1
+    - _OffsetNoiseX: 0
+    - _OffsetNoiseY: 0
+    - _StaticIntensity: 1
+    - _UseChromaticAberration: 1
+    - _UseDisplacement: 1
+    - _UseStaticNoise: 1
+    - _UseVignette: 0
+    - _Vignette: 0
+    m_Colors:
+    - _OffsetPos: {r: 0, g: 0, b: 0, a: 1}
+  m_BuildTextureStacks: []
+--- !u!21 &1853934097
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Hidden/RetroCameraEffect
+  m_Shader: {fileID: 4800000, guid: 2cfdcae76c757405786f1219a383da6e, type: 3}
+  m_ValidKeywords:
+  - BOTTOM_STRETCH_ON
+  - CHROMATIC_ON
+  - DISPLACEMENT_ON
+  - NOISE_BOTTOM_ON
+  - NOISE_ON
+  - RADIAL_DISTORTION_ON
+  - SCANLINES_ON
+  - VIGNETTE_ON
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SecondaryTex:
+        m_Texture: {fileID: 2800000, guid: 0ecedd370a77a4a3dbbb9cc9e09081cd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ChromaticAberration: 0
+    - _DisplacementAmplitude: 0
+    - _DisplacementFrequency: 150
+    - _DisplacementSpeed: 0
+    - _NoiseBottomHeight: 0.04
+    - _NoiseBottomIntensity: 1
+    - _OffsetNoiseX: 0.6589103
+    - _OffsetNoiseY: 0.2962529
+    - _StaticIntensity: 2
+    - _UseChromaticAberration: 1
+    - _UseDisplacement: 1
+    - _UseStaticNoise: 1
+    - _UseVignette: 0
+    - _Vignette: 0.1
+    m_Colors:
+    - _OffsetPos: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
 --- !u!21 &1867981840
 Material:
   serializedVersion: 8
@@ -44629,12 +44693,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_BindingMode: 1
   m_FollowOffset: {x: -0.0036218546, y: 0.9119563, z: 4.502504}
-  m_XDamping: 0.03
-  m_YDamping: 0.03
-  m_ZDamping: 0.03
+  m_XDamping: 0.01
+  m_YDamping: 0.01
+  m_ZDamping: 0.01
   m_AngularDampingMode: 1
   m_PitchDamping: 0.5
-  m_YawDamping: 0.03
+  m_YawDamping: 0.01
   m_RollDamping: 0.5
   m_AngularDamping: 20
 --- !u!114 &2043955036
@@ -46343,7 +46407,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5677183536578804585, guid: 97be42360ca464c43921bc5fc20f077d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 9
+      value: 5.5
       objectReference: {fileID: 0}
     - target: {fileID: 5677183536578804585, guid: 97be42360ca464c43921bc5fc20f077d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -46409,7 +46473,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 86229032593602047, guid: 03602fe1a9655944f99661f0755731f8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 9
+      value: 5.5
       objectReference: {fileID: 0}
     - target: {fileID: 86229032593602047, guid: 03602fe1a9655944f99661f0755731f8, type: 3}
       propertyPath: m_LocalPosition.z
