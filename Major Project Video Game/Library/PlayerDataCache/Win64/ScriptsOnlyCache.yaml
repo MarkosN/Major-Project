@@ -2,13 +2,8 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - AutomatedCameraSystem
-    - LapsManager
-    - LapsTimer
-    - LapsTracker
     - RaceStart
     - RetroAesthetics.RetroCameraEffect
-    - SaveLapTime
-    - TotalTimeCounter
     - UnityStandardAssets.Vehicles.Car.CarAudio
     - UnityStandardAssets.Vehicles.Car.CarController
     - UnityStandardAssets.Vehicles.Car.CarUserControl
@@ -21,6 +16,7 @@ ScriptsOnlyBuild:
     - Cinemachine.CinemachineTransposer
     - Cinemachine.CinemachineVirtualCamera
     Unity.ProBuilder.Editor.dll:
+    - UnityEditor.ProBuilder.PolyShapeTool
     - UnityEditor.ProBuilder.ProBuilderEditor
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
@@ -95,7 +91,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
   methodsToPreserve: []
   sceneClasses:
-    Assets/Scenes/Track3TimeTrials.unity:
+    Assets/Scenes/Track0Practice.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -163,10 +159,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4112}
     - Class: 114
-      Script: {instanceID: 4138}
-    - Class: 114
-      Script: {instanceID: 4158}
-    - Class: 114
       Script: {instanceID: 4730}
     - Class: 114
       Script: {instanceID: 5126}
@@ -181,8 +173,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 6510}
     - Class: 114
-      Script: {instanceID: 6776}
-    - Class: 114
       Script: {instanceID: 7062}
     - Class: 114
       Script: {instanceID: 7268}
@@ -191,22 +181,16 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7536}
     - Class: 114
-      Script: {instanceID: 7982}
+      Script: {instanceID: 7984}
     - Class: 114
-      Script: {instanceID: 8914}
+      Script: {instanceID: 8916}
     - Class: 114
-      Script: {instanceID: 9404}
-    - Class: 114
-      Script: {instanceID: 9756}
-    - Class: 114
-      Script: {instanceID: 75584}
+      Script: {instanceID: 9758}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
       Script: {instanceID: 0}
     - Class: 134
-      Script: {instanceID: 0}
-    - Class: 136
       Script: {instanceID: 0}
     - Class: 146
       Script: {instanceID: 0}
@@ -1445,6 +1429,12 @@ ScriptsOnlyBuild:
     className: MenuScripts
   - hash:
       serializedVersion: 2
+      Hash: 415f72017141b3634df0aaff46f68f2c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TotalTimeCounter
+  - hash:
+      serializedVersion: 2
       Hash: 748dd2a2a28da4e618912da5ac45684b
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
@@ -1905,14 +1895,8 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 415f72017141b3634df0aaff46f68f2c
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: TotalTimeCounter
   platform: 19
   scenePathNames:
-  - Assets/Scenes/Track3TimeTrials.unity
+  - Assets/Scenes/Track0Practice.unity
   playerPath: "C:/Users/\u039C\u03B1\u03C1\u03BA\u03BF\u03C2/Desktop/exe/Major Project
     Video Game.exe"
