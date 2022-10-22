@@ -18,11 +18,7 @@ public class FinishSequence : MonoBehaviour // Race Finish Sequence Manager - Wh
     public Rigidbody car1; // Player's 1 car
     public Rigidbody car2; // Player's 2 car
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public GameObject positionTracker; // The tracker that counts the players' positions
 
     // Update is called once per frame
     void Update()
@@ -33,6 +29,7 @@ public class FinishSequence : MonoBehaviour // Race Finish Sequence Manager - Wh
         loseCanvasCar2.SetActive(true);
         winParticleEffectCar1.SetActive(true);
         loseParticleEffectCar2.SetActive(true);
+        positionTracker.SetActive(false);
         StartCoroutine(DisableCarPositionandRotation());
         StartCoroutine(ReturnToMenu());
     }
