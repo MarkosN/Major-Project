@@ -1,22 +1,14 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
-    - AutomatedCameraSystem
-    - RaceStart
+    - RetroAesthetics.Demos.SpeedTilt
     - RetroAesthetics.RetroCameraEffect
-    - UnityStandardAssets.Vehicles.Car.CarAudio
-    - UnityStandardAssets.Vehicles.Car.CarController
-    - UnityStandardAssets.Vehicles.Car.CarUserControl
-    - UnityStandardAssets.Vehicles.Car.SkidTrail
-    - UnityStandardAssets.Vehicles.Car.WheelEffects
-    Cinemachine.dll:
-    - Cinemachine.Cinemachine3rdPersonAim
-    - Cinemachine.CinemachineBrain
-    - Cinemachine.CinemachinePipeline
-    - Cinemachine.CinemachineTransposer
-    - Cinemachine.CinemachineVirtualCamera
+    - RetroAesthetics.UVScroller
+    - UnityStandardAssets.Cameras.AutoCam
+    - UnityStandardAssets.Cameras.ProtectCameraFromWallClip
+    Unity.Formats.Fbx.Editor.dll:
+    - UnityEditor.Formats.Fbx.Exporter.ExportSettings
     Unity.ProBuilder.Editor.dll:
-    - UnityEditor.ProBuilder.PolyShapeTool
     - UnityEditor.ProBuilder.ProBuilderEditor
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
@@ -36,7 +28,6 @@ ScriptsOnlyBuild:
     - TMPro.TMP_Settings
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
-    - TMPro.TextMeshProUGUI
     Unity.Timeline.dll:
     - UnityEngine.Timeline.TimelineAsset
     UnityEditor.Graphs.dll:
@@ -57,14 +48,9 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
-    - UnityEngine.UI.RawImage
+    - UnityEngine.UI.Mask
+    - UnityEngine.UI.Text
   serializedClasses:
-    Cinemachine:
-    - Cinemachine.CinemachineBlendDefinition
-    - Cinemachine.CinemachineBrain/BrainEvent
-    - Cinemachine.CinemachineBrain/VcamActivatedEvent
-    - Cinemachine.CinemachineVirtualCameraBase/TransitionParams
-    - Cinemachine.LensSettings
     Unity.TextMeshPro:
     - TMPro.FaceInfo_Legacy
     - TMPro.FontAssetCreationSettings
@@ -79,7 +65,6 @@ ScriptsOnlyBuild:
     - TMPro.TMP_SpriteCharacter
     - TMPro.TMP_SpriteGlyph
     - TMPro.TMP_Style
-    - TMPro.VertexGradient
     UnityEngine.CoreModule:
     - UnityEngine.Events.PersistentCallGroup
     UnityEngine.TextCoreFontEngineModule:
@@ -88,10 +73,11 @@ ScriptsOnlyBuild:
     - UnityEngine.TextCore.GlyphMetrics
     - UnityEngine.TextCore.GlyphRect
     UnityEngine.UI:
+    - UnityEngine.UI.FontData
     - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
   methodsToPreserve: []
   sceneClasses:
-    Assets/Scenes/Track0Practice.unity:
+    Assets/Scenes/MainMenu.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -112,95 +98,47 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 49
       Script: {instanceID: 0}
-    - Class: 54
-      Script: {instanceID: 0}
-    - Class: 64
-      Script: {instanceID: 0}
-    - Class: 65
-      Script: {instanceID: 0}
-    - Class: 74
-      Script: {instanceID: 0}
     - Class: 81
-      Script: {instanceID: 0}
-    - Class: 82
-      Script: {instanceID: 0}
-    - Class: 83
-      Script: {instanceID: 0}
-    - Class: 89
-      Script: {instanceID: 0}
-    - Class: 91
-      Script: {instanceID: 0}
-    - Class: 95
-      Script: {instanceID: 0}
-    - Class: 96
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
+      Script: {instanceID: 1686}
+    - Class: 114
       Script: {instanceID: 1688}
     - Class: 114
       Script: {instanceID: 1690}
     - Class: 114
-      Script: {instanceID: 1930}
+      Script: {instanceID: 2544}
     - Class: 114
-      Script: {instanceID: 2540}
+      Script: {instanceID: 3088}
     - Class: 114
-      Script: {instanceID: 2694}
+      Script: {instanceID: 4734}
     - Class: 114
-      Script: {instanceID: 3004}
+      Script: {instanceID: 4846}
     - Class: 114
-      Script: {instanceID: 3084}
+      Script: {instanceID: 5032}
     - Class: 114
-      Script: {instanceID: 3190}
+      Script: {instanceID: 5160}
     - Class: 114
-      Script: {instanceID: 4110}
+      Script: {instanceID: 5520}
     - Class: 114
-      Script: {instanceID: 4112}
+      Script: {instanceID: 6516}
     - Class: 114
-      Script: {instanceID: 4730}
+      Script: {instanceID: 7320}
     - Class: 114
-      Script: {instanceID: 5126}
-    - Class: 114
-      Script: {instanceID: 5154}
-    - Class: 114
-      Script: {instanceID: 5514}
-    - Class: 114
-      Script: {instanceID: 5846}
-    - Class: 114
-      Script: {instanceID: 6428}
-    - Class: 114
-      Script: {instanceID: 6510}
-    - Class: 114
-      Script: {instanceID: 7062}
-    - Class: 114
-      Script: {instanceID: 7268}
-    - Class: 114
-      Script: {instanceID: 7314}
-    - Class: 114
-      Script: {instanceID: 7536}
-    - Class: 114
-      Script: {instanceID: 7984}
-    - Class: 114
-      Script: {instanceID: 8916}
-    - Class: 114
-      Script: {instanceID: 9758}
+      Script: {instanceID: 7990}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
-      Script: {instanceID: 0}
-    - Class: 134
-      Script: {instanceID: 0}
-    - Class: 146
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
       Script: {instanceID: 0}
-    - Class: 198
-      Script: {instanceID: 0}
-    - Class: 199
+    - Class: 212
       Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
@@ -210,9 +148,7 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 224
       Script: {instanceID: 0}
-    - Class: 258
-      Script: {instanceID: 0}
-    - Class: 850595691
+    - Class: 225
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -241,7 +177,7 @@ ScriptsOnlyBuild:
     className: PanelRaycaster
   - hash:
       serializedVersion: 2
-      Hash: 7ab6a3f4a783d826cf48b1189682adc9
+      Hash: 706344499c6b757a667a130b1b949496
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: FinishSequence2
@@ -335,6 +271,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: UnityStandardAssets.Utility
     className: DynamicShadowSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 12770a4389d5a6966998ed870ee42c81
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PositionCounter
   - hash:
       serializedVersion: 2
       Hash: c88c4199b288356ec3eb2f0d85abc619
@@ -901,6 +843,12 @@ ScriptsOnlyBuild:
     className: Mask
   - hash:
       serializedVersion: 2
+      Hash: 0233954f8f27c4af0a1fb561c966bde6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PositionCounterIII
+  - hash:
+      serializedVersion: 2
       Hash: e6d75f1a9bc0c6f7085df0baa077e688
     assemblyName: Cinemachine.dll
     namespaceName: Cinemachine
@@ -949,7 +897,7 @@ ScriptsOnlyBuild:
     className: VariablesSaver
   - hash:
       serializedVersion: 2
-      Hash: 5252fc4271f915937ae1538050847d58
+      Hash: f720b95874ecb1ece3c8b165b125c5eb
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: FinishSequence
@@ -1483,6 +1431,12 @@ ScriptsOnlyBuild:
     className: CinemachineImpulseListener
   - hash:
       serializedVersion: 2
+      Hash: d8a5ca5ed8d91e41a0be3a33f379e449
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CheckPointSystem
+  - hash:
+      serializedVersion: 2
       Hash: 7a95596d57b2e83af6cc83664c7590b4
     assemblyName: Assembly-CSharp.dll
     namespaceName: RetroAesthetics
@@ -1843,6 +1797,12 @@ ScriptsOnlyBuild:
     className: PositionCounterBack
   - hash:
       serializedVersion: 2
+      Hash: 1bdf27343ce77b81e1dbabac50311acf
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PositionCounterII
+  - hash:
+      serializedVersion: 2
       Hash: fdd7177da17032ba94d98037cc97bb49
     assemblyName: Assembly-CSharp.dll
     namespaceName: UnityStandardAssets.CrossPlatformInput
@@ -1897,6 +1857,6 @@ ScriptsOnlyBuild:
     className: UnityOnSliderValueChangedMessageListener
   platform: 19
   scenePathNames:
-  - Assets/Scenes/Track0Practice.unity
+  - Assets/Scenes/MainMenu.unity
   playerPath: "C:/Users/\u039C\u03B1\u03C1\u03BA\u03BF\u03C2/Desktop/exe/Major Project
     Video Game.exe"
