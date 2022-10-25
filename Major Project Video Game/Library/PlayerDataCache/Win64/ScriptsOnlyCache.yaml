@@ -1,6 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - ButtonsManager
     - RetroAesthetics.Demos.SpeedTilt
     - RetroAesthetics.RetroCameraEffect
     - RetroAesthetics.UVScroller
@@ -28,6 +29,7 @@ ScriptsOnlyBuild:
     - TMPro.TMP_Settings
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
+    - TMPro.TextMeshProUGUI
     Unity.Timeline.dll:
     - UnityEngine.Timeline.TimelineAsset
     UnityEditor.Graphs.dll:
@@ -45,10 +47,12 @@ ScriptsOnlyBuild:
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
     - UnityEngine.UI.Mask
+    - UnityEngine.UI.RawImage
     - UnityEngine.UI.Text
   serializedClasses:
     Unity.TextMeshPro:
@@ -65,17 +69,28 @@ ScriptsOnlyBuild:
     - TMPro.TMP_SpriteCharacter
     - TMPro.TMP_SpriteGlyph
     - TMPro.TMP_Style
+    - TMPro.VertexGradient
     UnityEngine.CoreModule:
+    - UnityEngine.Events.ArgumentCache
     - UnityEngine.Events.PersistentCallGroup
+    - UnityEngine.Events.PersistentListenerMode
     UnityEngine.TextCoreFontEngineModule:
     - UnityEngine.TextCore.FaceInfo
     - UnityEngine.TextCore.Glyph
     - UnityEngine.TextCore.GlyphMetrics
     - UnityEngine.TextCore.GlyphRect
     UnityEngine.UI:
+    - UnityEngine.UI.AnimationTriggers
+    - UnityEngine.UI.Button/ButtonClickedEvent
+    - UnityEngine.UI.ColorBlock
     - UnityEngine.UI.FontData
     - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
-  methodsToPreserve: []
+    - UnityEngine.UI.Navigation
+    - UnityEngine.UI.SpriteState
+  methodsToPreserve:
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonsManager
+    methodName: Exit
   sceneClasses:
     Assets/Scenes/MainMenu.unity:
     - Class: 1
@@ -98,7 +113,13 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 49
       Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
@@ -111,23 +132,31 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1690}
     - Class: 114
-      Script: {instanceID: 2544}
+      Script: {instanceID: 2542}
     - Class: 114
-      Script: {instanceID: 3088}
+      Script: {instanceID: 2696}
     - Class: 114
-      Script: {instanceID: 4734}
+      Script: {instanceID: 3086}
     - Class: 114
-      Script: {instanceID: 4846}
+      Script: {instanceID: 3766}
     - Class: 114
-      Script: {instanceID: 5032}
+      Script: {instanceID: 4732}
     - Class: 114
-      Script: {instanceID: 5160}
+      Script: {instanceID: 4844}
     - Class: 114
-      Script: {instanceID: 5520}
+      Script: {instanceID: 5030}
     - Class: 114
-      Script: {instanceID: 6516}
+      Script: {instanceID: 5158}
     - Class: 114
-      Script: {instanceID: 7320}
+      Script: {instanceID: 5518}
+    - Class: 114
+      Script: {instanceID: 6514}
+    - Class: 114
+      Script: {instanceID: 7318}
+    - Class: 114
+      Script: {instanceID: 7380}
+    - Class: 114
+      Script: {instanceID: 7542}
     - Class: 114
       Script: {instanceID: 7990}
     - Class: 115
@@ -1311,6 +1340,12 @@ ScriptsOnlyBuild:
     className: CinemachineSameAsFollowTarget
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ButtonsManager
+  - hash:
+      serializedVersion: 2
       Hash: 4678e37e5f25172d96da84b348025ce2
     assemblyName: Cinemachine.dll
     namespaceName: Cinemachine
@@ -1858,5 +1893,5 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/Scenes/MainMenu.unity
-  playerPath: "C:/Users/\u039C\u03B1\u03C1\u03BA\u03BF\u03C2/Desktop/exe/Major Project
-    Video Game.exe"
+  playerPath: "C:/Users/\u039C\u03B1\u03C1\u03BA\u03BF\u03C2/Desktop/exe/Dream Race
+    Unlimited.exe"
