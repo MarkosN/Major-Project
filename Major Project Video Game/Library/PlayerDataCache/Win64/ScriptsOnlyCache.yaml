@@ -1,14 +1,35 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
-    - ButtonsManager
-    - RetroAesthetics.Demos.SpeedTilt
+    - AutomatedCameraSystem
+    - AutomatedCameraSystem2
+    - FinishSequence
+    - FinishSequence2
+    - LapsManager
+    - LapsManagerMultiplayer
+    - LapsTimer
+    - LapsTimerMultiplayer
+    - LapsTracker
+    - LapsTrackerMultiplayer
+    - PositionCounter
+    - RaceFinish
+    - RaceFinish2
+    - RaceStartMultiplayer
     - RetroAesthetics.RetroCameraEffect
-    - RetroAesthetics.UVScroller
-    - UnityStandardAssets.Cameras.AutoCam
-    - UnityStandardAssets.Cameras.ProtectCameraFromWallClip
-    Unity.Formats.Fbx.Editor.dll:
-    - UnityEditor.Formats.Fbx.Exporter.ExportSettings
+    - SaveLatestLapTime
+    - SaveLatestLapTimeMultiplayer
+    - UnityStandardAssets.Vehicles.Car.CarAudio
+    - UnityStandardAssets.Vehicles.Car.CarController
+    - UnityStandardAssets.Vehicles.Car.CarUserControl
+    - UnityStandardAssets.Vehicles.Car.CarUserControl2
+    - UnityStandardAssets.Vehicles.Car.SkidTrail
+    - UnityStandardAssets.Vehicles.Car.WheelEffects
+    Cinemachine.dll:
+    - Cinemachine.Cinemachine3rdPersonAim
+    - Cinemachine.CinemachineBrain
+    - Cinemachine.CinemachinePipeline
+    - Cinemachine.CinemachineTransposer
+    - Cinemachine.CinemachineVirtualCamera
     Unity.ProBuilder.Editor.dll:
     - UnityEditor.ProBuilder.ProBuilderEditor
     Unity.Rider.Editor.dll:
@@ -30,15 +51,11 @@ ScriptsOnlyBuild:
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
     - TMPro.TextMeshProUGUI
-    Unity.Timeline.dll:
-    - UnityEngine.Timeline.TimelineAsset
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -47,14 +64,17 @@ ScriptsOnlyBuild:
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
-    - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
-    - UnityEngine.UI.Mask
     - UnityEngine.UI.RawImage
-    - UnityEngine.UI.Text
   serializedClasses:
+    Cinemachine:
+    - Cinemachine.CinemachineBlendDefinition
+    - Cinemachine.CinemachineBrain/BrainEvent
+    - Cinemachine.CinemachineBrain/VcamActivatedEvent
+    - Cinemachine.CinemachineVirtualCameraBase/TransitionParams
+    - Cinemachine.LensSettings
     Unity.TextMeshPro:
     - TMPro.FaceInfo_Legacy
     - TMPro.FontAssetCreationSettings
@@ -71,28 +91,17 @@ ScriptsOnlyBuild:
     - TMPro.TMP_Style
     - TMPro.VertexGradient
     UnityEngine.CoreModule:
-    - UnityEngine.Events.ArgumentCache
     - UnityEngine.Events.PersistentCallGroup
-    - UnityEngine.Events.PersistentListenerMode
     UnityEngine.TextCoreFontEngineModule:
     - UnityEngine.TextCore.FaceInfo
     - UnityEngine.TextCore.Glyph
     - UnityEngine.TextCore.GlyphMetrics
     - UnityEngine.TextCore.GlyphRect
     UnityEngine.UI:
-    - UnityEngine.UI.AnimationTriggers
-    - UnityEngine.UI.Button/ButtonClickedEvent
-    - UnityEngine.UI.ColorBlock
-    - UnityEngine.UI.FontData
     - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
-    - UnityEngine.UI.Navigation
-    - UnityEngine.UI.SpriteState
-  methodsToPreserve:
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonsManager
-    methodName: Exit
+  methodsToPreserve: []
   sceneClasses:
-    Assets/Scenes/MainMenu.unity:
+    Assets/Scenes/Track3Multiplayer.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -113,61 +122,127 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 49
       Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
     - Class: 74
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
     - Class: 91
       Script: {instanceID: 0}
     - Class: 95
+      Script: {instanceID: 0}
+    - Class: 96
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1686}
-    - Class: 114
-      Script: {instanceID: 1688}
-    - Class: 114
       Script: {instanceID: 1690}
     - Class: 114
-      Script: {instanceID: 2542}
+      Script: {instanceID: 1692}
     - Class: 114
-      Script: {instanceID: 2696}
+      Script: {instanceID: 1838}
     - Class: 114
-      Script: {instanceID: 3086}
+      Script: {instanceID: 1932}
     - Class: 114
-      Script: {instanceID: 3766}
+      Script: {instanceID: 2164}
     - Class: 114
-      Script: {instanceID: 4732}
+      Script: {instanceID: 2544}
     - Class: 114
-      Script: {instanceID: 4844}
+      Script: {instanceID: 2698}
     - Class: 114
-      Script: {instanceID: 5030}
+      Script: {instanceID: 3008}
     - Class: 114
-      Script: {instanceID: 5158}
+      Script: {instanceID: 3088}
     - Class: 114
-      Script: {instanceID: 5518}
+      Script: {instanceID: 3194}
     - Class: 114
-      Script: {instanceID: 6514}
+      Script: {instanceID: 3224}
     - Class: 114
-      Script: {instanceID: 7318}
+      Script: {instanceID: 3234}
     - Class: 114
-      Script: {instanceID: 7380}
+      Script: {instanceID: 4114}
     - Class: 114
-      Script: {instanceID: 7542}
+      Script: {instanceID: 4142}
     - Class: 114
-      Script: {instanceID: 7990}
+      Script: {instanceID: 4162}
+    - Class: 114
+      Script: {instanceID: 4734}
+    - Class: 114
+      Script: {instanceID: 5076}
+    - Class: 114
+      Script: {instanceID: 5132}
+    - Class: 114
+      Script: {instanceID: 5160}
+    - Class: 114
+      Script: {instanceID: 5288}
+    - Class: 114
+      Script: {instanceID: 5520}
+    - Class: 114
+      Script: {instanceID: 5824}
+    - Class: 114
+      Script: {instanceID: 5852}
+    - Class: 114
+      Script: {instanceID: 5886}
+    - Class: 114
+      Script: {instanceID: 6434}
+    - Class: 114
+      Script: {instanceID: 6516}
+    - Class: 114
+      Script: {instanceID: 6782}
+    - Class: 114
+      Script: {instanceID: 7068}
+    - Class: 114
+      Script: {instanceID: 7274}
+    - Class: 114
+      Script: {instanceID: 7320}
+    - Class: 114
+      Script: {instanceID: 7544}
+    - Class: 114
+      Script: {instanceID: 7992}
+    - Class: 114
+      Script: {instanceID: 7994}
+    - Class: 114
+      Script: {instanceID: 8926}
+    - Class: 114
+      Script: {instanceID: 9572}
+    - Class: 114
+      Script: {instanceID: 9768}
+    - Class: 114
+      Script: {instanceID: 9828}
+    - Class: 114
+      Script: {instanceID: 9870}
+    - Class: 114
+      Script: {instanceID: 10348}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
+      Script: {instanceID: 0}
+    - Class: 134
+      Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
+    - Class: 146
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
       Script: {instanceID: 0}
-    - Class: 212
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
       Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
@@ -177,7 +252,9 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 224
       Script: {instanceID: 0}
-    - Class: 225
+    - Class: 258
+      Script: {instanceID: 0}
+    - Class: 850595691
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -1892,6 +1969,6 @@ ScriptsOnlyBuild:
     className: UnityOnSliderValueChangedMessageListener
   platform: 19
   scenePathNames:
-  - Assets/Scenes/MainMenu.unity
+  - Assets/Scenes/Track3Multiplayer.unity
   playerPath: "C:/Users/\u039C\u03B1\u03C1\u03BA\u03BF\u03C2/Desktop/exe/Dream Race
     Unlimited.exe"
