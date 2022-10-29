@@ -4,6 +4,7 @@ ScriptsOnlyBuild:
     - AutomatedCameraSystem
     - AutomatedCameraSystem2
     - ButtonsManager
+    - DisableDarkIntro
     - FinishSequence
     - FinishSequence2
     - LapsManager
@@ -20,6 +21,7 @@ ScriptsOnlyBuild:
     - LapsTimerMultiplayerIII
     - LapsTracker
     - LapsTrackerMultiplayer
+    - LoadingScene
     - PositionCounter
     - PositionCounterII
     - PositionCounterIII
@@ -75,15 +77,11 @@ ScriptsOnlyBuild:
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
     - TMPro.TextMeshProUGUI
-    Unity.Timeline.dll:
-    - UnityEngine.Timeline.TimelineAsset
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -248,7 +246,7 @@ ScriptsOnlyBuild:
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
   sceneClasses:
-    Assets/Scenes/MainMenu.unity:
+    Assets/Scenes/LoadingScene.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -282,13 +280,90 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1688}
-    - Class: 114
       Script: {instanceID: 1690}
     - Class: 114
       Script: {instanceID: 1692}
     - Class: 114
       Script: {instanceID: 2544}
+    - Class: 114
+      Script: {instanceID: 2698}
+    - Class: 114
+      Script: {instanceID: 3088}
+    - Class: 114
+      Script: {instanceID: 4734}
+    - Class: 114
+      Script: {instanceID: 5032}
+    - Class: 114
+      Script: {instanceID: 5160}
+    - Class: 114
+      Script: {instanceID: 5520}
+    - Class: 114
+      Script: {instanceID: 6516}
+    - Class: 114
+      Script: {instanceID: 7320}
+    - Class: 114
+      Script: {instanceID: 7544}
+    - Class: 114
+      Script: {instanceID: 7992}
+    - Class: 114
+      Script: {instanceID: 8546}
+    - Class: 114
+      Script: {instanceID: 10124}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/MainMenu.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1688}
+    - Class: 114
+      Script: {instanceID: 1690}
+    - Class: 114
+      Script: {instanceID: 1692}
     - Class: 114
       Script: {instanceID: 2698}
     - Class: 114
@@ -302,10 +377,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5032}
     - Class: 114
-      Script: {instanceID: 5160}
-    - Class: 114
-      Script: {instanceID: 5520}
-    - Class: 114
       Script: {instanceID: 6516}
     - Class: 114
       Script: {instanceID: 7320}
@@ -315,6 +386,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 7544}
     - Class: 114
       Script: {instanceID: 7992}
+    - Class: 114
+      Script: {instanceID: 10124}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -419,9 +492,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7992}
     - Class: 114
-      Script: {instanceID: 8926}
+      Script: {instanceID: 8928}
     - Class: 114
-      Script: {instanceID: 9768}
+      Script: {instanceID: 9770}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 134
@@ -556,15 +629,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7994}
     - Class: 114
-      Script: {instanceID: 8926}
+      Script: {instanceID: 8928}
     - Class: 114
-      Script: {instanceID: 9760}
+      Script: {instanceID: 9762}
     - Class: 114
-      Script: {instanceID: 9768}
+      Script: {instanceID: 9770}
     - Class: 114
-      Script: {instanceID: 9828}
+      Script: {instanceID: 9830}
     - Class: 114
-      Script: {instanceID: 10348}
+      Script: {instanceID: 10352}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 134
@@ -685,11 +758,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7992}
     - Class: 114
-      Script: {instanceID: 8926}
+      Script: {instanceID: 8928}
     - Class: 114
-      Script: {instanceID: 9760}
+      Script: {instanceID: 9762}
     - Class: 114
-      Script: {instanceID: 9768}
+      Script: {instanceID: 9770}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 134
@@ -824,17 +897,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7994}
     - Class: 114
-      Script: {instanceID: 8926}
+      Script: {instanceID: 8928}
     - Class: 114
-      Script: {instanceID: 9768}
+      Script: {instanceID: 9770}
     - Class: 114
-      Script: {instanceID: 9828}
+      Script: {instanceID: 9830}
     - Class: 114
-      Script: {instanceID: 10256}
+      Script: {instanceID: 10260}
     - Class: 114
-      Script: {instanceID: 10348}
+      Script: {instanceID: 10352}
     - Class: 114
-      Script: {instanceID: 10388}
+      Script: {instanceID: 10392}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 134
@@ -953,11 +1026,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7992}
     - Class: 114
-      Script: {instanceID: 8926}
+      Script: {instanceID: 8928}
     - Class: 114
-      Script: {instanceID: 9768}
+      Script: {instanceID: 9770}
     - Class: 114
-      Script: {instanceID: 10078}
+      Script: {instanceID: 10080}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 134
@@ -1090,17 +1163,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7994}
     - Class: 114
-      Script: {instanceID: 8926}
+      Script: {instanceID: 8928}
     - Class: 114
-      Script: {instanceID: 9572}
+      Script: {instanceID: 9574}
     - Class: 114
-      Script: {instanceID: 9768}
+      Script: {instanceID: 9770}
     - Class: 114
-      Script: {instanceID: 9828}
+      Script: {instanceID: 9830}
     - Class: 114
-      Script: {instanceID: 9870}
+      Script: {instanceID: 9872}
     - Class: 114
-      Script: {instanceID: 10348}
+      Script: {instanceID: 10352}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 134
@@ -1221,11 +1294,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7992}
     - Class: 114
-      Script: {instanceID: 8926}
+      Script: {instanceID: 8928}
     - Class: 114
-      Script: {instanceID: 9416}
+      Script: {instanceID: 9418}
     - Class: 114
-      Script: {instanceID: 9768}
+      Script: {instanceID: 9770}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 134
@@ -2595,6 +2668,12 @@ ScriptsOnlyBuild:
     className: UnityOnPointerEnterMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LoadingScene
+  - hash:
+      serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -2883,6 +2962,12 @@ ScriptsOnlyBuild:
     className: CinemachineRecomposer
   - hash:
       serializedVersion: 2
+      Hash: e4319448bea496657b346b437c27d625
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DisableDarkIntro
+  - hash:
+      serializedVersion: 2
       Hash: b5c3dbcb94925c8b595ad16a62b44788
     assemblyName: Cinemachine.dll
     namespaceName: Cinemachine
@@ -2967,6 +3052,7 @@ ScriptsOnlyBuild:
     className: UnityOnSliderValueChangedMessageListener
   platform: 19
   scenePathNames:
+  - Assets/Scenes/LoadingScene.unity
   - Assets/Scenes/MainMenu.unity
   - Assets/Scenes/Track0Practice.unity
   - Assets/Scenes/Track1TimeTrials.unity

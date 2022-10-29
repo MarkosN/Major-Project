@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class FinishSequence : MonoBehaviour // Race Finish Sequence Manager - What will happen when the race is over - Car 1
 {
@@ -47,7 +48,7 @@ public class FinishSequence : MonoBehaviour // Race Finish Sequence Manager - Wh
 
     IEnumerator ReturnToMenu()
     {
-        yield return new WaitForSeconds(4.0f);
-        Debug.Log("Return to Menu");
+        yield return new WaitForSeconds(5.0f);
+        SceneManager.LoadScene("LoadingScene");
     }
 }
