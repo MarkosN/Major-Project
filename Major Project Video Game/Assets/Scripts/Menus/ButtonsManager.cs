@@ -5,9 +5,21 @@ using UnityEngine.SceneManagement;
 
 public class ButtonsManager : MonoBehaviour
 {
-    public void ReturnToMainMenu() // Button to Give the Player the Ability to Return to Main Menu
+    public void ReturnToMainMenu() // Button to Give the Player the Ability to Return to Main Menu (via the Loading Scene)
     {
-        SceneManager.LoadScene("MainMenu");
+        Time.timeScale = 1f; // 1f - Normal Time
+        SceneManager.LoadScene("LoadingScene");
+    }
+
+    public void ResumeGame() // Close the pause menu and resume the game
+    {
+        Time.timeScale = 1f; // 1f - Normal Time
+    }
+
+    public void RestartMode() //  Restart the Racing Mode
+    {
+        Time.timeScale = 1f; // 1f - Normal Time
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
     // Tracks (and Modes) Buttons that will give to the players access to them

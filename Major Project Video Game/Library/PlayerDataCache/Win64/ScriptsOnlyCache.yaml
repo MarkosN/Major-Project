@@ -22,6 +22,8 @@ ScriptsOnlyBuild:
     - LapsTracker
     - LapsTrackerMultiplayer
     - LoadingScene
+    - MouseCursorManager
+    - PauseMenu
     - PositionCounter
     - PositionCounterII
     - PositionCounterIII
@@ -58,6 +60,9 @@ ScriptsOnlyBuild:
     - Cinemachine.CinemachineVirtualCamera
     Unity.ProBuilder.Editor.dll:
     - UnityEditor.ProBuilder.ProBuilderEditor
+    - UnityEditor.ProBuilder.ProbuilderMoveTool
+    - UnityEditor.ProBuilder.ProbuilderRotateTool
+    - UnityEditor.ProBuilder.ProbuilderScaleTool
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TerrainTools.Editor.dll:
@@ -77,11 +82,15 @@ ScriptsOnlyBuild:
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
     - TMPro.TextMeshProUGUI
+    Unity.Timeline.dll:
+    - UnityEngine.Timeline.TimelineAsset
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -245,6 +254,30 @@ ScriptsOnlyBuild:
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonsManager
+    methodName: RestartMode
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseMenu
+    methodName: ResumeGame
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonsManager
+    methodName: ReturnToMainMenu
   sceneClasses:
     Assets/Scenes/LoadingScene.unity:
     - Class: 1
@@ -309,6 +342,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 8546}
     - Class: 114
       Script: {instanceID: 10124}
+    - Class: 114
+      Script: {instanceID: 358098}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -388,6 +423,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 7992}
     - Class: 114
       Script: {instanceID: 10124}
+    - Class: 114
+      Script: {instanceID: 358098}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -567,6 +604,8 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
+      Script: {instanceID: 1688}
+    - Class: 114
       Script: {instanceID: 1690}
     - Class: 114
       Script: {instanceID: 1692}
@@ -587,11 +626,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3664}
     - Class: 114
+      Script: {instanceID: 3768}
+    - Class: 114
       Script: {instanceID: 4114}
     - Class: 114
       Script: {instanceID: 4162}
     - Class: 114
       Script: {instanceID: 4734}
+    - Class: 114
+      Script: {instanceID: 4846}
     - Class: 114
       Script: {instanceID: 4854}
     - Class: 114
@@ -623,6 +666,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7320}
     - Class: 114
+      Script: {instanceID: 7382}
+    - Class: 114
       Script: {instanceID: 7544}
     - Class: 114
       Script: {instanceID: 7992}
@@ -638,7 +683,13 @@ ScriptsOnlyBuild:
       Script: {instanceID: 9830}
     - Class: 114
       Script: {instanceID: 10352}
+    - Class: 114
+      Script: {instanceID: 250956}
+    - Class: 114
+      Script: {instanceID: 358098}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
       Script: {instanceID: 0}
     - Class: 134
       Script: {instanceID: 0}
@@ -661,6 +712,8 @@ ScriptsOnlyBuild:
     - Class: 223
       Script: {instanceID: 0}
     - Class: 224
+      Script: {instanceID: 0}
+    - Class: 225
       Script: {instanceID: 0}
     - Class: 258
       Script: {instanceID: 0}
@@ -3050,6 +3103,18 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 6f3297cc9adeeff51ea4cfd85b3feee7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PauseMenu
+  - hash:
+      serializedVersion: 2
+      Hash: 15e3be3ec2ebbf4d2ab0bdecffff43de
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MouseCursorManager
   platform: 19
   scenePathNames:
   - Assets/Scenes/LoadingScene.unity
