@@ -7,10 +7,40 @@ public class SettingsManager : MonoBehaviour // For the Settings section of the 
     public AudioMixer volumeMixer;
     public AudioMixer soundEffectsMixer;
 
-    //public void SetFullScreen(bool isFullScreen) // Able to change the video game to fullscreen or to windowed
-    //{
-        //Screen.fullScreen = isFullScreen;
-   // }
+    public void SetFullScreen(bool isFullScreen) // Able to change the video game to fullscreen
+    {
+        if (isFullScreen)
+        {
+            Screen.fullScreen = isFullScreen;
+            Resolution[] allResolutions = Screen.resolutions;
+            Resolution maxResolution = allResolutions[allResolutions.Length - 1];
+            Screen.SetResolution(maxResolution.width, maxResolution.height, true);
+        }
+    }
+
+    public void Set1080P(bool isWindowScreen1080) // Able to change the video game to 1080p windowed
+    {
+        if (isWindowScreen1080)
+        {
+            Screen.SetResolution(1920, 1080, false);
+        }
+    }
+
+    public void Set720P(bool isWindowScreen720) // Able to change the video game to 720p windowed
+    {
+        if (isWindowScreen720)
+        {
+            Screen.SetResolution(1280, 720, false);
+        }
+    }
+
+    public void Set540P(bool isWindowScreen540) // Able to change the video game to 540p windowed
+    {
+        if (isWindowScreen540)
+        {
+            Screen.SetResolution(960, 540, false);
+        }
+    }
 
     public void SetVolume(float volume) // Able to change the settings of the Volume of the game
     {
