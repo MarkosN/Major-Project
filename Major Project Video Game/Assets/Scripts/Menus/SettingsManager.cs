@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.Audio;
 using UnityEngine.UI;
+using TMPro;
 
 public class SettingsManager : MonoBehaviour // For the Settings section of the Main and Pause Menu of the game
 {
@@ -12,10 +13,17 @@ public class SettingsManager : MonoBehaviour // For the Settings section of the 
     public Slider volumeSlider;
     public Slider soundEffectsSlider;
 
+    // Game's Quality Settings to be saved throughout the whole game
+    public TMP_Dropdown quality;
+
     public void Start()
     {
+        // Saving the volume and sound effects settings
         volumeSlider.value = PlayerPrefs.GetFloat("AudioVolume", 0.75f);
         soundEffectsSlider.value = PlayerPrefs.GetFloat("AudioSoundEffects", 0.75f);
+
+        // Saving the game's quality settings
+        quality.value = QualitySettings.GetQualityLevel();
     }
 
     public void SetFullScreen(bool isFullScreen) // Able to change the video game to fullscreen
