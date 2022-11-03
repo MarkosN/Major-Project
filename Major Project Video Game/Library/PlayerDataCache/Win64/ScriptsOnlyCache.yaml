@@ -61,6 +61,8 @@ ScriptsOnlyBuild:
     - Cinemachine.CinemachineVirtualCamera
     Unity.ProBuilder.Editor.dll:
     - UnityEditor.ProBuilder.ProBuilderEditor
+    Unity.ProBuilder.dll:
+    - UnityEngine.ProBuilder.ColorPalette
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TerrainTools.Editor.dll:
@@ -166,18 +168,24 @@ ScriptsOnlyBuild:
   - assembly: UnityEngine.AudioModule
     fullTypeName: UnityEngine.AudioSource
     methodName: Play
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.AudioModule
-    fullTypeName: UnityEngine.AudioSource
-    methodName: Play
+  - assembly: Assembly-CSharp
+    fullTypeName: SettingsManager
+    methodName: SetQuality
+  - assembly: Assembly-CSharp
+    fullTypeName: SettingsManager
+    methodName: SetSoundEffects
   - assembly: Assembly-CSharp
     fullTypeName: SettingsManager
     methodName: SetVolume
+  - assembly: Assembly-CSharp
+    fullTypeName: SettingsManager
+    methodName: Set540P
+  - assembly: Assembly-CSharp
+    fullTypeName: SettingsManager
+    methodName: Set720P
+  - assembly: Assembly-CSharp
+    fullTypeName: SettingsManager
+    methodName: Set1080P
   - assembly: Assembly-CSharp
     fullTypeName: SettingsManager
     methodName: SetFullScreen
@@ -190,9 +198,6 @@ ScriptsOnlyBuild:
   - assembly: UnityEngine.AudioModule
     fullTypeName: UnityEngine.AudioSource
     methodName: Play
-  - assembly: Assembly-CSharp
-    fullTypeName: ButtonsManager
-    methodName: MultiplayerTrack1
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
@@ -202,6 +207,18 @@ ScriptsOnlyBuild:
   - assembly: UnityEngine.AudioModule
     fullTypeName: UnityEngine.AudioSource
     methodName: Play
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonsManager
+    methodName: MultiplayerTrack1
   - assembly: Assembly-CSharp
     fullTypeName: ButtonsManager
     methodName: PracticeModeTrack
@@ -220,9 +237,6 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: ButtonsManager
     methodName: Exit
-  - assembly: Assembly-CSharp
-    fullTypeName: SettingsManager
-    methodName: Set1080P
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
@@ -259,84 +273,96 @@ ScriptsOnlyBuild:
   - assembly: UnityEngine.AudioModule
     fullTypeName: UnityEngine.AudioSource
     methodName: Play
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
+  - assembly: Assembly-CSharp
+    fullTypeName: ButtonsManager
+    methodName: MultiplayerTrack2
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.AudioModule
+    fullTypeName: UnityEngine.AudioSource
+    methodName: Play
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: SettingsManager
+    methodName: SetQuality
+  - assembly: Assembly-CSharp
+    fullTypeName: SettingsManager
+    methodName: SetSoundEffects
+  - assembly: Assembly-CSharp
+    fullTypeName: SettingsManager
+    methodName: SetVolume
   - assembly: Assembly-CSharp
     fullTypeName: SettingsManager
     methodName: Set540P
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.AudioModule
-    fullTypeName: UnityEngine.AudioSource
-    methodName: Play
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.AudioModule
-    fullTypeName: UnityEngine.AudioSource
-    methodName: Play
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.AudioModule
-    fullTypeName: UnityEngine.AudioSource
-    methodName: Play
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.AudioModule
-    fullTypeName: UnityEngine.AudioSource
-    methodName: Play
   - assembly: Assembly-CSharp
     fullTypeName: SettingsManager
     methodName: Set720P
   - assembly: Assembly-CSharp
-    fullTypeName: ButtonsManager
-    methodName: MultiplayerTrack2
+    fullTypeName: SettingsManager
+    methodName: Set1080P
   - assembly: Assembly-CSharp
     fullTypeName: SettingsManager
-    methodName: SetSoundEffects
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.AudioModule
-    fullTypeName: UnityEngine.AudioSource
-    methodName: Play
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.AudioModule
-    fullTypeName: UnityEngine.AudioSource
-    methodName: Play
-  - assembly: Assembly-CSharp
-    fullTypeName: SettingsManager
-    methodName: SetQuality
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.AudioModule
-    fullTypeName: UnityEngine.AudioSource
-    methodName: Play
+    methodName: SetFullScreen
   - assembly: Assembly-CSharp
     fullTypeName: ButtonsManager
     methodName: ReturnToMainMenu
@@ -370,6 +396,9 @@ ScriptsOnlyBuild:
   - assembly: UnityEngine.AudioModule
     fullTypeName: UnityEngine.AudioSource
     methodName: Play
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
   - assembly: Assembly-CSharp
     fullTypeName: ButtonsManager
     methodName: ReturnToMainMenu
@@ -403,6 +432,9 @@ ScriptsOnlyBuild:
   - assembly: UnityEngine.AudioModule
     fullTypeName: UnityEngine.AudioSource
     methodName: Play
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
   - assembly: Assembly-CSharp
     fullTypeName: ButtonsManager
     methodName: ReturnToMainMenu
@@ -436,6 +468,9 @@ ScriptsOnlyBuild:
   - assembly: UnityEngine.AudioModule
     fullTypeName: UnityEngine.AudioSource
     methodName: Play
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
   - assembly: Assembly-CSharp
     fullTypeName: ButtonsManager
     methodName: ReturnToMainMenu
@@ -469,6 +504,9 @@ ScriptsOnlyBuild:
   - assembly: UnityEngine.AudioModule
     fullTypeName: UnityEngine.AudioSource
     methodName: Play
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
   - assembly: Assembly-CSharp
     fullTypeName: ButtonsManager
     methodName: ReturnToMainMenu
@@ -502,6 +540,9 @@ ScriptsOnlyBuild:
   - assembly: UnityEngine.AudioModule
     fullTypeName: UnityEngine.AudioSource
     methodName: Play
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
   - assembly: Assembly-CSharp
     fullTypeName: ButtonsManager
     methodName: ReturnToMainMenu
@@ -535,6 +576,9 @@ ScriptsOnlyBuild:
   - assembly: UnityEngine.AudioModule
     fullTypeName: UnityEngine.AudioSource
     methodName: Play
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
   - assembly: Assembly-CSharp
     fullTypeName: ButtonsManager
     methodName: ReturnToMainMenu
@@ -812,7 +856,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3090}
     - Class: 114
+      Script: {instanceID: 3114}
+    - Class: 114
       Script: {instanceID: 3196}
+    - Class: 114
+      Script: {instanceID: 3744}
     - Class: 114
       Script: {instanceID: 3770}
     - Class: 114
@@ -827,6 +875,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 5134}
     - Class: 114
       Script: {instanceID: 5854}
+    - Class: 114
+      Script: {instanceID: 6342}
+    - Class: 114
+      Script: {instanceID: 6420}
     - Class: 114
       Script: {instanceID: 6436}
     - Class: 114
@@ -844,9 +896,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7994}
     - Class: 114
+      Script: {instanceID: 8010}
+    - Class: 114
       Script: {instanceID: 8598}
     - Class: 114
       Script: {instanceID: 8932}
+    - Class: 114
+      Script: {instanceID: 9482}
+    - Class: 114
+      Script: {instanceID: 9736}
     - Class: 114
       Script: {instanceID: 9776}
     - Class: 115
@@ -949,11 +1007,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3090}
     - Class: 114
+      Script: {instanceID: 3114}
+    - Class: 114
       Script: {instanceID: 3196}
     - Class: 114
       Script: {instanceID: 3314}
     - Class: 114
       Script: {instanceID: 3666}
+    - Class: 114
+      Script: {instanceID: 3744}
     - Class: 114
       Script: {instanceID: 3770}
     - Class: 114
@@ -985,6 +1047,10 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 6172}
     - Class: 114
+      Script: {instanceID: 6342}
+    - Class: 114
+      Script: {instanceID: 6420}
+    - Class: 114
       Script: {instanceID: 6436}
     - Class: 114
       Script: {instanceID: 6518}
@@ -1003,9 +1069,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7996}
     - Class: 114
+      Script: {instanceID: 8010}
+    - Class: 114
       Script: {instanceID: 8598}
     - Class: 114
       Script: {instanceID: 8932}
+    - Class: 114
+      Script: {instanceID: 9482}
     - Class: 114
       Script: {instanceID: 9768}
     - Class: 114
@@ -1114,7 +1184,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3090}
     - Class: 114
+      Script: {instanceID: 3114}
+    - Class: 114
       Script: {instanceID: 3196}
+    - Class: 114
+      Script: {instanceID: 3744}
     - Class: 114
       Script: {instanceID: 3770}
     - Class: 114
@@ -1136,6 +1210,10 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5854}
     - Class: 114
+      Script: {instanceID: 6342}
+    - Class: 114
+      Script: {instanceID: 6420}
+    - Class: 114
       Script: {instanceID: 6436}
     - Class: 114
       Script: {instanceID: 6518}
@@ -1154,9 +1232,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7994}
     - Class: 114
+      Script: {instanceID: 8010}
+    - Class: 114
       Script: {instanceID: 8598}
     - Class: 114
       Script: {instanceID: 8932}
+    - Class: 114
+      Script: {instanceID: 9482}
     - Class: 114
       Script: {instanceID: 9768}
     - Class: 114
@@ -1269,7 +1351,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3090}
     - Class: 114
+      Script: {instanceID: 3114}
+    - Class: 114
       Script: {instanceID: 3196}
+    - Class: 114
+      Script: {instanceID: 3744}
     - Class: 114
       Script: {instanceID: 3770}
     - Class: 114
@@ -1295,7 +1381,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5888}
     - Class: 114
+      Script: {instanceID: 6342}
+    - Class: 114
       Script: {instanceID: 6356}
+    - Class: 114
+      Script: {instanceID: 6420}
     - Class: 114
       Script: {instanceID: 6436}
     - Class: 114
@@ -1315,9 +1405,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7996}
     - Class: 114
+      Script: {instanceID: 8010}
+    - Class: 114
       Script: {instanceID: 8598}
     - Class: 114
       Script: {instanceID: 8932}
+    - Class: 114
+      Script: {instanceID: 9482}
     - Class: 114
       Script: {instanceID: 9776}
     - Class: 114
@@ -1428,7 +1522,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3090}
     - Class: 114
+      Script: {instanceID: 3114}
+    - Class: 114
       Script: {instanceID: 3196}
+    - Class: 114
+      Script: {instanceID: 3744}
     - Class: 114
       Script: {instanceID: 3770}
     - Class: 114
@@ -1448,6 +1546,10 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5854}
     - Class: 114
+      Script: {instanceID: 6342}
+    - Class: 114
+      Script: {instanceID: 6420}
+    - Class: 114
       Script: {instanceID: 6436}
     - Class: 114
       Script: {instanceID: 6518}
@@ -1466,9 +1568,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7994}
     - Class: 114
+      Script: {instanceID: 8010}
+    - Class: 114
       Script: {instanceID: 8598}
     - Class: 114
       Script: {instanceID: 8932}
+    - Class: 114
+      Script: {instanceID: 9482}
     - Class: 114
       Script: {instanceID: 9776}
     - Class: 114
@@ -1575,11 +1681,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3090}
     - Class: 114
+      Script: {instanceID: 3114}
+    - Class: 114
       Script: {instanceID: 3196}
     - Class: 114
       Script: {instanceID: 3226}
     - Class: 114
       Script: {instanceID: 3236}
+    - Class: 114
+      Script: {instanceID: 3744}
     - Class: 114
       Script: {instanceID: 3770}
     - Class: 114
@@ -1605,6 +1715,10 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5888}
     - Class: 114
+      Script: {instanceID: 6342}
+    - Class: 114
+      Script: {instanceID: 6420}
+    - Class: 114
       Script: {instanceID: 6436}
     - Class: 114
       Script: {instanceID: 6518}
@@ -1625,9 +1739,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7996}
     - Class: 114
+      Script: {instanceID: 8010}
+    - Class: 114
       Script: {instanceID: 8598}
     - Class: 114
       Script: {instanceID: 8932}
+    - Class: 114
+      Script: {instanceID: 9482}
     - Class: 114
       Script: {instanceID: 9578}
     - Class: 114
@@ -1738,7 +1856,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3090}
     - Class: 114
+      Script: {instanceID: 3114}
+    - Class: 114
       Script: {instanceID: 3196}
+    - Class: 114
+      Script: {instanceID: 3744}
     - Class: 114
       Script: {instanceID: 3770}
     - Class: 114
@@ -1757,6 +1879,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 5134}
     - Class: 114
       Script: {instanceID: 5854}
+    - Class: 114
+      Script: {instanceID: 6342}
+    - Class: 114
+      Script: {instanceID: 6420}
     - Class: 114
       Script: {instanceID: 6436}
     - Class: 114
@@ -1778,11 +1904,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7994}
     - Class: 114
+      Script: {instanceID: 8010}
+    - Class: 114
       Script: {instanceID: 8598}
     - Class: 114
       Script: {instanceID: 8932}
     - Class: 114
       Script: {instanceID: 9422}
+    - Class: 114
+      Script: {instanceID: 9482}
     - Class: 114
       Script: {instanceID: 9776}
     - Class: 115
