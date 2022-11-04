@@ -7,6 +7,9 @@ public class PauseMenu : MonoBehaviour // The pause menu of the game
     public GameObject pauseMenu; //  The pause menu UI
     public GameObject[] disableParts; // Disable specific parts when the game is paused
 
+    public GameObject enableMainSection; // Enabling this happens in order for everytime that the players open the Pause menu they will be able to access it from the main section of it
+    public GameObject disableSettingsSection; // Disabling this happens in order for everytime that the players open the Pause menu they will be able to access it from the main section of it
+
     // Update is called once per frame
     void Update()
     {
@@ -15,11 +18,15 @@ public class PauseMenu : MonoBehaviour // The pause menu of the game
             if (gamePaused)
             {
                 ResumeGame();
+                disableSettingsSection.SetActive(false);
+                enableMainSection.SetActive(true);
             }
             else
             {
                 PauseGame();
                 gamePaused = true;
+                disableSettingsSection.SetActive(false);
+                enableMainSection.SetActive(true);
             }
         }
     }
