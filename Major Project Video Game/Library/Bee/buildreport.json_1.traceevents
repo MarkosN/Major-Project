@@ -1,474 +1,474 @@
 { "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
 { "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
 { "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
-{ "pid": 0, "tid": 1, "ts": 1667525922951113, "dur": 483501, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1667525922952274, "dur": 24297, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1667525922976780, "dur": 447905, "ph": "X", "name": "Run Backend", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1667525923424701, "dur": 9913, "ph": "X", "name": "Finish", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1667525944837841, "dur": 110496, "ph": "X", "name": "Build Player", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1667525944838079, "dur": 5002, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1667525944843082, "dur": 93512, "ph": "X", "name": "Run Backend", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1667525944936595, "dur": 11742, "ph": "X", "name": "Finish", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1667525944948895, "dur": 17, "ph": "X", "name": "", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1667529652704229, "dur": 507845, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1667529652705345, "dur": 24245, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1667529652729803, "dur": 472122, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1667529653201941, "dur": 10132, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1667529674386028, "dur": 140599, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1667529674386257, "dur": 20185, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1667529674406446, "dur": 103642, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1667529674510089, "dur": 16536, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1667529674527808, "dur": 15, "ph": "X", "name": "", "args": {} },
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1667525944869323, "dur":1469, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1667525944870801, "dur":169, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
-,{ "pid":12345, "tid":0, "ts":1667525944871010, "dur":23, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
-,{ "pid":12345, "tid":0, "ts":1667525944871035, "dur":671, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
-,{ "pid":12345, "tid":0, "ts":1667525944871774, "dur":451, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1667525944872225, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1667525944923033, "dur":110, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1667525944923143, "dur":35, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1667525944923179, "dur":89, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1667525944923268, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1667525944923278, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1667525944923281, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1667525944923288, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1667525944923290, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1667525944923298, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1667525944923301, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1667525944923306, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1667525944923308, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1667525944923313, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1667525944923315, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1667525944923320, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1667525944923323, "dur":17, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1667525944923340, "dur":1, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1667525944923353, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1667525944923387, "dur":1845, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1667525944871702, "dur":532, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667525944872237, "dur":7508, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667525944879755, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1667525944879756, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667525944879865, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1667525944879868, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667525944879983, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":1, "ts":1667525944880123, "dur":119, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667525944880243, "dur":169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":1, "ts":1667525944880412, "dur":141, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667525944880554, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":1, "ts":1667525944880687, "dur":129, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667525944880817, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667525944880934, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667525944881037, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667525944881128, "dur":106, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667525944881235, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667525944881333, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667525944881451, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667525944881547, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667525944881654, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667525944881757, "dur":142, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667525944881900, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667525944882011, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667525944882127, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667525944882223, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667525944882332, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667525944882499, "dur":212, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667525944882711, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667525944882801, "dur":121, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667525944882923, "dur":456, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667525944883379, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667525944883483, "dur":402, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/Unity.Services.Core.Registration.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667525944883885, "dur":106, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667525944883991, "dur":427, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/Unity.Services.Core.Analytics.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667525944884418, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667525944884520, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667525944884627, "dur":119, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667525944884746, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667525944884863, "dur":125, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667525944884988, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667525944885105, "dur":122, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667525944885228, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667525944885325, "dur":127, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667525944885453, "dur":321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
-,{ "pid":12345, "tid":1, "ts":1667525944885774, "dur":131, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667525944885905, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/sharedassets5.resource" }}
-,{ "pid":12345, "tid":1, "ts":1667525944885998, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667525944886447, "dur":12831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/exe/Dream Race Unlimited_Data/sharedassets5.resource" }}
-,{ "pid":12345, "tid":1, "ts":1667525944899492, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/sharedassets2.assets.resS" }}
-,{ "pid":12345, "tid":1, "ts":1667525944899643, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667525944899652, "dur":21701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/exe/Dream Race Unlimited_Data/sharedassets2.assets.resS" }}
-,{ "pid":12345, "tid":1, "ts":1667525944921443, "dur":278, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1667525944921721, "dur":225, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667525944921947, "dur":1087, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1667525944871802, "dur":441, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1667525944872243, "dur":7526, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1667525944879770, "dur":169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":2, "ts":1667525944879940, "dur":175, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1667525944880116, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":2, "ts":1667525944880261, "dur":130, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1667525944880392, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":2, "ts":1667525944880551, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1667525944880668, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1667525944880767, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1667525944880882, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1667525944880985, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1667525944881083, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1667525944881184, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1667525944881298, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1667525944881420, "dur":118, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1667525944881539, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1667525944881643, "dur":121, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1667525944881765, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1667525944881891, "dur":118, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1667525944882009, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1667525944882109, "dur":124, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1667525944882234, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1667525944882339, "dur":261, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1667525944882600, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1667525944882751, "dur":152, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1667525944882903, "dur":707, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":2, "ts":1667525944883611, "dur":106, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1667525944883718, "dur":301, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
-,{ "pid":12345, "tid":2, "ts":1667525944884019, "dur":121, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1667525944884141, "dur":361, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
-,{ "pid":12345, "tid":2, "ts":1667525944884502, "dur":128, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1667525944884631, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":2, "ts":1667525944884731, "dur":125, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1667525944884857, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":2, "ts":1667525944884966, "dur":145, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1667525944885112, "dur":289, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":2, "ts":1667525944885402, "dur":146, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1667525944885549, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/sharedassets8.assets" }}
-,{ "pid":12345, "tid":2, "ts":1667525944885659, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1667525944886466, "dur":3184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/exe/Dream Race Unlimited_Data/sharedassets8.assets" }}
-,{ "pid":12345, "tid":2, "ts":1667525944889753, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/sharedassets5.assets" }}
-,{ "pid":12345, "tid":2, "ts":1667525944889857, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1667525944889866, "dur":4555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/exe/Dream Race Unlimited_Data/sharedassets5.assets" }}
-,{ "pid":12345, "tid":2, "ts":1667525944894524, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/sharedassets3.assets" }}
-,{ "pid":12345, "tid":2, "ts":1667525944894621, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1667525944894629, "dur":6265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/exe/Dream Race Unlimited_Data/sharedassets3.assets" }}
-,{ "pid":12345, "tid":2, "ts":1667525944900988, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/sharedassets1.resource" }}
-,{ "pid":12345, "tid":2, "ts":1667525944901115, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1667525944901125, "dur":13406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/exe/Dream Race Unlimited_Data/sharedassets1.resource" }}
-,{ "pid":12345, "tid":2, "ts":1667525944914659, "dur":484, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":2, "ts":1667525944915144, "dur":131, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1667525944915278, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/level8" }}
-,{ "pid":12345, "tid":2, "ts":1667525944915381, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1667525944915388, "dur":2052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/exe/Dream Race Unlimited_Data/level8" }}
-,{ "pid":12345, "tid":2, "ts":1667525944917624, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/level5" }}
-,{ "pid":12345, "tid":2, "ts":1667525944917736, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1667525944917744, "dur":2004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/exe/Dream Race Unlimited_Data/level5" }}
-,{ "pid":12345, "tid":2, "ts":1667525944919876, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/level3" }}
-,{ "pid":12345, "tid":2, "ts":1667525944919995, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1667525944920004, "dur":2657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/exe/Dream Race Unlimited_Data/level3" }}
-,{ "pid":12345, "tid":2, "ts":1667525944922725, "dur":303, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667525944871916, "dur":338, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667525944872254, "dur":7538, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667525944879792, "dur":236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":3, "ts":1667525944880028, "dur":128, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667525944880157, "dur":200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":3, "ts":1667525944880357, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667525944880475, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667525944880656, "dur":110, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667525944880767, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667525944880892, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667525944881009, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667525944881103, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667525944881199, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667525944881318, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667525944881431, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667525944881528, "dur":132, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667525944881661, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667525944881767, "dur":132, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667525944881900, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667525944882053, "dur":118, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667525944882172, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667525944882279, "dur":168, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667525944882544, "dur":222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667525944882766, "dur":120, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667525944882886, "dur":641, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667525944883527, "dur":110, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667525944883637, "dur":399, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/Unity.Services.Core.Internal.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667525944884037, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667525944884146, "dur":313, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667525944884459, "dur":110, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667525944884570, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667525944884679, "dur":127, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667525944884807, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667525944884915, "dur":118, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667525944885033, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667525944885136, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667525944885253, "dur":320, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/FbxBuildTestAssets.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667525944885573, "dur":115, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667525944885689, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/sharedassets6.resource" }}
-,{ "pid":12345, "tid":3, "ts":1667525944885795, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667525944887449, "dur":2840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/exe/Dream Race Unlimited_Data/sharedassets6.resource" }}
-,{ "pid":12345, "tid":3, "ts":1667525944890387, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/sharedassets3.resource" }}
-,{ "pid":12345, "tid":3, "ts":1667525944890500, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667525944890507, "dur":26413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/exe/Dream Race Unlimited_Data/sharedassets3.resource" }}
-,{ "pid":12345, "tid":3, "ts":1667525944917025, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/level7" }}
-,{ "pid":12345, "tid":3, "ts":1667525944917148, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667525944917157, "dur":3598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/exe/Dream Race Unlimited_Data/level7" }}
-,{ "pid":12345, "tid":3, "ts":1667525944920855, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/level0" }}
-,{ "pid":12345, "tid":3, "ts":1667525944920951, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667525944920957, "dur":1772, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/exe/Dream Race Unlimited_Data/level0" }}
-,{ "pid":12345, "tid":3, "ts":1667525944922829, "dur":237, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667525944871976, "dur":319, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667525944872296, "dur":7454, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667525944879755, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":4, "ts":1667525944879920, "dur":148, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667525944880069, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":4, "ts":1667525944880207, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667525944880320, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":4, "ts":1667525944880456, "dur":135, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667525944880591, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1667525944880708, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667525944880811, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1667525944880915, "dur":129, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667525944881045, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1667525944881173, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667525944881291, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1667525944881397, "dur":129, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667525944881527, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1667525944881624, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667525944881734, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1667525944881838, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667525944881941, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1667525944882044, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667525944882156, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1667525944882279, "dur":174, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667525944882555, "dur":194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1667525944882749, "dur":128, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667525944882878, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1667525944882969, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667525944883079, "dur":632, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":4, "ts":1667525944883711, "dur":121, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667525944883833, "dur":346, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/Unity.Services.Core.Device.dll" }}
-,{ "pid":12345, "tid":4, "ts":1667525944884179, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667525944884292, "dur":327, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/Unity.Polybrush.dll" }}
-,{ "pid":12345, "tid":4, "ts":1667525944884619, "dur":118, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667525944884738, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":4, "ts":1667525944884852, "dur":124, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667525944884977, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":4, "ts":1667525944885076, "dur":132, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667525944885208, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":4, "ts":1667525944885310, "dur":253, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667525944885564, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/sharedassets7.assets" }}
-,{ "pid":12345, "tid":4, "ts":1667525944885685, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667525944886668, "dur":3558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/exe/Dream Race Unlimited_Data/sharedassets7.assets" }}
-,{ "pid":12345, "tid":4, "ts":1667525944890320, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/sharedassets4.assets" }}
-,{ "pid":12345, "tid":4, "ts":1667525944890410, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667525944890415, "dur":5647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/exe/Dream Race Unlimited_Data/sharedassets4.assets" }}
-,{ "pid":12345, "tid":4, "ts":1667525944896186, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/sharedassets2.resource" }}
-,{ "pid":12345, "tid":4, "ts":1667525944896317, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667525944896330, "dur":23704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/exe/Dream Race Unlimited_Data/sharedassets2.resource" }}
-,{ "pid":12345, "tid":4, "ts":1667525944920184, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/level2" }}
-,{ "pid":12345, "tid":4, "ts":1667525944920321, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667525944920328, "dur":2051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/exe/Dream Race Unlimited_Data/level2" }}
-,{ "pid":12345, "tid":4, "ts":1667525944922475, "dur":590, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1667525944872048, "dur":298, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1667525944872346, "dur":7446, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1667525944879792, "dur":220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":5, "ts":1667525944880012, "dur":132, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1667525944880145, "dur":248, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":5, "ts":1667525944880393, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1667525944880510, "dur":796, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited.exe" }}
-,{ "pid":12345, "tid":5, "ts":1667525944881306, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1667525944881403, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1667525944881525, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1667525944881642, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1667525944881755, "dur":149, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1667525944881905, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1667525944882056, "dur":105, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1667525944882162, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1667525944882258, "dur":209, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1667525944882564, "dur":183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1667525944882747, "dur":163, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1667525944882911, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":5, "ts":1667525944883016, "dur":174, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1667525944883191, "dur":426, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/Unity.Services.Core.Threading.dll" }}
-,{ "pid":12345, "tid":5, "ts":1667525944883617, "dur":128, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1667525944883746, "dur":336, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/Unity.Services.Core.Environments.dll" }}
-,{ "pid":12345, "tid":5, "ts":1667525944884082, "dur":120, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1667525944884203, "dur":633, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/Unity.ProBuilder.dll" }}
-,{ "pid":12345, "tid":5, "ts":1667525944884836, "dur":126, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1667525944884963, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":5, "ts":1667525944885091, "dur":105, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1667525944885197, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":5, "ts":1667525944885293, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1667525944885389, "dur":367, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":5, "ts":1667525944885787, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1667525944887559, "dur":2837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":5, "ts":1667525944890500, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/sharedassets3.assets.resS" }}
-,{ "pid":12345, "tid":5, "ts":1667525944890602, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1667525944890609, "dur":24427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/exe/Dream Race Unlimited_Data/sharedassets3.assets.resS" }}
-,{ "pid":12345, "tid":5, "ts":1667525944915154, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":5, "ts":1667525944915285, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1667525944915296, "dur":5470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/exe/Dream Race Unlimited_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":5, "ts":1667525944920856, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":5, "ts":1667525944921007, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1667525944921014, "dur":1933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/exe/Dream Race Unlimited_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":5, "ts":1667525944923009, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
-,{ "pid":12345, "tid":5, "ts":1667525944923010, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1667525944872138, "dur":231, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1667525944872369, "dur":7399, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1667525944879769, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":6, "ts":1667525944879926, "dur":200, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1667525944880127, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":6, "ts":1667525944880273, "dur":146, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1667525944880420, "dur":166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":6, "ts":1667525944880587, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1667525944880692, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1667525944880798, "dur":110, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1667525944880909, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1667525944881030, "dur":136, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1667525944881167, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1667525944881283, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1667525944881393, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1667525944881499, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1667525944881613, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1667525944881709, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1667525944881811, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1667525944881907, "dur":126, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1667525944882034, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1667525944882139, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1667525944882255, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":6, "ts":1667525944882353, "dur":145, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1667525944882569, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1667525944882717, "dur":166, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1667525944882884, "dur":327, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":6, "ts":1667525944883211, "dur":106, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1667525944883318, "dur":295, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
-,{ "pid":12345, "tid":6, "ts":1667525944883613, "dur":133, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1667525944883746, "dur":452, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/Unity.Services.Core.dll" }}
-,{ "pid":12345, "tid":6, "ts":1667525944884198, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1667525944884315, "dur":905, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/Unity.Formats.Fbx.Runtime.dll" }}
-,{ "pid":12345, "tid":6, "ts":1667525944885220, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1667525944885319, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/clipper_library.dll" }}
-,{ "pid":12345, "tid":6, "ts":1667525944885412, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1667525944885523, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":6, "ts":1667525944885628, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1667525944886561, "dur":3231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/exe/Dream Race Unlimited_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":6, "ts":1667525944889891, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/sharedassets4.resource" }}
-,{ "pid":12345, "tid":6, "ts":1667525944889989, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1667525944890010, "dur":17903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/exe/Dream Race Unlimited_Data/sharedassets4.resource" }}
-,{ "pid":12345, "tid":6, "ts":1667525944908059, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":6, "ts":1667525944908238, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1667525944908251, "dur":1539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/exe/Dream Race Unlimited_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":6, "ts":1667525944909902, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":6, "ts":1667525944910038, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1667525944910048, "dur":4473, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/exe/Dream Race Unlimited_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":6, "ts":1667525944914625, "dur":475, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":6, "ts":1667525944915101, "dur":163, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1667525944915266, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/resources.assets" }}
-,{ "pid":12345, "tid":6, "ts":1667525944915366, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1667525944915372, "dur":2692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/exe/Dream Race Unlimited_Data/resources.assets" }}
-,{ "pid":12345, "tid":6, "ts":1667525944918162, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/level4" }}
-,{ "pid":12345, "tid":6, "ts":1667525944918277, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1667525944918284, "dur":2491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/exe/Dream Race Unlimited_Data/level4" }}
-,{ "pid":12345, "tid":6, "ts":1667525944920898, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":6, "ts":1667525944921011, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1667525944921018, "dur":1825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/exe/Dream Race Unlimited_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":6, "ts":1667525944922903, "dur":145, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1667525944872236, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1667525944872236, "dur":7558, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1667525944879794, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":7, "ts":1667525944879945, "dur":147, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1667525944880093, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":7, "ts":1667525944880246, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1667525944880363, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":7, "ts":1667525944880498, "dur":150, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1667525944880649, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1667525944880754, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1667525944880859, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1667525944880953, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1667525944881049, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1667525944881154, "dur":115, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1667525944881269, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1667525944881360, "dur":125, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1667525944881486, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1667525944881585, "dur":106, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1667525944881692, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1667525944881792, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1667525944881903, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1667525944882009, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1667525944882106, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1667525944882221, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1667525944882330, "dur":262, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1667525944882592, "dur":276, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1667525944882869, "dur":292, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1667525944883161, "dur":141, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1667525944883303, "dur":419, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
-,{ "pid":12345, "tid":7, "ts":1667525944883722, "dur":123, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1667525944883846, "dur":273, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/Unity.Services.Core.Configuration.dll" }}
-,{ "pid":12345, "tid":7, "ts":1667525944884120, "dur":118, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1667525944884239, "dur":320, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/Unity.ProBuilder.Csg.dll" }}
-,{ "pid":12345, "tid":7, "ts":1667525944884560, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1667525944884662, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":7, "ts":1667525944884755, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1667525944884873, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":7, "ts":1667525944884986, "dur":126, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1667525944885112, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":7, "ts":1667525944885219, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1667525944885332, "dur":508, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/Cinemachine.dll" }}
-,{ "pid":12345, "tid":7, "ts":1667525944885841, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1667525944885944, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/sharedassets5.assets.resS" }}
-,{ "pid":12345, "tid":7, "ts":1667525944886031, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1667525944886442, "dur":13062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/exe/Dream Race Unlimited_Data/sharedassets5.assets.resS" }}
-,{ "pid":12345, "tid":7, "ts":1667525944899620, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/sharedassets2.assets" }}
-,{ "pid":12345, "tid":7, "ts":1667525944899742, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1667525944899752, "dur":5340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/exe/Dream Race Unlimited_Data/sharedassets2.assets" }}
-,{ "pid":12345, "tid":7, "ts":1667525944905219, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/sharedassets1.assets.resS" }}
-,{ "pid":12345, "tid":7, "ts":1667525944905342, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1667525944905358, "dur":17192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/exe/Dream Race Unlimited_Data/sharedassets1.assets.resS" }}
-,{ "pid":12345, "tid":7, "ts":1667525944922651, "dur":398, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1667525944872338, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1667525944872339, "dur":7454, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1667525944879793, "dur":234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":8, "ts":1667525944880027, "dur":129, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1667525944880157, "dur":233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":8, "ts":1667525944880390, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1667525944880502, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":8, "ts":1667525944880665, "dur":110, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1667525944880776, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1667525944880904, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1667525944881022, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1667525944881149, "dur":127, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1667525944881277, "dur":463, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":8, "ts":1667525944881741, "dur":110, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1667525944881852, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1667525944881949, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1667525944882057, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1667525944882181, "dur":118, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1667525944882300, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1667525944882462, "dur":143, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1667525944882605, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1667525944882757, "dur":121, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1667525944882879, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1667525944882976, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1667525944883088, "dur":389, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/Unity.TerrainTools.dll" }}
-,{ "pid":12345, "tid":8, "ts":1667525944883477, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1667525944883595, "dur":326, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/Unity.Services.Core.Networking.dll" }}
-,{ "pid":12345, "tid":8, "ts":1667525944883922, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1667525944884035, "dur":302, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/Unity.ProBuilder.Stl.dll" }}
-,{ "pid":12345, "tid":8, "ts":1667525944884337, "dur":136, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1667525944884473, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":8, "ts":1667525944884591, "dur":137, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1667525944884728, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":8, "ts":1667525944884832, "dur":125, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1667525944884958, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":8, "ts":1667525944885058, "dur":118, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1667525944885177, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/Newtonsoft.Json.dll" }}
-,{ "pid":12345, "tid":8, "ts":1667525944885267, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1667525944885383, "dur":319, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/Autodesk.Fbx.dll" }}
-,{ "pid":12345, "tid":8, "ts":1667525944885702, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1667525944885811, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/sharedassets6.assets" }}
-,{ "pid":12345, "tid":8, "ts":1667525944885885, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1667525944887836, "dur":2309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/exe/Dream Race Unlimited_Data/sharedassets6.assets" }}
-,{ "pid":12345, "tid":8, "ts":1667525944890253, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/sharedassets4.assets.resS" }}
-,{ "pid":12345, "tid":8, "ts":1667525944890363, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1667525944890371, "dur":21238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/exe/Dream Race Unlimited_Data/sharedassets4.assets.resS" }}
-,{ "pid":12345, "tid":8, "ts":1667525944911728, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":8, "ts":1667525944911861, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1667525944911873, "dur":5269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/exe/Dream Race Unlimited_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":8, "ts":1667525944917249, "dur":321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/level6" }}
-,{ "pid":12345, "tid":8, "ts":1667525944917576, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1667525944917582, "dur":3165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/exe/Dream Race Unlimited_Data/level6" }}
-,{ "pid":12345, "tid":8, "ts":1667525944920849, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/level1" }}
-,{ "pid":12345, "tid":8, "ts":1667525944920950, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1667525944920957, "dur":1776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/exe/Dream Race Unlimited_Data/level1" }}
-,{ "pid":12345, "tid":8, "ts":1667525944922811, "dur":225, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1667525944926665, "dur":1286, "ph":"X", "name": "ProfilerWriteOutput" }
-,{ "pid": 0, "tid": 1, "ts": 1667525944949020, "dur": 786, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1667525944948882, "dur": 955, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+,{ "pid":12345, "tid":0, "ts":1667529674431826, "dur":1524, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667529674433358, "dur":168, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1667529674433565, "dur":24, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1667529674433590, "dur":663, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1667529674434323, "dur":449, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667529674434772, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667529674488959, "dur":196, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667529674489155, "dur":20, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667529674489175, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667529674489179, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667529674489188, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667529674489190, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667529674489198, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667529674489201, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667529674489208, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667529674489211, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667529674489217, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667529674489220, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667529674489229, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667529674489232, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667529674489239, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667529674489242, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667529674489253, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667529674489267, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667529674489283, "dur":1731, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1667529674434321, "dur":459, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667529674434780, "dur":7722, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667529674442502, "dur":222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1667529674442724, "dur":128, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667529674442853, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1667529674442993, "dur":149, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667529674443143, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667529674443300, "dur":123, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667529674443424, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667529674443538, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667529674443624, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667529674443754, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667529674443857, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667529674443972, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667529674444069, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667529674444173, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667529674444274, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667529674444387, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667529674444469, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667529674444568, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667529674444666, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667529674444755, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667529674444852, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667529674444960, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667529674445044, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667529674445137, "dur":138, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667529674445276, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667529674445392, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667529674445490, "dur":305, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667529674445795, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667529674445908, "dur":324, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667529674446232, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667529674446333, "dur":288, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667529674446621, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667529674446716, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667529674446827, "dur":127, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667529674446955, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667529674447052, "dur":123, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667529674447176, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667529674447277, "dur":122, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667529674447400, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667529674447498, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667529674447613, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/sharedassets8.assets" }}
+,{ "pid":12345, "tid":1, "ts":1667529674447727, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667529674448634, "dur":5796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/exe/Dream Race Unlimited_Data/sharedassets8.assets" }}
+,{ "pid":12345, "tid":1, "ts":1667529674454503, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1667529674454583, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667529674454589, "dur":17343, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/exe/Dream Race Unlimited_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1667529674472063, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":1, "ts":1667529674472202, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667529674472209, "dur":5307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/exe/Dream Race Unlimited_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":1, "ts":1667529674477629, "dur":575, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1667529674478205, "dur":122, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667529674478328, "dur":397, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1667529674478725, "dur":131, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667529674478858, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1667529674478985, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667529674478995, "dur":5878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/exe/Dream Race Unlimited_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1667529674484970, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/level4" }}
+,{ "pid":12345, "tid":1, "ts":1667529674485165, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667529674485175, "dur":1895, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/exe/Dream Race Unlimited_Data/level4" }}
+,{ "pid":12345, "tid":1, "ts":1667529674487145, "dur":345, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1667529674487490, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667529674487591, "dur":1367, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667529674434434, "dur":356, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667529674434791, "dur":7734, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667529674442525, "dur":169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1667529674442694, "dur":151, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667529674442846, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1667529674443014, "dur":132, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667529674443147, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667529674443285, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667529674443376, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667529674443495, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667529674443592, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667529674443698, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667529674443786, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667529674443923, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667529674444018, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667529674444122, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667529674444221, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667529674444319, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667529674444421, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667529674444525, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667529674444616, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667529674444718, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667529674444820, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667529674444956, "dur":214, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667529674445170, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667529674445308, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667529674445408, "dur":399, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667529674445807, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667529674445916, "dur":360, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667529674446276, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667529674446394, "dur":286, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667529674446681, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667529674446768, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667529674446889, "dur":140, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667529674447029, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667529674447150, "dur":157, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667529674447308, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667529674447408, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667529674447508, "dur":251, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":2, "ts":1667529674447759, "dur":132, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667529674447893, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":2, "ts":1667529674447968, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667529674450559, "dur":11237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/exe/Dream Race Unlimited_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":2, "ts":1667529674461939, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1667529674462084, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667529674462092, "dur":22027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/exe/Dream Race Unlimited_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1667529674484220, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/level5" }}
+,{ "pid":12345, "tid":2, "ts":1667529674484315, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667529674484321, "dur":1659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/exe/Dream Race Unlimited_Data/level5" }}
+,{ "pid":12345, "tid":2, "ts":1667529674486088, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/level1" }}
+,{ "pid":12345, "tid":2, "ts":1667529674486187, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667529674486193, "dur":1594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/exe/Dream Race Unlimited_Data/level1" }}
+,{ "pid":12345, "tid":2, "ts":1667529674487899, "dur":1044, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667529674434551, "dur":246, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667529674434798, "dur":7725, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667529674442523, "dur":264, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1667529674442787, "dur":132, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667529674442919, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1667529674443056, "dur":128, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667529674443185, "dur":250, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1667529674443435, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667529674443533, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667529674443640, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667529674443741, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667529674443849, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667529674443941, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667529674444075, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667529674444167, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667529674444296, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667529674444401, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667529674444508, "dur":105, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667529674444614, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667529674444722, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667529674444811, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667529674444918, "dur":123, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667529674445042, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667529674445171, "dur":130, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667529674445302, "dur":365, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667529674445667, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667529674445776, "dur":301, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667529674446077, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667529674446186, "dur":322, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667529674446508, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667529674446609, "dur":304, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/Unity.Formats.Fbx.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667529674446913, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667529674447015, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667529674447112, "dur":144, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667529674447257, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667529674447353, "dur":139, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667529674447493, "dur":325, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/Autodesk.Fbx.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667529674447818, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667529674447905, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/sharedassets5.resource" }}
+,{ "pid":12345, "tid":3, "ts":1667529674448046, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667529674450938, "dur":11546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/exe/Dream Race Unlimited_Data/sharedassets5.resource" }}
+,{ "pid":12345, "tid":3, "ts":1667529674462592, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":3, "ts":1667529674462684, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667529674462691, "dur":14565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/exe/Dream Race Unlimited_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":3, "ts":1667529674477370, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1667529674477523, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667529674477535, "dur":6055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/exe/Dream Race Unlimited_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1667529674483718, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/level7" }}
+,{ "pid":12345, "tid":3, "ts":1667529674483882, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667529674483891, "dur":2294, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/exe/Dream Race Unlimited_Data/level7" }}
+,{ "pid":12345, "tid":3, "ts":1667529674486283, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1667529674486408, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667529674486414, "dur":1660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/exe/Dream Race Unlimited_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1667529674488156, "dur":788, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667529674434622, "dur":185, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667529674434807, "dur":7670, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667529674442483, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1667529674442638, "dur":164, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667529674442803, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1667529674442938, "dur":122, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667529674443061, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1667529674443201, "dur":139, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667529674443340, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667529674443486, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667529674443596, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667529674443692, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667529674443771, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667529674443893, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667529674443985, "dur":477, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667529674444462, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667529674444551, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667529674444657, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667529674444756, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667529674444869, "dur":140, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667529674445010, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667529674445134, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667529674445226, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667529674445331, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667529674445412, "dur":624, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667529674446036, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667529674446139, "dur":288, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667529674446427, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667529674446530, "dur":342, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667529674446872, "dur":127, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667529674447000, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667529674447105, "dur":133, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667529674447239, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667529674447352, "dur":130, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667529674447483, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/clipper_library.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667529674447605, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667529674447719, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/sharedassets7.assets" }}
+,{ "pid":12345, "tid":4, "ts":1667529674447805, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667529674449152, "dur":7703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/exe/Dream Race Unlimited_Data/sharedassets7.assets" }}
+,{ "pid":12345, "tid":4, "ts":1667529674456933, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":4, "ts":1667529674457009, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667529674457014, "dur":5104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/exe/Dream Race Unlimited_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":4, "ts":1667529674462234, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1667529674462355, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667529674462359, "dur":24351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/exe/Dream Race Unlimited_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1667529674486821, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1667529674486944, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667529674486948, "dur":1244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/exe/Dream Race Unlimited_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1667529674488251, "dur":792, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667529674434680, "dur":134, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667529674434814, "dur":7710, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667529674442524, "dur":276, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1667529674442800, "dur":133, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667529674442934, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1667529674443071, "dur":127, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667529674443199, "dur":835, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited.exe" }}
+,{ "pid":12345, "tid":5, "ts":1667529674444034, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667529674444132, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667529674444227, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667529674444324, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667529674444427, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667529674444525, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667529674444640, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667529674444732, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667529674444821, "dur":119, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667529674444940, "dur":231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667529674445171, "dur":134, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667529674445306, "dur":563, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667529674445870, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667529674445954, "dur":306, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667529674446260, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667529674446363, "dur":322, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667529674446685, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667529674446784, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667529674446891, "dur":132, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667529674447024, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667529674447129, "dur":137, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667529674447267, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667529674447358, "dur":129, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667529674447488, "dur":496, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667529674447984, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667529674448069, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/sharedassets5.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1667529674448164, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667529674448628, "dur":13379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/exe/Dream Race Unlimited_Data/sharedassets5.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1667529674462106, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":5, "ts":1667529674462236, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667529674462244, "dur":21586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/exe/Dream Race Unlimited_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":5, "ts":1667529674483937, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/level6" }}
+,{ "pid":12345, "tid":5, "ts":1667529674484064, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667529674484071, "dur":2064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/exe/Dream Race Unlimited_Data/level6" }}
+,{ "pid":12345, "tid":5, "ts":1667529674486245, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1667529674486323, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667529674486326, "dur":1594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/exe/Dream Race Unlimited_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1667529674487989, "dur":956, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667529674434774, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667529674434774, "dur":7697, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667529674442483, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":6, "ts":1667529674442484, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667529674442582, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/app.info" }}
+,{ "pid":12345, "tid":6, "ts":1667529674442584, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667529674442683, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1667529674442838, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667529674442950, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1667529674443099, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667529674443210, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1667529674443348, "dur":106, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667529674443454, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667529674443559, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667529674443661, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667529674443764, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667529674443854, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667529674443962, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667529674444056, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667529674444168, "dur":120, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667529674444289, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667529674444401, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667529674444500, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667529674444596, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667529674444683, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667529674444778, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667529674444876, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667529674444967, "dur":162, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667529674445131, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667529674445254, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667529674445352, "dur":721, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667529674446073, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667529674446172, "dur":304, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667529674446476, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667529674446593, "dur":305, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/Unity.Polybrush.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667529674446899, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667529674446999, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667529674447112, "dur":142, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667529674447255, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667529674447357, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667529674447444, "dur":283, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/FbxBuildTestAssets.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667529674447727, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667529674447812, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/sharedassets6.resource" }}
+,{ "pid":12345, "tid":6, "ts":1667529674447904, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667529674450109, "dur":6734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/exe/Dream Race Unlimited_Data/sharedassets6.resource" }}
+,{ "pid":12345, "tid":6, "ts":1667529674456938, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":6, "ts":1667529674457037, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667529674457044, "dur":15241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/exe/Dream Race Unlimited_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":6, "ts":1667529674472395, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1667529674472540, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667529674472548, "dur":6797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/exe/Dream Race Unlimited_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1667529674479440, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/resources.assets" }}
+,{ "pid":12345, "tid":6, "ts":1667529674479558, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667529674479565, "dur":3730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/exe/Dream Race Unlimited_Data/resources.assets" }}
+,{ "pid":12345, "tid":6, "ts":1667529674483425, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/level8" }}
+,{ "pid":12345, "tid":6, "ts":1667529674483550, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667529674483559, "dur":2034, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/exe/Dream Race Unlimited_Data/level8" }}
+,{ "pid":12345, "tid":6, "ts":1667529674485704, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/level2" }}
+,{ "pid":12345, "tid":6, "ts":1667529674485816, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667529674485822, "dur":1969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/exe/Dream Race Unlimited_Data/level2" }}
+,{ "pid":12345, "tid":6, "ts":1667529674487883, "dur":1081, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667529674434876, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667529674434876, "dur":7648, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667529674442525, "dur":233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1667529674442758, "dur":119, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667529674442878, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1667529674443039, "dur":119, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667529674443158, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667529674443284, "dur":106, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667529674443390, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667529674443506, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667529674443609, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667529674443722, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667529674443830, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667529674443928, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667529674444028, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667529674444138, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667529674444225, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667529674444324, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667529674444411, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667529674444506, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667529674444608, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667529674444713, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667529674444815, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667529674444925, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667529674445022, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667529674445136, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667529674445243, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667529674445370, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667529674445466, "dur":351, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/Unity.TerrainTools.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667529674445817, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667529674445907, "dur":299, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667529674446207, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667529674446296, "dur":259, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667529674446555, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667529674446643, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667529674446733, "dur":135, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667529674446869, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667529674446984, "dur":118, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667529674447103, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667529674447203, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667529674447312, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667529674447411, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667529674447529, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":7, "ts":1667529674447652, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667529674448638, "dur":3281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/exe/Dream Race Unlimited_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":7, "ts":1667529674451978, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/sharedassets4.resource" }}
+,{ "pid":12345, "tid":7, "ts":1667529674452044, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667529674452205, "dur":19706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/exe/Dream Race Unlimited_Data/sharedassets4.resource" }}
+,{ "pid":12345, "tid":7, "ts":1667529674472023, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":7, "ts":1667529674472137, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667529674472146, "dur":13287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/exe/Dream Race Unlimited_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":7, "ts":1667529674485544, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/level3" }}
+,{ "pid":12345, "tid":7, "ts":1667529674485643, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667529674485649, "dur":2055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/exe/Dream Race Unlimited_Data/level3" }}
+,{ "pid":12345, "tid":7, "ts":1667529674487805, "dur":1152, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667529674434975, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667529674434975, "dur":7526, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667529674442501, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1667529674442691, "dur":157, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667529674442849, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1667529674442999, "dur":121, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667529674443121, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1667529674443260, "dur":110, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667529674443371, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667529674443516, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667529674443613, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667529674443730, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667529674443839, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667529674443943, "dur":110, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667529674444054, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667529674444148, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667529674444249, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667529674444360, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667529674444458, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667529674444547, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667529674444649, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667529674444771, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667529674444860, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667529674445012, "dur":131, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667529674445144, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667529674445270, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667529674445381, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667529674445481, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667529674445580, "dur":315, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667529674445895, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667529674445988, "dur":315, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667529674446303, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667529674446398, "dur":560, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667529674446958, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667529674447072, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667529674447170, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667529674447285, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667529674447390, "dur":106, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667529674447497, "dur":360, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667529674447884, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667529674449661, "dur":2076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/exe/Dream Race Unlimited_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667529674451800, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":8, "ts":1667529674451869, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667529674451872, "dur":9976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/exe/Dream Race Unlimited_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":8, "ts":1667529674461965, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":8, "ts":1667529674462083, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667529674462109, "dur":9816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/exe/Dream Race Unlimited_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":8, "ts":1667529674472043, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users//Desktop/exe/Dream Race Unlimited_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1667529674472160, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667529674472167, "dur":16688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users//Desktop/exe/Dream Race Unlimited_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1667529674488924, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":8, "ts":1667529674488925, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667529674492324, "dur":1189, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1667529674527948, "dur": 678, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1667529674527796, "dur": 860, "ph": "X", "name": "Write chrome-trace events", "args": {} },

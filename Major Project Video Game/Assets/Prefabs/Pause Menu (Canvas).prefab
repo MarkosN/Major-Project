@@ -801,7 +801,7 @@ MonoBehaviour:
   m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 1
+  m_fontStyle: 3
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -1747,6 +1747,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   volumeMixer: {fileID: 24100000, guid: e08015bf8d77a4c4fbce021bc7f491e0, type: 2}
   soundEffectsMixer: {fileID: 24100000, guid: 5ea4f2729d253d647b7736499ec4bf3c, type: 2}
+  volumeSlider: {fileID: 0}
+  soundEffectsSlider: {fileID: 0}
+  quality: {fileID: 0}
 --- !u!1 &5927684993754631155
 GameObject:
   m_ObjectHideFlags: 0
@@ -2180,6 +2183,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2248614536441972627, guid: 07991c904771e564aa17e73c5907778b, type: 3}
+      propertyPath: m_fontStyle
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 2248614536891313881, guid: 07991c904771e564aa17e73c5907778b, type: 3}
       propertyPath: m_AnchorMax.x
       value: 1
@@ -2296,7 +2303,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8761561756436325967, guid: ac26c30cf6838d0498079b252b6443e0, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 53.500122
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 8761561756436325967, guid: ac26c30cf6838d0498079b252b6443e0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x

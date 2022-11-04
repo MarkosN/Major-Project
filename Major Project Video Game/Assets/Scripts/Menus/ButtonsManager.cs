@@ -14,6 +14,10 @@ public class ButtonsManager : MonoBehaviour
     public void ResumeGame() // Close the pause menu and resume the game
     {
         Time.timeScale = 1f; // 1f - Normal Time
+
+        // Lock and make not visible the Cursor of the mouse
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
     }
 
     public void RestartMode() //  Restart the Racing Mode
