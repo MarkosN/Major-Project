@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class DisableDarkIntro : MonoBehaviour // Dark Intro will be a black image which will fade out in the beginning of the main menu

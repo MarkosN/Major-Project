@@ -23,6 +23,7 @@ ScriptsOnlyBuild:
     - LapsTrackerMultiplayer
     - LoadingScene
     - MouseCursorManager
+    - MouseCursorManagerV2
     - PauseMenu
     - PositionCounter
     - PositionCounterII
@@ -844,8 +845,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4738}
     - Class: 114
-      Script: {instanceID: 4926}
-    - Class: 114
       Script: {instanceID: 5036}
     - Class: 114
       Script: {instanceID: 6420}
@@ -867,6 +866,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 9736}
     - Class: 114
       Script: {instanceID: 10130}
+    - Class: 114
+      Script: {instanceID: 29624}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -3805,6 +3806,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 812a62f45f491b54a63fe4ef78ecfa70
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MouseCursorManagerV2
   platform: 19
   scenePathNames:
   - Assets/Scenes/LoadingScene.unity
