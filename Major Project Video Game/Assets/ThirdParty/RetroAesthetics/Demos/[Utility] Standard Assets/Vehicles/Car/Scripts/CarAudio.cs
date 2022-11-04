@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.Audio;
 using Random = UnityEngine.Random;
 
 namespace UnityStandardAssets.Vehicles.Car
@@ -49,6 +50,7 @@ namespace UnityStandardAssets.Vehicles.Car
         private bool m_StartedSound; // flag for knowing if we have started sounds
         private CarController m_CarController; // Reference to car we are controlling
 
+        public AudioMixerGroup soundEffectsAudioMixer; // The audio mixer group that the car's sound will be added so it can be controlled by the player with the sound effects settings
 
         private void StartSound()
         {
@@ -164,6 +166,7 @@ namespace UnityStandardAssets.Vehicles.Car
             source.clip = clip;
             source.volume = 0;
             source.loop = true;
+            source.outputAudioMixerGroup = soundEffectsAudioMixer;
 
             // start the clip from a random point
             source.time = Random.Range(0f, clip.length);
