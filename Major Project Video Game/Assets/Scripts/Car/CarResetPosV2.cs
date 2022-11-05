@@ -10,7 +10,7 @@ public class CarResetPosV2 : MonoBehaviour // When the car is stuck or can't be 
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Alpha9))
+        if (Input.GetKeyDown(KeyCode.Alpha9) && canReset == true)
         {
             car2.transform.position = car2ResetPos.transform.position; // Fixed position to reset, reset position will be the same
             car2.velocity = new Vector3(0, 0, 0); // The car will be resetted like it was on the race start
