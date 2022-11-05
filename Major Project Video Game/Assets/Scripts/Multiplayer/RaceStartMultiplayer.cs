@@ -19,6 +19,9 @@ public class RaceStartMultiplayer : MonoBehaviour // Dedicated to the split scre
     public GameObject raceIntro; // Race start sequence
     public GameObject raceIntro2; // Race start sequence
 
+    public GameObject resetPositionMechanism; // Reseting the car 1 position in case of a racing accident
+    public GameObject resetPositionMechanism2; // Reseting the car 2 position in case of a racing accident
+
     void Awake() // Specific things will be disabled on the start so the Start Sequence can take place without any problems
     {
         backgroundImage1Car1.SetActive(false);
@@ -55,6 +58,9 @@ public class RaceStartMultiplayer : MonoBehaviour // Dedicated to the split scre
 
         car1.constraints = RigidbodyConstraints.None;
         car2.constraints = RigidbodyConstraints.None;
+
+        resetPositionMechanism.SetActive(true);
+        resetPositionMechanism2.SetActive(true);
     }
 
     IEnumerator ForIntroOnly() // The intro will take place a little longer so it can be completed smoothly without interrupting the gameplay

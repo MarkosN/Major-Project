@@ -21,6 +21,8 @@ public class FinishSequence2 : MonoBehaviour // Race Finish Sequence Manager - W
 
     public GameObject positionTracker; // The tracker that counts the players' positions
 
+    public GameObject resetPositionMechanism; // Reseting the cars positions in case of a racing accident
+
     // Update is called once per frame
     void Update()
     {
@@ -33,6 +35,7 @@ public class FinishSequence2 : MonoBehaviour // Race Finish Sequence Manager - W
         positionTracker.SetActive(false);
         StartCoroutine(DisableCarPositionandRotation());
         StartCoroutine(ReturnToMenu());
+        resetPositionMechanism.SetActive(false);
     }
 
     IEnumerator DisableCarPositionandRotation() // After the race is over player won't be able to control the car anymore

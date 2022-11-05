@@ -166,6 +166,7 @@ namespace UnityStandardAssets.Vehicles.Car
             source.clip = clip;
             source.volume = 0;
             source.loop = true;
+            source.priority = 0;
             source.outputAudioMixerGroup = soundEffectsAudioMixer;
 
             // start the clip from a random point

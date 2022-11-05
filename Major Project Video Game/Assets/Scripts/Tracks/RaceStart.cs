@@ -11,6 +11,8 @@ public class RaceStart : MonoBehaviour // Race Start Sequence (same (almost) for
 
     public GameObject raceIntro; // Race start sequence
 
+    public GameObject resetPositionMechanism; // Reseting the cars positions in case of a racing accident
+
     void Awake() // Specific things will be disabled on the start so the Start Sequence can take place without any problems
     {
         backgroundImage1.SetActive(false);
@@ -37,6 +39,8 @@ public class RaceStart : MonoBehaviour // Race Start Sequence (same (almost) for
         trackers.SetActive(true);
 
         car.constraints = RigidbodyConstraints.None;
+
+        resetPositionMechanism.SetActive(true);
     }
 
     IEnumerator ForIntroOnly() // The intro will take place a little longer so it can be completed smoothly without interrupting the gameplay

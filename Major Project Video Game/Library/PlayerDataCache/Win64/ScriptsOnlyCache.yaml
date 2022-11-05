@@ -4,6 +4,8 @@ ScriptsOnlyBuild:
     - AutomatedCameraSystem
     - AutomatedCameraSystem2
     - ButtonsManager
+    - CarResetPos
+    - CarResetPosV2
     - DisableDarkIntro
     - FinishSequence
     - FinishSequence2
@@ -82,11 +84,15 @@ ScriptsOnlyBuild:
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
     - TMPro.TextMeshProUGUI
+    Unity.Timeline.dll:
+    - UnityEngine.Timeline.TimelineAsset
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -1007,6 +1013,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 9738}
     - Class: 114
       Script: {instanceID: 9778}
+    - Class: 114
+      Script: {instanceID: 32550}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1186,6 +1194,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 9838}
     - Class: 114
       Script: {instanceID: 10360}
+    - Class: 114
+      Script: {instanceID: 32550}
+    - Class: 114
+      Script: {instanceID: 49776}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1347,6 +1359,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 9770}
     - Class: 114
       Script: {instanceID: 9778}
+    - Class: 114
+      Script: {instanceID: 32550}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1528,6 +1542,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 10360}
     - Class: 114
       Script: {instanceID: 10400}
+    - Class: 114
+      Script: {instanceID: 32550}
+    - Class: 114
+      Script: {instanceID: 49776}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1687,6 +1705,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 9778}
     - Class: 114
       Script: {instanceID: 10088}
+    - Class: 114
+      Script: {instanceID: 32550}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1866,6 +1886,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 9880}
     - Class: 114
       Script: {instanceID: 10360}
+    - Class: 114
+      Script: {instanceID: 32550}
+    - Class: 114
+      Script: {instanceID: 49776}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -2027,6 +2051,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 9738}
     - Class: 114
       Script: {instanceID: 9778}
+    - Class: 114
+      Script: {instanceID: 32550}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -2104,7 +2130,7 @@ ScriptsOnlyBuild:
     className: PanelRaycaster
   - hash:
       serializedVersion: 2
-      Hash: 706344499c6b757a667a130b1b949496
+      Hash: 29fc74cc1b05fbc2c5f8302356c9914b
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: FinishSequence2
@@ -2626,7 +2652,7 @@ ScriptsOnlyBuild:
     className: SkidTrail
   - hash:
       serializedVersion: 2
-      Hash: 0174602c3a46faabcbf26de43c961ad5
+      Hash: fbf4027f9b87b1f293ce30cab72d7b3a
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: RaceStart
@@ -2824,7 +2850,7 @@ ScriptsOnlyBuild:
     className: VariablesSaver
   - hash:
       serializedVersion: 2
-      Hash: f720b95874ecb1ece3c8b165b125c5eb
+      Hash: 8e4b28d426c305d7fbde959673080581
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: FinishSequence
@@ -2890,7 +2916,7 @@ ScriptsOnlyBuild:
     className: DictionaryAsset
   - hash:
       serializedVersion: 2
-      Hash: 884c4420623d6dc4ec9b2cf003b12d16
+      Hash: 59c573cacc0ef4333c463a360b3770e9
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: RaceStartMultiplayer
@@ -3812,6 +3838,18 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 38626ce50de21b1aace2d0e128992ea5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CarResetPos
+  - hash:
+      serializedVersion: 2
+      Hash: a19f77a2539d64d16a4065975d5c8914
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CarResetPosV2
   platform: 19
   scenePathNames:
   - Assets/Scenes/LoadingScene.unity
