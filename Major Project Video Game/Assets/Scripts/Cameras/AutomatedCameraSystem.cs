@@ -19,7 +19,7 @@ public class AutomatedCameraSystem : MonoBehaviour // This is the algorithm that
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Alpha1)) // Enable Far Chase Camera and Disable the rest
+        if (Input.GetKeyDown(KeyCode.Alpha2)) // Enable Far Chase Camera and Disable the rest
         {
             farChaseCam.SetActive(true);
             nearChaseCam.SetActive(false);
@@ -27,7 +27,7 @@ public class AutomatedCameraSystem : MonoBehaviour // This is the algorithm that
             bonnetCam.SetActive(false);
             bumperCam.SetActive(false);
         }
-        if (Input.GetKeyDown(KeyCode.Alpha2)) // Enable Near Chase Camera and Disable the rest
+        if (Input.GetKeyDown(KeyCode.Alpha3)) // Enable Near Chase Camera and Disable the rest
         {
             farChaseCam.SetActive(false);
             nearChaseCam.SetActive(true);
@@ -35,7 +35,7 @@ public class AutomatedCameraSystem : MonoBehaviour // This is the algorithm that
             bonnetCam.SetActive(false);
             bumperCam.SetActive(false);
         }
-        if (Input.GetKeyDown(KeyCode.Alpha3)) // Enable Cockpit Camera and Disable the rest
+        if (Input.GetKeyDown(KeyCode.Alpha4)) // Enable Cockpit Camera and Disable the rest
         {
             farChaseCam.SetActive(false);
             nearChaseCam.SetActive(false);
@@ -43,7 +43,7 @@ public class AutomatedCameraSystem : MonoBehaviour // This is the algorithm that
             bonnetCam.SetActive(false);
             bumperCam.SetActive(false);
         }
-        if (Input.GetKeyDown(KeyCode.Alpha4)) // Enable Bonnet Camera and Disable the rest
+        if (Input.GetKeyDown(KeyCode.Alpha5)) // Enable Bonnet Camera and Disable the rest
         {
             farChaseCam.SetActive(false);
             nearChaseCam.SetActive(false);
@@ -51,7 +51,7 @@ public class AutomatedCameraSystem : MonoBehaviour // This is the algorithm that
             bonnetCam.SetActive(true);
             bumperCam.SetActive(false);
         }
-        if (Input.GetKeyDown(KeyCode.Alpha5)) // Enable Bumper Camera and Disable the rest
+        if (Input.GetKeyDown(KeyCode.Alpha6)) // Enable Bumper Camera and Disable the rest
         {
             farChaseCam.SetActive(false);
             nearChaseCam.SetActive(false);
