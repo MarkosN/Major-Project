@@ -25,6 +25,9 @@ public class RaceStartMultiplayer : MonoBehaviour // Dedicated to the split scre
     public GameObject cameraViewScenario1; // Camera View for Car 1 Scenario
     public GameObject cameraViewScenario2; // Camera View for Car 2 Scenario
 
+    public GameObject newAutomatedCameraSystem1; // By disabling the main manager of the camera views (scenarios) for an X amount of time it will help by not changing the cameras views continuously creating problems to the players
+    public GameObject newAutomatedCameraSystem2; // By disabling the main manager of the camera views (scenarios) for an X amount of time it will help by not changing the cameras views continuously creating problems to the players
+
     void Awake() // Specific things will be disabled on the start so the Start Sequence can take place without any problems
     {
         backgroundImage1Car1.SetActive(false);
@@ -42,6 +45,7 @@ public class RaceStartMultiplayer : MonoBehaviour // Dedicated to the split scre
         raceIntro2.SetActive(true);
 
         StartCoroutine(CameraViewScenario());
+        StartCoroutine(CameraViewScenario2());
     }
 
     // Update is called once per frame
@@ -74,13 +78,19 @@ public class RaceStartMultiplayer : MonoBehaviour // Dedicated to the split scre
         raceIntro.SetActive(false);
     }
     
-    IEnumerator CameraViewScenario() // Enabling the scenario and then diasbling so it won't overlap with the other
+    IEnumerator CameraViewScenario() // Enabling the scenarios
     {
         yield return new WaitForSeconds(11.0f);
         cameraViewScenario1.SetActive(true);
         cameraViewScenario2.SetActive(true);
-        yield return new WaitForSeconds(0.1f);
-        cameraViewScenario1.SetActive(false);
-        cameraViewScenario2.SetActive(false);
+    }
+    IEnumerator CameraViewScenario2() 
+    {
+        yield return new WaitForSeconds(11.1f);
+        newAutomatedCameraSystem1.SetActive(false);
+        newAutomatedCameraSystem2.SetActive(false);
+        yield return new WaitForSeconds(5.0f);
+        newAutomatedCameraSystem1.SetActive(true);
+        newAutomatedCameraSystem2.SetActive(true);
     }
 }

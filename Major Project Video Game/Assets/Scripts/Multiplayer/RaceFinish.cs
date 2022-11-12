@@ -8,6 +8,7 @@ public class RaceFinish : MonoBehaviour // For Player 1 Only
     public GameObject finishRacePlayer2; // Delete the race finish (not racing sequence) for player 2 if the player 1 has completed the race
 
     public GameObject cameraViewScenario1; // Camera View for Car 1 Scenario
+    public GameObject newAutomatedCameraSystem1; // By disabling the main manager of the camera views (scenarios) for an X amount of time it will help by not changing the cameras views continuously creating problems to the players
 
     private void OnTriggerEnter(Collider other)
     {
@@ -16,6 +17,7 @@ public class RaceFinish : MonoBehaviour // For Player 1 Only
             raceFinishSequencePlayer1.SetActive(true);
             Destroy(finishRacePlayer2);
             StartCoroutine(CameraViewScenario());
+            StartCoroutine(CameraViewScenario2());
         }
     }
 
@@ -23,5 +25,12 @@ public class RaceFinish : MonoBehaviour // For Player 1 Only
     {
         yield return new WaitForSeconds(0.1f);
         cameraViewScenario1.SetActive(true);
+    }
+    IEnumerator CameraViewScenario2() // Enabling the scenario
+    {
+        yield return new WaitForSeconds(0.2f);
+        newAutomatedCameraSystem1.SetActive(false);
+        yield return new WaitForSeconds(5.0f);
+        newAutomatedCameraSystem1.SetActive(true);
     }
 }

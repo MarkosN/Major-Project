@@ -10,6 +10,8 @@ public class CarResetPos : MonoBehaviour // When the car is stuck or can't be mo
 
     public GameObject cameraViewScenario1; // Camera View for Car 1 Scenario
 
+    public GameObject newAutomatedCameraSystem1; // By disabling the main manager of the camera views (scenarios) for an X amount of time it will help by not changing the cameras views continuously creating problems to the players
+
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Alpha1) && canReset == true)
@@ -20,6 +22,7 @@ public class CarResetPos : MonoBehaviour // When the car is stuck or can't be mo
 
             StartCoroutine(ResetTheCar());
             StartCoroutine(CameraViewScenario());
+            StartCoroutine(CameraViewScenario2());
         }
     }
 
@@ -31,11 +34,17 @@ public class CarResetPos : MonoBehaviour // When the car is stuck or can't be mo
         canReset = true;
     }
 
-    IEnumerator CameraViewScenario() // Enabling the scenario and then diasbling so it won't overlap with the other
+    IEnumerator CameraViewScenario() // Enabling the scenario
     {
         yield return new WaitForSeconds(0.1f);
         cameraViewScenario1.SetActive(true);
-        yield return new WaitForSeconds(1.0f);
-        cameraViewScenario1.SetActive(false);
+    }
+
+    IEnumerator CameraViewScenario2()
+    {
+        yield return new WaitForSeconds(0.2f);
+        newAutomatedCameraSystem1.SetActive(false);
+        yield return new WaitForSeconds(5.0f);
+        newAutomatedCameraSystem1.SetActive(true);
     }
 }
