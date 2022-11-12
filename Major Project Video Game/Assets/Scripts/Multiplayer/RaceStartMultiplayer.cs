@@ -22,6 +22,9 @@ public class RaceStartMultiplayer : MonoBehaviour // Dedicated to the split scre
     public GameObject resetPositionMechanism; // Reseting the car 1 position in case of a racing accident
     public GameObject resetPositionMechanism2; // Reseting the car 2 position in case of a racing accident
 
+    public GameObject cameraViewScenario1; // Camera View for Car 1 Scenario
+    public GameObject cameraViewScenario2; // Camera View for Car 2 Scenario
+
     void Awake() // Specific things will be disabled on the start so the Start Sequence can take place without any problems
     {
         backgroundImage1Car1.SetActive(false);
@@ -37,6 +40,8 @@ public class RaceStartMultiplayer : MonoBehaviour // Dedicated to the split scre
 
         raceIntro.SetActive(true);
         raceIntro2.SetActive(true);
+
+        StartCoroutine(CameraViewScenario());
     }
 
     // Update is called once per frame
@@ -60,12 +65,22 @@ public class RaceStartMultiplayer : MonoBehaviour // Dedicated to the split scre
         car2.constraints = RigidbodyConstraints.None;
 
         resetPositionMechanism.SetActive(true);
-        resetPositionMechanism2.SetActive(true);
+        resetPositionMechanism2.SetActive(true); 
     }
 
     IEnumerator ForIntroOnly() // The intro will take place a little longer so it can be completed smoothly without interrupting the gameplay
     {
         yield return new WaitForSeconds(11.31f);
         raceIntro.SetActive(false);
+    }
+    
+    IEnumerator CameraViewScenario() // Enabling the scenario and then diasbling so it won't overlap with the other
+    {
+        yield return new WaitForSeconds(11.0f);
+        cameraViewScenario1.SetActive(true);
+        cameraViewScenario2.SetActive(true);
+        yield return new WaitForSeconds(0.1f);
+        cameraViewScenario1.SetActive(false);
+        cameraViewScenario2.SetActive(false);
     }
 }

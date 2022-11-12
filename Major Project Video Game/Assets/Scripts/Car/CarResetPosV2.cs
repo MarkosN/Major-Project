@@ -8,6 +8,8 @@ public class CarResetPosV2 : MonoBehaviour // When the car is stuck or can't be 
     public GameObject car2ResetPos; // Car's 2 Reset position
     public bool canReset; // Check if we can reset the car or we should wait X seconds
 
+    public GameObject cameraViewScenario2; // Camera View for Car 2 Scenario
+
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Alpha9) && canReset == true)
@@ -17,6 +19,7 @@ public class CarResetPosV2 : MonoBehaviour // When the car is stuck or can't be 
             car2.transform.rotation = Quaternion.Euler(0, 180, 0); // Fixed roation on the car so it can start normally not in the old position that it was on the track
 
             StartCoroutine(ResetTheCar());
+            StartCoroutine(CameraViewScenario());
         }
     }
 
@@ -26,5 +29,13 @@ public class CarResetPosV2 : MonoBehaviour // When the car is stuck or can't be 
         canReset = false;
         yield return new WaitForSeconds(1.0f);
         canReset = true;
+    }
+
+    IEnumerator CameraViewScenario() // Enabling the scenario and then diasbling so it won't overlap with the other
+    {
+        yield return new WaitForSeconds(0.1f);
+        cameraViewScenario2.SetActive(true);
+        yield return new WaitForSeconds(1.0f);
+        cameraViewScenario2.SetActive(false);
     }
 }
