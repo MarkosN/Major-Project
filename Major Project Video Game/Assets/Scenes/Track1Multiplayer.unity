@@ -189,6 +189,89 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 8d86f142ce82a4fcd886dd0a96b9fdd4, type: 3}
   m_PrefabInstance: {fileID: 8082615}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8438174
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8438175}
+  - component: {fileID: 8438176}
+  - component: {fileID: 8438177}
+  m_Layer: 0
+  m_Name: StartRaceCamera2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &8438175
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8438174}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 214779355}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8438176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8438174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c1a2f10f470e4246bbab94d502290db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cameraViewALL: 0
+  cameraViewFIXED: 1
+  cameraViewEnable:
+  - {fileID: 2055153656}
+  cameraViewDisable:
+  - {fileID: 1758292397}
+  - {fileID: 1958903855}
+  - {fileID: 1379431320}
+  - {fileID: 1896735492}
+  farChaseCamera: {fileID: 1758292397}
+  nearChaseCamera: {fileID: 2055153656}
+  cockpitCamera: {fileID: 1958903855}
+  bumperCamera: {fileID: 1896735492}
+  bonnetCamera: {fileID: 1379431320}
+--- !u!114 &8438177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8438174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abb84edabb1def043952bdfc8ba1afec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enableScenarios:
+  - {fileID: 8438174}
+  disableScenarios:
+  - {fileID: 1964464529}
+  - {fileID: 1389969797}
+  - {fileID: 147841118}
+  - {fileID: 1542836965}
+  - {fileID: 2118486465}
+  - {fileID: 380210366}
+  - {fileID: 405370901}
+  - {fileID: 1088203053}
+  - {fileID: 575626311}
 --- !u!4 &11728910 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 5b86c693acc5f4805b033c23b06b3a69, type: 3}
@@ -532,7 +615,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400008, guid: c7cde7b93013e41c6af56d0a5ff42129, type: 3}
   m_PrefabInstance: {fileID: 26890830}
   m_PrefabAsset: {fileID: 0}
---- !u!21 &37455337
+--- !u!21 &36543101
 Material:
   serializedVersion: 8
   m_ObjectHideFlags: 0
@@ -576,8 +659,8 @@ Material:
     - _DisplacementSpeed: 0
     - _NoiseBottomHeight: 0.04
     - _NoiseBottomIntensity: 1
-    - _OffsetNoiseX: 0.95847046
-    - _OffsetNoiseY: 0.008546915
+    - _OffsetNoiseX: 0.41002685
+    - _OffsetNoiseY: -1.5508548
     - _StaticIntensity: 2
     - _UseChromaticAberration: 1
     - _UseDisplacement: 1
@@ -1791,6 +1874,89 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400008, guid: c7cde7b93013e41c6af56d0a5ff42129, type: 3}
   m_PrefabInstance: {fileID: 143285375}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &147841118
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 147841119}
+  - component: {fileID: 147841120}
+  - component: {fileID: 147841121}
+  m_Layer: 0
+  m_Name: ResettingCarCamera2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &147841119
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 147841118}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 214779355}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &147841120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 147841118}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c1a2f10f470e4246bbab94d502290db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cameraViewALL: 0
+  cameraViewFIXED: 1
+  cameraViewEnable:
+  - {fileID: 1758292397}
+  cameraViewDisable:
+  - {fileID: 2055153656}
+  - {fileID: 1958903855}
+  - {fileID: 1379431320}
+  - {fileID: 1896735492}
+  farChaseCamera: {fileID: 1758292397}
+  nearChaseCamera: {fileID: 2055153656}
+  cockpitCamera: {fileID: 1958903855}
+  bumperCamera: {fileID: 1896735492}
+  bonnetCamera: {fileID: 1379431320}
+--- !u!114 &147841121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 147841118}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abb84edabb1def043952bdfc8ba1afec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enableScenarios:
+  - {fileID: 147841118}
+  disableScenarios:
+  - {fileID: 1964464529}
+  - {fileID: 8438174}
+  - {fileID: 1389969797}
+  - {fileID: 1542836965}
+  - {fileID: 2118486465}
+  - {fileID: 380210366}
+  - {fileID: 405370901}
+  - {fileID: 1088203053}
+  - {fileID: 575626311}
 --- !u!4 &164633172 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 5b86c693acc5f4805b033c23b06b3a69, type: 3}
@@ -1928,53 +2094,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 037318de497624362a61b6dad60ff958, type: 3}
   m_PrefabInstance: {fileID: 171362044}
   m_PrefabAsset: {fileID: 0}
---- !u!21 &178716799
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Hidden/RetroCameraEffect
-  m_Shader: {fileID: 4800000, guid: 2cfdcae76c757405786f1219a383da6e, type: 3}
-  m_ValidKeywords: []
-  m_InvalidKeywords: []
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SecondaryTex:
-        m_Texture: {fileID: 2800000, guid: fb05fd8d491864b72947d96a3c6a189a, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _ChromaticAberration: 0
-    - _DisplacementAmplitude: 0
-    - _DisplacementFrequency: 150
-    - _DisplacementSpeed: 0
-    - _NoiseBottomHeight: 0.04
-    - _NoiseBottomIntensity: 1
-    - _OffsetNoiseX: 0
-    - _OffsetNoiseY: 0
-    - _StaticIntensity: 1
-    - _UseChromaticAberration: 1
-    - _UseDisplacement: 1
-    - _UseStaticNoise: 1
-    - _UseVignette: 0
-    - _Vignette: 0
-    m_Colors:
-    - _OffsetPos: {r: 0, g: 0, b: 0, a: 1}
-  m_BuildTextureStacks: []
 --- !u!1001 &181658430
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2041,53 +2160,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 178d8e1be9372450a8e630795c2848a6, type: 3}
   m_PrefabInstance: {fileID: 181658430}
   m_PrefabAsset: {fileID: 0}
---- !u!21 &183517442
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Hidden/RetroCameraEffect
-  m_Shader: {fileID: 4800000, guid: 2cfdcae76c757405786f1219a383da6e, type: 3}
-  m_ValidKeywords: []
-  m_InvalidKeywords: []
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SecondaryTex:
-        m_Texture: {fileID: 2800000, guid: 2ee566ccadfe14d0cadbd3e2107180cf, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _ChromaticAberration: 0
-    - _DisplacementAmplitude: 0
-    - _DisplacementFrequency: 150
-    - _DisplacementSpeed: 0
-    - _NoiseBottomHeight: 0.04
-    - _NoiseBottomIntensity: 1
-    - _OffsetNoiseX: 0
-    - _OffsetNoiseY: 0
-    - _StaticIntensity: 1
-    - _UseChromaticAberration: 1
-    - _UseDisplacement: 1
-    - _UseStaticNoise: 1
-    - _UseVignette: 0
-    - _Vignette: 0
-    m_Colors:
-    - _OffsetPos: {r: 0, g: 0, b: 0, a: 1}
-  m_BuildTextureStacks: []
 --- !u!1001 &186626412
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2286,6 +2358,61 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 8d86f142ce82a4fcd886dd0a96b9fdd4, type: 3}
   m_PrefabInstance: {fileID: 194386237}
   m_PrefabAsset: {fileID: 0}
+--- !u!21 &201347527
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Hidden/RetroCameraEffect
+  m_Shader: {fileID: 4800000, guid: 2cfdcae76c757405786f1219a383da6e, type: 3}
+  m_ValidKeywords:
+  - BOTTOM_STRETCH_ON
+  - CHROMATIC_ON
+  - DISPLACEMENT_ON
+  - NOISE_BOTTOM_ON
+  - NOISE_ON
+  - RADIAL_DISTORTION_ON
+  - SCANLINES_ON
+  - VIGNETTE_ON
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SecondaryTex:
+        m_Texture: {fileID: 2800000, guid: 0ecedd370a77a4a3dbbb9cc9e09081cd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ChromaticAberration: 0
+    - _DisplacementAmplitude: 0
+    - _DisplacementFrequency: 150
+    - _DisplacementSpeed: 0
+    - _NoiseBottomHeight: 0.04
+    - _NoiseBottomIntensity: 1
+    - _OffsetNoiseX: 0.30375272
+    - _OffsetNoiseY: 1.8474777
+    - _StaticIntensity: 2
+    - _UseChromaticAberration: 1
+    - _UseDisplacement: 1
+    - _UseStaticNoise: 1
+    - _UseVignette: 0
+    - _Vignette: 0.1
+    m_Colors:
+    - _OffsetPos: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
 --- !u!1 &213402742
 GameObject:
   m_ObjectHideFlags: 0
@@ -2296,8 +2423,9 @@ GameObject:
   m_Component:
   - component: {fileID: 213402743}
   - component: {fileID: 213402744}
+  - component: {fileID: 213402745}
   m_Layer: 0
-  m_Name: Speed<20Camera
+  m_Name: Speed<20Camera1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2344,6 +2472,30 @@ MonoBehaviour:
   cockpitCamera: {fileID: 1958903855}
   bumperCamera: {fileID: 1896735492}
   bonnetCamera: {fileID: 1379431320}
+--- !u!114 &213402745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 213402742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abb84edabb1def043952bdfc8ba1afec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enableScenarios:
+  - {fileID: 213402742}
+  disableScenarios:
+  - {fileID: 447540918}
+  - {fileID: 1429163408}
+  - {fileID: 460992893}
+  - {fileID: 892163726}
+  - {fileID: 1432573414}
+  - {fileID: 1908144222}
+  - {fileID: 1297465187}
+  - {fileID: 1750481557}
+  - {fileID: 534529091}
 --- !u!1001 &213696125
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2422,6 +2574,47 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400022, guid: 25ad83350e9d34c6da387f18b503403a, type: 3}
   m_PrefabInstance: {fileID: 213696125}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &214779354
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 214779355}
+  m_Layer: 0
+  m_Name: NewAutomatedCameraSystem2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &214779355
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 214779354}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.28682235, y: -24.357502, z: -9.038811}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1964464530}
+  - {fileID: 8438175}
+  - {fileID: 1389969798}
+  - {fileID: 147841119}
+  - {fileID: 1542836966}
+  - {fileID: 2118486466}
+  - {fileID: 380210367}
+  - {fileID: 405370902}
+  - {fileID: 1088203054}
+  - {fileID: 575626312}
+  m_Father: {fileID: 0}
+  m_RootOrder: 22
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &234255258
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4194,6 +4387,89 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 037318de497624362a61b6dad60ff958, type: 3}
   m_PrefabInstance: {fileID: 379984253}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &380210366
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 380210367}
+  - component: {fileID: 380210368}
+  - component: {fileID: 380210369}
+  m_Layer: 0
+  m_Name: Speed<20Camera2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &380210367
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 380210366}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 214779355}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &380210368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 380210366}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c1a2f10f470e4246bbab94d502290db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cameraViewALL: 0
+  cameraViewFIXED: 1
+  cameraViewEnable:
+  - {fileID: 1758292397}
+  cameraViewDisable:
+  - {fileID: 2055153656}
+  - {fileID: 1958903855}
+  - {fileID: 1379431320}
+  - {fileID: 1896735492}
+  farChaseCamera: {fileID: 1758292397}
+  nearChaseCamera: {fileID: 2055153656}
+  cockpitCamera: {fileID: 1958903855}
+  bumperCamera: {fileID: 1896735492}
+  bonnetCamera: {fileID: 1379431320}
+--- !u!114 &380210369
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 380210366}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abb84edabb1def043952bdfc8ba1afec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enableScenarios:
+  - {fileID: 380210366}
+  disableScenarios:
+  - {fileID: 1964464529}
+  - {fileID: 8438174}
+  - {fileID: 1389969797}
+  - {fileID: 147841118}
+  - {fileID: 1542836965}
+  - {fileID: 2118486465}
+  - {fileID: 405370901}
+  - {fileID: 1088203053}
+  - {fileID: 575626311}
 --- !u!1001 &382308245
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4463,6 +4739,89 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 037318de497624362a61b6dad60ff958, type: 3}
   m_PrefabInstance: {fileID: 399837947}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &405370901
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 405370902}
+  - component: {fileID: 405370903}
+  - component: {fileID: 405370904}
+  m_Layer: 0
+  m_Name: CarContactsBordersCamera2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &405370902
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 405370901}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 214779355}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &405370903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 405370901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c1a2f10f470e4246bbab94d502290db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cameraViewALL: 0
+  cameraViewFIXED: 1
+  cameraViewEnable:
+  - {fileID: 1758292397}
+  cameraViewDisable:
+  - {fileID: 2055153656}
+  - {fileID: 1958903855}
+  - {fileID: 1379431320}
+  - {fileID: 1896735492}
+  farChaseCamera: {fileID: 1758292397}
+  nearChaseCamera: {fileID: 2055153656}
+  cockpitCamera: {fileID: 1958903855}
+  bumperCamera: {fileID: 1896735492}
+  bonnetCamera: {fileID: 1379431320}
+--- !u!114 &405370904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 405370901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abb84edabb1def043952bdfc8ba1afec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enableScenarios:
+  - {fileID: 405370901}
+  disableScenarios:
+  - {fileID: 1964464529}
+  - {fileID: 8438174}
+  - {fileID: 1389969797}
+  - {fileID: 147841118}
+  - {fileID: 1542836965}
+  - {fileID: 2118486465}
+  - {fileID: 380210366}
+  - {fileID: 1088203053}
+  - {fileID: 575626311}
 --- !u!1001 &421572476
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4828,6 +5187,53 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: ecad1f72f30474a519f2a7f0cb7eab8a, type: 3}
   m_PrefabInstance: {fileID: 440086300}
   m_PrefabAsset: {fileID: 0}
+--- !u!21 &442509012
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Hidden/RetroCameraEffect
+  m_Shader: {fileID: 4800000, guid: 2cfdcae76c757405786f1219a383da6e, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SecondaryTex:
+        m_Texture: {fileID: 2800000, guid: fb05fd8d491864b72947d96a3c6a189a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ChromaticAberration: 0
+    - _DisplacementAmplitude: 0
+    - _DisplacementFrequency: 150
+    - _DisplacementSpeed: 0
+    - _NoiseBottomHeight: 0.04
+    - _NoiseBottomIntensity: 1
+    - _OffsetNoiseX: 0
+    - _OffsetNoiseY: 0
+    - _StaticIntensity: 1
+    - _UseChromaticAberration: 1
+    - _UseDisplacement: 1
+    - _UseStaticNoise: 1
+    - _UseVignette: 0
+    - _Vignette: 0
+    m_Colors:
+    - _OffsetPos: {r: 0, g: 0, b: 0, a: 1}
+  m_BuildTextureStacks: []
 --- !u!1001 &446606863
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4904,8 +5310,9 @@ GameObject:
   m_Component:
   - component: {fileID: 447540919}
   - component: {fileID: 447540920}
+  - component: {fileID: 447540921}
   m_Layer: 0
-  m_Name: StartSequenceCamera
+  m_Name: StartSequenceCamera1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4952,6 +5359,30 @@ MonoBehaviour:
   cockpitCamera: {fileID: 1958903855}
   bumperCamera: {fileID: 1896735492}
   bonnetCamera: {fileID: 1379431320}
+--- !u!114 &447540921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 447540918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abb84edabb1def043952bdfc8ba1afec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enableScenarios:
+  - {fileID: 447540918}
+  disableScenarios:
+  - {fileID: 1429163408}
+  - {fileID: 460992893}
+  - {fileID: 892163726}
+  - {fileID: 1432573414}
+  - {fileID: 1908144222}
+  - {fileID: 213402742}
+  - {fileID: 1297465187}
+  - {fileID: 1750481557}
+  - {fileID: 534529091}
 --- !u!1001 &458618900
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5094,8 +5525,9 @@ GameObject:
   m_Component:
   - component: {fileID: 460992894}
   - component: {fileID: 460992895}
+  - component: {fileID: 460992896}
   m_Layer: 0
-  m_Name: OverRaceCamera
+  m_Name: OverRaceCamera1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5142,6 +5574,30 @@ MonoBehaviour:
   cockpitCamera: {fileID: 1958903855}
   bumperCamera: {fileID: 1896735492}
   bonnetCamera: {fileID: 1379431320}
+--- !u!114 &460992896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 460992893}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abb84edabb1def043952bdfc8ba1afec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enableScenarios:
+  - {fileID: 460992893}
+  disableScenarios:
+  - {fileID: 447540918}
+  - {fileID: 1429163408}
+  - {fileID: 892163726}
+  - {fileID: 1432573414}
+  - {fileID: 1908144222}
+  - {fileID: 213402742}
+  - {fileID: 1297465187}
+  - {fileID: 1750481557}
+  - {fileID: 534529091}
 --- !u!1001 &462395964
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5797,7 +6253,7 @@ MonoBehaviour:
   useScanlines: 1
   scanlineSize: 512
   scanlineIntensity: 0.5
-  _material: {fileID: 1871131874}
+  _material: {fileID: 201347527}
 --- !u!1 &517699355
 GameObject:
   m_ObjectHideFlags: 0
@@ -5911,8 +6367,9 @@ GameObject:
   m_Component:
   - component: {fileID: 534529092}
   - component: {fileID: 534529093}
+  - component: {fileID: 534529094}
   m_Layer: 0
-  m_Name: CarsNearEachOtherCamera
+  m_Name: CarsNearEachOtherCamera1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5959,6 +6416,30 @@ MonoBehaviour:
   cockpitCamera: {fileID: 1958903855}
   bumperCamera: {fileID: 1896735492}
   bonnetCamera: {fileID: 1379431320}
+--- !u!114 &534529094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534529091}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abb84edabb1def043952bdfc8ba1afec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enableScenarios:
+  - {fileID: 534529091}
+  disableScenarios:
+  - {fileID: 447540918}
+  - {fileID: 1429163408}
+  - {fileID: 460992893}
+  - {fileID: 892163726}
+  - {fileID: 1432573414}
+  - {fileID: 1908144222}
+  - {fileID: 213402742}
+  - {fileID: 1297465187}
+  - {fileID: 1750481557}
 --- !u!1001 &536271320
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6769,6 +7250,89 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 9f7413525a1204c848e3a57efaa84327, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5b86c693acc5f4805b033c23b06b3a69, type: 3}
+--- !u!1 &575626311
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 575626312}
+  - component: {fileID: 575626313}
+  - component: {fileID: 575626314}
+  m_Layer: 0
+  m_Name: CarsNearEachOtherCamera2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &575626312
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 575626311}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 214779355}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &575626313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 575626311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c1a2f10f470e4246bbab94d502290db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cameraViewALL: 0
+  cameraViewFIXED: 1
+  cameraViewEnable:
+  - {fileID: 1896735492}
+  cameraViewDisable:
+  - {fileID: 1758292397}
+  - {fileID: 2055153656}
+  - {fileID: 1958903855}
+  - {fileID: 1379431320}
+  farChaseCamera: {fileID: 1758292397}
+  nearChaseCamera: {fileID: 2055153656}
+  cockpitCamera: {fileID: 1958903855}
+  bumperCamera: {fileID: 1896735492}
+  bonnetCamera: {fileID: 1379431320}
+--- !u!114 &575626314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 575626311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abb84edabb1def043952bdfc8ba1afec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enableScenarios:
+  - {fileID: 575626311}
+  disableScenarios:
+  - {fileID: 1964464529}
+  - {fileID: 8438174}
+  - {fileID: 1389969797}
+  - {fileID: 147841118}
+  - {fileID: 1542836965}
+  - {fileID: 2118486465}
+  - {fileID: 380210366}
+  - {fileID: 405370901}
+  - {fileID: 1088203053}
 --- !u!1001 &576571294
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7465,6 +8029,53 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!21 &651811769
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Hidden/RetroCameraEffect
+  m_Shader: {fileID: 4800000, guid: 2cfdcae76c757405786f1219a383da6e, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SecondaryTex:
+        m_Texture: {fileID: 2800000, guid: 2ee566ccadfe14d0cadbd3e2107180cf, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ChromaticAberration: 0
+    - _DisplacementAmplitude: 0
+    - _DisplacementFrequency: 150
+    - _DisplacementSpeed: 0
+    - _NoiseBottomHeight: 0.04
+    - _NoiseBottomIntensity: 1
+    - _OffsetNoiseX: 0
+    - _OffsetNoiseY: 0
+    - _StaticIntensity: 1
+    - _UseChromaticAberration: 1
+    - _UseDisplacement: 1
+    - _UseStaticNoise: 1
+    - _UseVignette: 0
+    - _Vignette: 0
+    m_Colors:
+    - _OffsetPos: {r: 0, g: 0, b: 0, a: 1}
+  m_BuildTextureStacks: []
 --- !u!4 &654568394 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 5b86c693acc5f4805b033c23b06b3a69, type: 3}
@@ -22443,8 +23054,9 @@ GameObject:
   m_Component:
   - component: {fileID: 892163727}
   - component: {fileID: 892163728}
+  - component: {fileID: 892163729}
   m_Layer: 0
-  m_Name: ResettingCarCamera
+  m_Name: ResettingCarCamera1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22491,6 +23103,30 @@ MonoBehaviour:
   cockpitCamera: {fileID: 1958903855}
   bumperCamera: {fileID: 1896735492}
   bonnetCamera: {fileID: 1379431320}
+--- !u!114 &892163729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 892163726}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abb84edabb1def043952bdfc8ba1afec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enableScenarios:
+  - {fileID: 892163726}
+  disableScenarios:
+  - {fileID: 447540918}
+  - {fileID: 1429163408}
+  - {fileID: 460992893}
+  - {fileID: 1432573414}
+  - {fileID: 1908144222}
+  - {fileID: 213402742}
+  - {fileID: 1297465187}
+  - {fileID: 1750481557}
+  - {fileID: 534529091}
 --- !u!1001 &897410951
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24823,6 +25459,89 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 8d86f142ce82a4fcd886dd0a96b9fdd4, type: 3}
   m_PrefabInstance: {fileID: 1085499936}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1088203053
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1088203054}
+  - component: {fileID: 1088203055}
+  - component: {fileID: 1088203056}
+  m_Layer: 0
+  m_Name: CarContectRivalCarCamera2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1088203054
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1088203053}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 214779355}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1088203055
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1088203053}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c1a2f10f470e4246bbab94d502290db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cameraViewALL: 0
+  cameraViewFIXED: 1
+  cameraViewEnable:
+  - {fileID: 2055153656}
+  cameraViewDisable:
+  - {fileID: 1758292397}
+  - {fileID: 1958903855}
+  - {fileID: 1379431320}
+  - {fileID: 1896735492}
+  farChaseCamera: {fileID: 1758292397}
+  nearChaseCamera: {fileID: 2055153656}
+  cockpitCamera: {fileID: 1958903855}
+  bumperCamera: {fileID: 1896735492}
+  bonnetCamera: {fileID: 1379431320}
+--- !u!114 &1088203056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1088203053}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abb84edabb1def043952bdfc8ba1afec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enableScenarios:
+  - {fileID: 1088203053}
+  disableScenarios:
+  - {fileID: 1964464529}
+  - {fileID: 8438174}
+  - {fileID: 1389969797}
+  - {fileID: 147841118}
+  - {fileID: 1542836965}
+  - {fileID: 2118486465}
+  - {fileID: 380210366}
+  - {fileID: 405370901}
+  - {fileID: 575626311}
 --- !u!1001 &1096142210
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -46815,8 +47534,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1297465188}
   - component: {fileID: 1297465189}
+  - component: {fileID: 1297465190}
   m_Layer: 0
-  m_Name: CarContactsBordersCamera
+  m_Name: CarContactsBordersCamera1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -46863,6 +47583,30 @@ MonoBehaviour:
   cockpitCamera: {fileID: 1958903855}
   bumperCamera: {fileID: 1896735492}
   bonnetCamera: {fileID: 1379431320}
+--- !u!114 &1297465190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1297465187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abb84edabb1def043952bdfc8ba1afec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enableScenarios:
+  - {fileID: 1297465187}
+  disableScenarios:
+  - {fileID: 447540918}
+  - {fileID: 1429163408}
+  - {fileID: 460992893}
+  - {fileID: 892163726}
+  - {fileID: 1432573414}
+  - {fileID: 1908144222}
+  - {fileID: 213402742}
+  - {fileID: 1750481557}
+  - {fileID: 534529091}
 --- !u!1001 &1298194459
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -48110,6 +48854,89 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400006, guid: 48fbce12d4169422dbc54c2d3a70885d, type: 3}
   m_PrefabInstance: {fileID: 1385668375}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1389969797
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1389969798}
+  - component: {fileID: 1389969799}
+  - component: {fileID: 1389969800}
+  m_Layer: 0
+  m_Name: OverRaceCamera2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1389969798
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1389969797}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 214779355}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1389969799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1389969797}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c1a2f10f470e4246bbab94d502290db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cameraViewALL: 0
+  cameraViewFIXED: 1
+  cameraViewEnable:
+  - {fileID: 1958903855}
+  cameraViewDisable:
+  - {fileID: 1758292397}
+  - {fileID: 2055153656}
+  - {fileID: 1379431320}
+  - {fileID: 1896735492}
+  farChaseCamera: {fileID: 1758292397}
+  nearChaseCamera: {fileID: 2055153656}
+  cockpitCamera: {fileID: 1958903855}
+  bumperCamera: {fileID: 1896735492}
+  bonnetCamera: {fileID: 1379431320}
+--- !u!114 &1389969800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1389969797}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abb84edabb1def043952bdfc8ba1afec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enableScenarios:
+  - {fileID: 1389969797}
+  disableScenarios:
+  - {fileID: 1964464529}
+  - {fileID: 8438174}
+  - {fileID: 147841118}
+  - {fileID: 1542836965}
+  - {fileID: 2118486465}
+  - {fileID: 380210366}
+  - {fileID: 405370901}
+  - {fileID: 1088203053}
+  - {fileID: 575626311}
 --- !u!1001 &1393638867
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -48389,8 +49216,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1429163409}
   - component: {fileID: 1429163410}
+  - component: {fileID: 1429163411}
   m_Layer: 0
-  m_Name: StartRaceCamera
+  m_Name: StartRaceCamera1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -48437,6 +49265,30 @@ MonoBehaviour:
   cockpitCamera: {fileID: 1958903855}
   bumperCamera: {fileID: 1896735492}
   bonnetCamera: {fileID: 1379431320}
+--- !u!114 &1429163411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1429163408}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abb84edabb1def043952bdfc8ba1afec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enableScenarios:
+  - {fileID: 1429163408}
+  disableScenarios:
+  - {fileID: 447540918}
+  - {fileID: 460992893}
+  - {fileID: 892163726}
+  - {fileID: 1432573414}
+  - {fileID: 1908144222}
+  - {fileID: 213402742}
+  - {fileID: 1297465187}
+  - {fileID: 1750481557}
+  - {fileID: 534529091}
 --- !u!1 &1429713417
 GameObject:
   m_ObjectHideFlags: 0
@@ -48514,8 +49366,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1432573415}
   - component: {fileID: 1432573416}
+  - component: {fileID: 1432573417}
   m_Layer: 0
-  m_Name: CompleteLapCamera
+  m_Name: CompleteLapCamera1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -48557,6 +49410,30 @@ MonoBehaviour:
   cockpitCamera: {fileID: 1958903855}
   bumperCamera: {fileID: 1896735492}
   bonnetCamera: {fileID: 1379431320}
+--- !u!114 &1432573417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1432573414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abb84edabb1def043952bdfc8ba1afec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enableScenarios:
+  - {fileID: 1432573414}
+  disableScenarios:
+  - {fileID: 447540918}
+  - {fileID: 1429163408}
+  - {fileID: 460992893}
+  - {fileID: 892163726}
+  - {fileID: 1908144222}
+  - {fileID: 213402742}
+  - {fileID: 1297465187}
+  - {fileID: 1750481557}
+  - {fileID: 534529091}
 --- !u!1001 &1433503214
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -49618,6 +50495,84 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: bafa851494c324e3c94980e2176b804b, type: 3}
   m_PrefabInstance: {fileID: 1536599164}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1542836965
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1542836966}
+  - component: {fileID: 1542836967}
+  - component: {fileID: 1542836968}
+  m_Layer: 0
+  m_Name: CompleteLapCamera2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1542836966
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1542836965}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 214779355}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1542836967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1542836965}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c1a2f10f470e4246bbab94d502290db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cameraViewALL: 1
+  cameraViewFIXED: 0
+  cameraViewEnable: []
+  cameraViewDisable: []
+  farChaseCamera: {fileID: 1758292397}
+  nearChaseCamera: {fileID: 2055153656}
+  cockpitCamera: {fileID: 1958903855}
+  bumperCamera: {fileID: 1896735492}
+  bonnetCamera: {fileID: 1379431320}
+--- !u!114 &1542836968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1542836965}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abb84edabb1def043952bdfc8ba1afec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enableScenarios:
+  - {fileID: 1542836965}
+  disableScenarios:
+  - {fileID: 1964464529}
+  - {fileID: 8438174}
+  - {fileID: 1389969797}
+  - {fileID: 147841118}
+  - {fileID: 2118486465}
+  - {fileID: 380210366}
+  - {fileID: 405370901}
+  - {fileID: 1088203053}
+  - {fileID: 575626311}
 --- !u!1001 &1543251144
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -52402,8 +53357,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1750481558}
   - component: {fileID: 1750481559}
+  - component: {fileID: 1750481560}
   m_Layer: 0
-  m_Name: CarContectRivalCarCamera
+  m_Name: CarContectRivalCarCamera1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -52450,6 +53406,30 @@ MonoBehaviour:
   cockpitCamera: {fileID: 1958903855}
   bumperCamera: {fileID: 1896735492}
   bonnetCamera: {fileID: 1379431320}
+--- !u!114 &1750481560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1750481557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abb84edabb1def043952bdfc8ba1afec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enableScenarios:
+  - {fileID: 1750481557}
+  disableScenarios:
+  - {fileID: 447540918}
+  - {fileID: 1429163408}
+  - {fileID: 460992893}
+  - {fileID: 892163726}
+  - {fileID: 1432573414}
+  - {fileID: 1908144222}
+  - {fileID: 213402742}
+  - {fileID: 1297465187}
+  - {fileID: 534529091}
 --- !u!1001 &1755769340
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -53213,61 +54193,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 345ba0f737b2e4878885cce2099fcc6a, type: 3}
   m_PrefabInstance: {fileID: 1869515803}
   m_PrefabAsset: {fileID: 0}
---- !u!21 &1871131874
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Hidden/RetroCameraEffect
-  m_Shader: {fileID: 4800000, guid: 2cfdcae76c757405786f1219a383da6e, type: 3}
-  m_ValidKeywords:
-  - BOTTOM_STRETCH_ON
-  - CHROMATIC_ON
-  - DISPLACEMENT_ON
-  - NOISE_BOTTOM_ON
-  - NOISE_ON
-  - RADIAL_DISTORTION_ON
-  - SCANLINES_ON
-  - VIGNETTE_ON
-  m_InvalidKeywords: []
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SecondaryTex:
-        m_Texture: {fileID: 2800000, guid: 0ecedd370a77a4a3dbbb9cc9e09081cd, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _ChromaticAberration: 0
-    - _DisplacementAmplitude: 0
-    - _DisplacementFrequency: 150
-    - _DisplacementSpeed: 0
-    - _NoiseBottomHeight: 0.04
-    - _NoiseBottomIntensity: 1
-    - _OffsetNoiseX: 0.5869624
-    - _OffsetNoiseY: -0.10790256
-    - _StaticIntensity: 2
-    - _UseChromaticAberration: 1
-    - _UseDisplacement: 1
-    - _UseStaticNoise: 1
-    - _UseVignette: 0
-    - _Vignette: 0.1
-    m_Colors:
-    - _OffsetPos: {r: 0, g: 0, b: 0, a: 0}
-  m_BuildTextureStacks: []
 --- !u!114 &1884863060 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6088936442061614568, guid: 515158fd032346d44aac3b25e46c17df, type: 3}
@@ -53739,8 +54664,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1908144223}
   - component: {fileID: 1908144224}
+  - component: {fileID: 1908144225}
   m_Layer: 0
-  m_Name: Speed>150Camera
+  m_Name: Speed>150Camera1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -53787,6 +54713,30 @@ MonoBehaviour:
   cockpitCamera: {fileID: 1958903855}
   bumperCamera: {fileID: 1896735492}
   bonnetCamera: {fileID: 1379431320}
+--- !u!114 &1908144225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1908144222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abb84edabb1def043952bdfc8ba1afec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enableScenarios:
+  - {fileID: 1908144222}
+  disableScenarios:
+  - {fileID: 447540918}
+  - {fileID: 1429163408}
+  - {fileID: 460992893}
+  - {fileID: 892163726}
+  - {fileID: 1432573414}
+  - {fileID: 213402742}
+  - {fileID: 1297465187}
+  - {fileID: 1750481557}
+  - {fileID: 534529091}
 --- !u!1001 &1909518655
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -55011,7 +55961,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 3.0411348, y: 1}
+    m_SensorSize: {x: 3.0439715, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -55073,7 +56023,7 @@ MonoBehaviour:
   useScanlines: 1
   scanlineSize: 512
   scanlineIntensity: 0.5
-  _material: {fileID: 183517442}
+  _material: {fileID: 651811769}
 --- !u!1001 &1959573707
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -55140,6 +56090,89 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: d890289a5731941028b9140c7dcd26b2, type: 3}
   m_PrefabInstance: {fileID: 1959573707}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1964464529
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1964464530}
+  - component: {fileID: 1964464531}
+  - component: {fileID: 1964464532}
+  m_Layer: 0
+  m_Name: StartSequenceCamera2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1964464530
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1964464529}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 214779355}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1964464531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1964464529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c1a2f10f470e4246bbab94d502290db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cameraViewALL: 0
+  cameraViewFIXED: 1
+  cameraViewEnable:
+  - {fileID: 1958903855}
+  cameraViewDisable:
+  - {fileID: 1758292397}
+  - {fileID: 2055153656}
+  - {fileID: 1379431320}
+  - {fileID: 1896735492}
+  farChaseCamera: {fileID: 1758292397}
+  nearChaseCamera: {fileID: 2055153656}
+  cockpitCamera: {fileID: 1958903855}
+  bumperCamera: {fileID: 1896735492}
+  bonnetCamera: {fileID: 1379431320}
+--- !u!114 &1964464532
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1964464529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abb84edabb1def043952bdfc8ba1afec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enableScenarios:
+  - {fileID: 1964464529}
+  disableScenarios:
+  - {fileID: 8438174}
+  - {fileID: 1389969797}
+  - {fileID: 147841118}
+  - {fileID: 1542836965}
+  - {fileID: 2118486465}
+  - {fileID: 380210366}
+  - {fileID: 405370901}
+  - {fileID: 1088203053}
+  - {fileID: 575626311}
 --- !u!1001 &1971619365
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -69636,6 +70669,89 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 8a4716b9cf6a94836aeb3602592d6935, type: 3}
   m_PrefabInstance: {fileID: 2117060293}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2118486465
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2118486466}
+  - component: {fileID: 2118486467}
+  - component: {fileID: 2118486468}
+  m_Layer: 0
+  m_Name: Speed>150Camera2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &2118486466
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2118486465}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 214779355}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2118486467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2118486465}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c1a2f10f470e4246bbab94d502290db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cameraViewALL: 0
+  cameraViewFIXED: 1
+  cameraViewEnable:
+  - {fileID: 1379431320}
+  cameraViewDisable:
+  - {fileID: 1758292397}
+  - {fileID: 2055153656}
+  - {fileID: 1958903855}
+  - {fileID: 1896735492}
+  farChaseCamera: {fileID: 1758292397}
+  nearChaseCamera: {fileID: 2055153656}
+  cockpitCamera: {fileID: 1958903855}
+  bumperCamera: {fileID: 1896735492}
+  bonnetCamera: {fileID: 1379431320}
+--- !u!114 &2118486468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2118486465}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abb84edabb1def043952bdfc8ba1afec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enableScenarios:
+  - {fileID: 2118486465}
+  disableScenarios:
+  - {fileID: 1964464529}
+  - {fileID: 8438174}
+  - {fileID: 1389969797}
+  - {fileID: 147841118}
+  - {fileID: 1542836965}
+  - {fileID: 380210366}
+  - {fileID: 405370901}
+  - {fileID: 1088203053}
+  - {fileID: 575626311}
 --- !u!1 &2119430305
 GameObject:
   m_ObjectHideFlags: 0
