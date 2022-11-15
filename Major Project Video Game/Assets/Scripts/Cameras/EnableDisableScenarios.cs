@@ -17,4 +17,17 @@ public class EnableDisableScenarios : MonoBehaviour // Managing which camera vie
             disableScenarios[i].SetActive(false);
         }
     }
+
+    // Update is called once per frame
+    void Update()
+    {
+        for (int i = 0; i < enableScenarios.Length; i++)
+        {
+            enableScenarios[i].SetActive(true);
+        }
+        for (int i = 0; i < disableScenarios.Length; i++)
+        {
+            disableScenarios[i].SetActive(false);
+        }
+    }
 }

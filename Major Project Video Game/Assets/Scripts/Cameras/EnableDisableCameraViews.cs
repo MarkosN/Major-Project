@@ -18,4 +18,17 @@ public class EnableDisableCameraViews : MonoBehaviour // The manager that will b
             cameraViewDisable[i].SetActive(false);
         }
     }
+
+    // Update is called once per frame
+    void Update()
+    {
+        for (int i = 0; i < cameraViewEnable.Length; i++)
+        {
+            cameraViewEnable[i].SetActive(true);
+        }
+        for (int i = 0; i < cameraViewDisable.Length; i++)
+        {
+            cameraViewDisable[i].SetActive(false);
+        }
+    }
 }
