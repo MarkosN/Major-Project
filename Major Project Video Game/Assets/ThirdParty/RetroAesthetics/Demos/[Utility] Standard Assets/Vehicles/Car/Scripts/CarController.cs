@@ -1,3 +1,5 @@
+using System.Collections;
+using System.Collections.Generic;
 using System;
 using UnityEngine;
 using TMPro;
@@ -60,6 +62,9 @@ namespace UnityStandardAssets.Vehicles.Car
         public float Revs { get; private set; }
         public float AccelInput { get; private set; }
 
+        public GameObject cameraViewScenario; // Camera View for Car 1 Scenario
+        public GameObject newAutomatedCameraSystem; // By disabling the main manager of the camera views (scenarios) for an X amount of time it will help by not changing the cameras views continuously creating problems to the players
+
         // Use this for initialization
         private void Start()
         {
@@ -97,8 +102,33 @@ namespace UnityStandardAssets.Vehicles.Car
             {
                 m_GearNum++;
             }
+
+            if (m_GearNum >= 6)
+            {
+                StartCoroutine(CameraViewScenario1());
+                StartCoroutine(CameraViewScenario2());
+            }
+            if (m_GearNum <= 5)
+            {
+                cameraViewScenario.SetActive(false);
+            }
+
         }
 
+        IEnumerator CameraViewScenario1() // Enabling the scenario
+        {
+            yield return new WaitForSeconds(0.1f);
+            cameraViewScenario.SetActive(true);
+            yield return new WaitForSeconds(0.2f);
+            cameraViewScenario.SetActive(false);
+        }
+        IEnumerator CameraViewScenario2()
+        {
+            yield return new WaitForSeconds(0.2f);
+            newAutomatedCameraSystem.SetActive(false);
+            yield return new WaitForSeconds(3.0f);
+            newAutomatedCameraSystem.SetActive(true);
+        }
 
         // simple function to add a curved bias towards 1 for a value in the 0-1 range
         private static float CurveFactor(float factor)

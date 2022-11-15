@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class EnableDisableScenarios : MonoBehaviour // Managing which camera view scenario to enable and disabling the rest

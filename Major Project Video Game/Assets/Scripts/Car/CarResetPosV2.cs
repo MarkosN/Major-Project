@@ -38,13 +38,15 @@ public class CarResetPosV2 : MonoBehaviour // When the car is stuck or can't be 
     {
         yield return new WaitForSeconds(0.1f);
         cameraViewScenario2.SetActive(true);
+        yield return new WaitForSeconds(0.2f);
+        cameraViewScenario2.SetActive(false);
     }
 
     IEnumerator CameraViewScenario2() 
     {
         yield return new WaitForSeconds(0.2f);
         newAutomatedCameraSystem2.SetActive(false);
-        yield return new WaitForSeconds(5.0f);
+        yield return new WaitForSeconds(3.0f);
         newAutomatedCameraSystem2.SetActive(true);
     }
 }

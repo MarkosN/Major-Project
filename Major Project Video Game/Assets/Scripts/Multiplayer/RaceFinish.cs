@@ -25,12 +25,14 @@ public class RaceFinish : MonoBehaviour // For Player 1 Only
     {
         yield return new WaitForSeconds(0.1f);
         cameraViewScenario1.SetActive(true);
+        yield return new WaitForSeconds(4.9f);
+        cameraViewScenario1.SetActive(false);
     }
     IEnumerator CameraViewScenario2() // Enabling the scenario
     {
         yield return new WaitForSeconds(0.2f);
         newAutomatedCameraSystem1.SetActive(false);
-        yield return new WaitForSeconds(5.0f);
+        yield return new WaitForSeconds(4.8f);
         newAutomatedCameraSystem1.SetActive(true);
     }
 }

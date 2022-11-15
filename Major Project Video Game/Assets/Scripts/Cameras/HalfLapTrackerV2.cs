@@ -11,22 +11,24 @@ public class HalfLapTrackerV2 : MonoBehaviour
     {
         if (other.tag == "Player2")
         {
-            StartCoroutine(CameraViewScenario());
+            StartCoroutine(CameraViewScenario1());
             StartCoroutine(CameraViewScenario2());
         }
     }
 
-    IEnumerator CameraViewScenario() // Enabling the scenario
+    IEnumerator CameraViewScenario1() // Enabling the scenario
     {
         yield return new WaitForSeconds(0.1f);
         cameraViewScenario2.SetActive(true);
+        yield return new WaitForSeconds(0.2f);
+        cameraViewScenario2.SetActive(false);
     }
 
-    IEnumerator CameraViewScenario2() // Enabling the scenario
+    IEnumerator CameraViewScenario2()
     {
         yield return new WaitForSeconds(0.2f);
         newAutomatedCameraSystem2.SetActive(false);
-        yield return new WaitForSeconds(5.0f);
+        yield return new WaitForSeconds(3.0f);
         newAutomatedCameraSystem2.SetActive(true);
     }
 }
