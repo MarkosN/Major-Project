@@ -102,32 +102,6 @@ namespace UnityStandardAssets.Vehicles.Car
             {
                 m_GearNum++;
             }
-
-            if (m_GearNum >= 6)
-            {
-                StartCoroutine(CameraViewScenario1());
-                StartCoroutine(CameraViewScenario2());
-            }
-            if (m_GearNum <= 5)
-            {
-                cameraViewScenario.SetActive(false);
-            }
-
-        }
-
-        IEnumerator CameraViewScenario1() // Enabling the scenario
-        {
-            yield return new WaitForSeconds(0.1f);
-            cameraViewScenario.SetActive(true);
-            yield return new WaitForSeconds(0.2f);
-            cameraViewScenario.SetActive(false);
-        }
-        IEnumerator CameraViewScenario2()
-        {
-            yield return new WaitForSeconds(0.2f);
-            newAutomatedCameraSystem.SetActive(false);
-            yield return new WaitForSeconds(3.0f);
-            newAutomatedCameraSystem.SetActive(true);
         }
 
         // simple function to add a curved bias towards 1 for a value in the 0-1 range
@@ -265,14 +239,33 @@ namespace UnityStandardAssets.Vehicles.Car
                 {
                     m_WheelColliders[i].brakeTorque = m_BrakeTorque*footbrake;
                 }
+                if (CurrentSpeed > 150 && CurrentSpeed < 151)
+                {
+                    StartCoroutine(CameraViewScenario1());
+                    StartCoroutine(CameraViewScenario2());
+                }
                 else if (footbrake > 0)
                 {
                     m_WheelColliders[i].brakeTorque = 0f;
                     m_WheelColliders[i].motorTorque = -m_ReverseTorque*footbrake;
-                }
+                } 
             }
         }
 
+        IEnumerator CameraViewScenario1() // Enabling the scenario
+        {
+            yield return new WaitForSeconds(0.1f);
+            cameraViewScenario.SetActive(true);
+            yield return new WaitForSeconds(0.2f);
+            cameraViewScenario.SetActive(false);
+        }
+        IEnumerator CameraViewScenario2()
+        {
+            yield return new WaitForSeconds(0.2f);
+            newAutomatedCameraSystem.SetActive(false);
+            yield return new WaitForSeconds(3.0f);
+            newAutomatedCameraSystem.SetActive(true);
+        }
 
         private void SteerHelper()
         {
