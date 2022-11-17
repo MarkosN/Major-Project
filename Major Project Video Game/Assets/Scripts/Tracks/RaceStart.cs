@@ -13,6 +13,9 @@ public class RaceStart : MonoBehaviour // Race Start Sequence (same (almost) for
 
     public GameObject resetPositionMechanism; // Reseting the cars positions in case of a racing accident
 
+    public GameObject cameraViewScenario1; // Camera View for Car 1 Scenario
+    public GameObject newAutomatedCameraSystem1; // By disabling the main manager of the camera views (scenarios) for an X amount of time it will help by not changing the cameras views continuously creating problems to the players
+
     void Awake() // Specific things will be disabled on the start so the Start Sequence can take place without any problems
     {
         backgroundImage1.SetActive(false);
@@ -22,6 +25,9 @@ public class RaceStart : MonoBehaviour // Race Start Sequence (same (almost) for
         car.constraints = RigidbodyConstraints.FreezePosition;
 
         raceIntro.SetActive(true);
+
+        StartCoroutine(CameraViewScenario());
+        StartCoroutine(CameraViewScenario2());
     }
 
     // Update is called once per frame
@@ -47,5 +53,20 @@ public class RaceStart : MonoBehaviour // Race Start Sequence (same (almost) for
     {
         yield return new WaitForSeconds(11.31f);
         raceIntro.SetActive(false);
+    }
+
+    IEnumerator CameraViewScenario() // Enabling the scenarios
+    {
+        yield return new WaitForSeconds(11.0f);
+        cameraViewScenario1.SetActive(true);
+        yield return new WaitForSeconds(0.1f);
+        cameraViewScenario1.SetActive(false);
+    }
+    IEnumerator CameraViewScenario2()
+    {
+        yield return new WaitForSeconds(11.1f);
+        newAutomatedCameraSystem1.SetActive(false);
+        yield return new WaitForSeconds(3.0f);
+        newAutomatedCameraSystem1.SetActive(true);
     }
 }
