@@ -1,63 +1,64 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class AutomatedCameraSystem : MonoBehaviour // This is the algorithm that will be responsible for which and when a camera view will be selected. [EARLY STAGE]
+public class AutomatedCameraSystem : MonoBehaviour // This is only for the manually camera view changes for the PRACTICE MODE - Not for the New Automated Camera System
 {
     public GameObject farChaseCam;
     public GameObject nearChaseCam;
-    public GameObject cockpitCam;
     public GameObject bonnetCam;
     public GameObject bumperCam;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    private int cameraViewSelection;
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Alpha2)) // Enable Far Chase Camera and Disable the rest
+        if (Input.GetKeyDown(KeyCode.R)) // Changing the Camera View
         {
-            farChaseCam.SetActive(true);
-            nearChaseCam.SetActive(false);
-            cockpitCam.SetActive(false);
-            bonnetCam.SetActive(false);
-            bumperCam.SetActive(false);
+            if (cameraViewSelection == 3) // 4 Camera Views in Total
+            {
+                cameraViewSelection = 0;
+            }
+            else
+            {
+                cameraViewSelection += 1;
+            }
+
+            StartCoroutine(CamerasViews()); // Changing will be with Coroutine (Simple and Easy Way) 
         }
-        if (Input.GetKeyDown(KeyCode.Alpha3)) // Enable Near Chase Camera and Disable the rest
+    }
+    
+    IEnumerator CamerasViews()
+    {
+        yield return new WaitForSeconds(0.01f); // Very Little Time between Cameras Views Changes
+
+        if (cameraViewSelection == 0) // Enable Near Chase Camera and Disable the rest
         {
             farChaseCam.SetActive(false);
             nearChaseCam.SetActive(true);
-            cockpitCam.SetActive(false);
             bonnetCam.SetActive(false);
             bumperCam.SetActive(false);
         }
-        if (Input.GetKeyDown(KeyCode.Alpha4)) // Enable Cockpit Camera and Disable the rest
+        if (cameraViewSelection == 1) // Enable Far Chase Camera and Disable the rest
         {
-            farChaseCam.SetActive(false);
+            farChaseCam.SetActive(true);
             nearChaseCam.SetActive(false);
-            cockpitCam.SetActive(true);
             bonnetCam.SetActive(false);
             bumperCam.SetActive(false);
         }
-        if (Input.GetKeyDown(KeyCode.Alpha5)) // Enable Bonnet Camera and Disable the rest
+        if (cameraViewSelection == 2) // Enable Bumper Camera and Disable the rest
         {
             farChaseCam.SetActive(false);
             nearChaseCam.SetActive(false);
-            cockpitCam.SetActive(false);
-            bonnetCam.SetActive(true);
-            bumperCam.SetActive(false);
-        }
-        if (Input.GetKeyDown(KeyCode.Alpha6)) // Enable Bumper Camera and Disable the rest
-        {
-            farChaseCam.SetActive(false);
-            nearChaseCam.SetActive(false);
-            cockpitCam.SetActive(false);
             bonnetCam.SetActive(false);
             bumperCam.SetActive(true);
+        }
+        if (cameraViewSelection == 3) // Enable Bonnet Camera and Disable the rest
+        {
+            farChaseCam.SetActive(false);
+            nearChaseCam.SetActive(false);
+            bonnetCam.SetActive(true);
+            bumperCam.SetActive(false);
         }
     }
 }
