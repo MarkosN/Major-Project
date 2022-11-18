@@ -1,7 +1,7 @@
 using UnityEngine;
 using TMPro;
 
-public class TotalTimeCounter : MonoBehaviour // Counting the player's total time on the track (TRACK 1, 2, and 3) [Script almost same as the laps timer script]
+public class TotalTimeCounter : MonoBehaviour // Counting the player's total time on the track (TRACK 1) [Script almost same as the laps timer script]
 {
     // What the timer will count
     public static int totalMinutesCounter;

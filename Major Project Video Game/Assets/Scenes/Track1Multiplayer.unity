@@ -1539,6 +1539,53 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 9f7413525a1204c848e3a57efaa84327, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5b86c693acc5f4805b033c23b06b3a69, type: 3}
+--- !u!21 &112153499
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Hidden/RetroCameraEffect
+  m_Shader: {fileID: 4800000, guid: 2cfdcae76c757405786f1219a383da6e, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SecondaryTex:
+        m_Texture: {fileID: 2800000, guid: fb05fd8d491864b72947d96a3c6a189a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ChromaticAberration: 0
+    - _DisplacementAmplitude: 0
+    - _DisplacementFrequency: 150
+    - _DisplacementSpeed: 0
+    - _NoiseBottomHeight: 0.04
+    - _NoiseBottomIntensity: 1
+    - _OffsetNoiseX: 0
+    - _OffsetNoiseY: 0
+    - _StaticIntensity: 1
+    - _UseChromaticAberration: 1
+    - _UseDisplacement: 1
+    - _UseStaticNoise: 1
+    - _UseVignette: 0
+    - _Vignette: 0
+    m_Colors:
+    - _OffsetPos: {r: 0, g: 0, b: 0, a: 1}
+  m_BuildTextureStacks: []
 --- !u!1 &115342006 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6088936440118519879, guid: 515158fd032346d44aac3b25e46c17df, type: 3}
@@ -1756,61 +1803,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 5b86c693acc5f4805b033c23b06b3a69, type: 3}
   m_PrefabInstance: {fileID: 1368682112}
   m_PrefabAsset: {fileID: 0}
---- !u!21 &166091203
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Hidden/RetroCameraEffect
-  m_Shader: {fileID: 4800000, guid: 2cfdcae76c757405786f1219a383da6e, type: 3}
-  m_ValidKeywords:
-  - BOTTOM_STRETCH_ON
-  - CHROMATIC_ON
-  - DISPLACEMENT_ON
-  - NOISE_BOTTOM_ON
-  - NOISE_ON
-  - RADIAL_DISTORTION_ON
-  - SCANLINES_ON
-  - VIGNETTE_ON
-  m_InvalidKeywords: []
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SecondaryTex:
-        m_Texture: {fileID: 2800000, guid: 0ecedd370a77a4a3dbbb9cc9e09081cd, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _ChromaticAberration: 0
-    - _DisplacementAmplitude: 0
-    - _DisplacementFrequency: 150
-    - _DisplacementSpeed: 0
-    - _NoiseBottomHeight: 0.04
-    - _NoiseBottomIntensity: 1
-    - _OffsetNoiseX: 0.6871166
-    - _OffsetNoiseY: 0.08308326
-    - _StaticIntensity: 2
-    - _UseChromaticAberration: 1
-    - _UseDisplacement: 1
-    - _UseStaticNoise: 1
-    - _UseVignette: 0
-    - _Vignette: 0.1
-    m_Colors:
-    - _OffsetPos: {r: 0, g: 0, b: 0, a: 0}
-  m_BuildTextureStacks: []
 --- !u!1001 &169346918
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3747,6 +3739,53 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 09819032ea2bd4e0297380470c26354e, type: 3}
   m_PrefabInstance: {fileID: 357182031}
   m_PrefabAsset: {fileID: 0}
+--- !u!21 &365490546
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Hidden/RetroCameraEffect
+  m_Shader: {fileID: 4800000, guid: 2cfdcae76c757405786f1219a383da6e, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SecondaryTex:
+        m_Texture: {fileID: 2800000, guid: 2ee566ccadfe14d0cadbd3e2107180cf, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ChromaticAberration: 0
+    - _DisplacementAmplitude: 0
+    - _DisplacementFrequency: 150
+    - _DisplacementSpeed: 0
+    - _NoiseBottomHeight: 0.04
+    - _NoiseBottomIntensity: 1
+    - _OffsetNoiseX: 0
+    - _OffsetNoiseY: 0
+    - _StaticIntensity: 1
+    - _UseChromaticAberration: 1
+    - _UseDisplacement: 1
+    - _UseStaticNoise: 1
+    - _UseVignette: 0
+    - _Vignette: 0
+    m_Colors:
+    - _OffsetPos: {r: 0, g: 0, b: 0, a: 1}
+  m_BuildTextureStacks: []
 --- !u!1001 &366731165
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4794,11 +4833,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 68445c611a9f348eea27b60cebeb14aa, type: 3}
   m_PrefabInstance: {fileID: 446606863}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &447540918 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 381598434043401835, guid: 22433181f3a40ef439f6ed6c5a0a86f0, type: 3}
-  m_PrefabInstance: {fileID: 381598434490874077}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &458618900
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5292,61 +5326,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 68445c611a9f348eea27b60cebeb14aa, type: 3}
   m_PrefabInstance: {fileID: 486045260}
   m_PrefabAsset: {fileID: 0}
---- !u!21 &489758936
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Hidden/RetroCameraEffect
-  m_Shader: {fileID: 4800000, guid: 2cfdcae76c757405786f1219a383da6e, type: 3}
-  m_ValidKeywords:
-  - BOTTOM_STRETCH_ON
-  - CHROMATIC_ON
-  - DISPLACEMENT_ON
-  - NOISE_BOTTOM_ON
-  - NOISE_ON
-  - RADIAL_DISTORTION_ON
-  - SCANLINES_ON
-  - VIGNETTE_ON
-  m_InvalidKeywords: []
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SecondaryTex:
-        m_Texture: {fileID: 2800000, guid: 0ecedd370a77a4a3dbbb9cc9e09081cd, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _ChromaticAberration: 0
-    - _DisplacementAmplitude: 0
-    - _DisplacementFrequency: 150
-    - _DisplacementSpeed: 0
-    - _NoiseBottomHeight: 0.04
-    - _NoiseBottomIntensity: 1
-    - _OffsetNoiseX: 0.40742105
-    - _OffsetNoiseY: -0.22563249
-    - _StaticIntensity: 2
-    - _UseChromaticAberration: 1
-    - _UseDisplacement: 1
-    - _UseStaticNoise: 1
-    - _UseVignette: 0
-    - _Vignette: 0.1
-    m_Colors:
-    - _OffsetPos: {r: 0, g: 0, b: 0, a: 0}
-  m_BuildTextureStacks: []
 --- !u!1001 &496589124
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5641,7 +5620,7 @@ MonoBehaviour:
   useScanlines: 1
   scanlineSize: 512
   scanlineIntensity: 0.5
-  _material: {fileID: 489758936}
+  _material: {fileID: 2094032973}
 --- !u!1 &517699355
 GameObject:
   m_ObjectHideFlags: 0
@@ -6651,8 +6630,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 576885845}
-  m_LocalRotation: {x: -0, y: 0.34102052, z: -0, w: 0.94005585}
-  m_LocalPosition: {x: -473.4, y: -555.35, z: 147.6}
+  m_LocalRotation: {x: 0, y: 0.3410195, z: 0, w: 0.94005626}
+  m_LocalPosition: {x: -388.5, y: -555.35, z: 204.6}
   m_LocalScale: {x: 40.08, y: 17.949394, z: 0.1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10073,7 +10052,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 86229032593602047, guid: 03602fe1a9655944f99661f0755731f8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4
+      value: 4.7
       objectReference: {fileID: 0}
     - target: {fileID: 86229032593602047, guid: 03602fe1a9655944f99661f0755731f8, type: 3}
       propertyPath: m_LocalPosition.z
@@ -24168,7 +24147,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5677183536578804585, guid: 97be42360ca464c43921bc5fc20f077d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4
+      value: 4.7
       objectReference: {fileID: 0}
     - target: {fileID: 5677183536578804585, guid: 97be42360ca464c43921bc5fc20f077d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -48394,53 +48373,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: d9dbb9e3ef5e345d495933f6cdaef2ef, type: 3}
   m_PrefabInstance: {fileID: 1433503214}
   m_PrefabAsset: {fileID: 0}
---- !u!21 &1437959232
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Hidden/RetroCameraEffect
-  m_Shader: {fileID: 4800000, guid: 2cfdcae76c757405786f1219a383da6e, type: 3}
-  m_ValidKeywords: []
-  m_InvalidKeywords: []
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SecondaryTex:
-        m_Texture: {fileID: 2800000, guid: 2ee566ccadfe14d0cadbd3e2107180cf, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _ChromaticAberration: 0
-    - _DisplacementAmplitude: 0
-    - _DisplacementFrequency: 150
-    - _DisplacementSpeed: 0
-    - _NoiseBottomHeight: 0.04
-    - _NoiseBottomIntensity: 1
-    - _OffsetNoiseX: 0
-    - _OffsetNoiseY: 0
-    - _StaticIntensity: 1
-    - _UseChromaticAberration: 1
-    - _UseDisplacement: 1
-    - _UseStaticNoise: 1
-    - _UseVignette: 0
-    - _Vignette: 0
-    m_Colors:
-    - _OffsetPos: {r: 0, g: 0, b: 0, a: 1}
-  m_BuildTextureStacks: []
 --- !u!1 &1447061851
 GameObject:
   m_ObjectHideFlags: 0
@@ -48902,53 +48834,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1000838033475005480, guid: f48430809476626408ff20a071fc7a53, type: 3}
   m_PrefabInstance: {fileID: 1472290961}
   m_PrefabAsset: {fileID: 0}
---- !u!21 &1478587426
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Hidden/RetroCameraEffect
-  m_Shader: {fileID: 4800000, guid: 2cfdcae76c757405786f1219a383da6e, type: 3}
-  m_ValidKeywords: []
-  m_InvalidKeywords: []
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SecondaryTex:
-        m_Texture: {fileID: 2800000, guid: fb05fd8d491864b72947d96a3c6a189a, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _ChromaticAberration: 0
-    - _DisplacementAmplitude: 0
-    - _DisplacementFrequency: 150
-    - _DisplacementSpeed: 0
-    - _NoiseBottomHeight: 0.04
-    - _NoiseBottomIntensity: 1
-    - _OffsetNoiseX: 0
-    - _OffsetNoiseY: 0
-    - _StaticIntensity: 1
-    - _UseChromaticAberration: 1
-    - _UseDisplacement: 1
-    - _UseStaticNoise: 1
-    - _UseVignette: 0
-    - _Vignette: 0
-    m_Colors:
-    - _OffsetPos: {r: 0, g: 0, b: 0, a: 1}
-  m_BuildTextureStacks: []
 --- !u!1001 &1480603318
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -51495,7 +51380,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1682955149}
   m_LocalRotation: {x: 0, y: 0.3410195, z: 0, w: 0.94005626}
-  m_LocalPosition: {x: -473.4, y: -555.35, z: 147.6}
+  m_LocalPosition: {x: -388.5, y: -555.35, z: 204.6}
   m_LocalScale: {x: 40.08, y: 17.949394, z: 0.1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -52641,6 +52526,61 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 037318de497624362a61b6dad60ff958, type: 3}
   m_PrefabInstance: {fileID: 1772314705}
   m_PrefabAsset: {fileID: 0}
+--- !u!21 &1782626968
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Hidden/RetroCameraEffect
+  m_Shader: {fileID: 4800000, guid: 2cfdcae76c757405786f1219a383da6e, type: 3}
+  m_ValidKeywords:
+  - BOTTOM_STRETCH_ON
+  - CHROMATIC_ON
+  - DISPLACEMENT_ON
+  - NOISE_BOTTOM_ON
+  - NOISE_ON
+  - RADIAL_DISTORTION_ON
+  - SCANLINES_ON
+  - VIGNETTE_ON
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SecondaryTex:
+        m_Texture: {fileID: 2800000, guid: 0ecedd370a77a4a3dbbb9cc9e09081cd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ChromaticAberration: 0
+    - _DisplacementAmplitude: 0
+    - _DisplacementFrequency: 150
+    - _DisplacementSpeed: 0
+    - _NoiseBottomHeight: 0.04
+    - _NoiseBottomIntensity: 1
+    - _OffsetNoiseX: 0.8507792
+    - _OffsetNoiseY: -0.07058536
+    - _StaticIntensity: 2
+    - _UseChromaticAberration: 1
+    - _UseDisplacement: 1
+    - _UseStaticNoise: 1
+    - _UseVignette: 0
+    - _Vignette: 0.1
+    m_Colors:
+    - _OffsetPos: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
 --- !u!1001 &1790243490
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -53007,7 +52947,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   farChaseCam: {fileID: 1758292397}
   nearChaseCam: {fileID: 2055153656}
-  cockpitCam: {fileID: 1958903855}
   bonnetCam: {fileID: 1379431320}
   bumperCam: {fileID: 1896735492}
 --- !u!21 &1867981840
@@ -53587,11 +53526,19 @@ PrefabInstance:
     - target: {fileID: 4679076184521006294, guid: 80a5b702b2a91b0439941741177c34e7, type: 3}
       propertyPath: cameraViewScenario1
       value: 
-      objectReference: {fileID: 447540918}
+      objectReference: {fileID: 381598434490874078}
+    - target: {fileID: 4679076184521006294, guid: 80a5b702b2a91b0439941741177c34e7, type: 3}
+      propertyPath: cameraViewScenario2
+      value: 
+      objectReference: {fileID: 4423396122380122976}
     - target: {fileID: 4679076184521006294, guid: 80a5b702b2a91b0439941741177c34e7, type: 3}
       propertyPath: newAutomatedCameraSystem1
       value: 
       objectReference: {fileID: 649947523}
+    - target: {fileID: 4679076184521006294, guid: 80a5b702b2a91b0439941741177c34e7, type: 3}
+      propertyPath: newAutomatedCameraSystem2
+      value: 
+      objectReference: {fileID: 214779354}
     - target: {fileID: 4679076184521006294, guid: 80a5b702b2a91b0439941741177c34e7, type: 3}
       propertyPath: raceFinishSequencePlayer1
       value: 
@@ -54689,9 +54636,13 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1903679539}
     - target: {fileID: 5407561196302695870, guid: 2872ed55d759680459617eaf86ce2ea5, type: 3}
+      propertyPath: cameraViewScenario1
+      value: 
+      objectReference: {fileID: 381598434490874078}
+    - target: {fileID: 5407561196302695870, guid: 2872ed55d759680459617eaf86ce2ea5, type: 3}
       propertyPath: cameraViewScenario2
       value: 
-      objectReference: {fileID: 1964464529}
+      objectReference: {fileID: 4423396122380122976}
     - target: {fileID: 5407561196302695870, guid: 2872ed55d759680459617eaf86ce2ea5, type: 3}
       propertyPath: newAutomatedCameraSystem1
       value: 
@@ -54853,7 +54804,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 3.0439715, y: 1}
+    m_SensorSize: {x: 3.0468085, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -54915,7 +54866,7 @@ MonoBehaviour:
   useScanlines: 1
   scanlineSize: 512
   scanlineIntensity: 0.5
-  _material: {fileID: 1437959232}
+  _material: {fileID: 365490546}
 --- !u!1001 &1959573707
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -54981,11 +54932,6 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: d890289a5731941028b9140c7dcd26b2, type: 3}
   m_PrefabInstance: {fileID: 1959573707}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1964464529 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4423396122028532430, guid: c5eaa6a0a00d02c4e958807eca85f59f, type: 3}
-  m_PrefabInstance: {fileID: 4423396122380122975}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1971619365
 PrefabInstance:
@@ -69023,6 +68969,61 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 68445c611a9f348eea27b60cebeb14aa, type: 3}
   m_PrefabInstance: {fileID: 2092160514}
   m_PrefabAsset: {fileID: 0}
+--- !u!21 &2094032973
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Hidden/RetroCameraEffect
+  m_Shader: {fileID: 4800000, guid: 2cfdcae76c757405786f1219a383da6e, type: 3}
+  m_ValidKeywords:
+  - BOTTOM_STRETCH_ON
+  - CHROMATIC_ON
+  - DISPLACEMENT_ON
+  - NOISE_BOTTOM_ON
+  - NOISE_ON
+  - RADIAL_DISTORTION_ON
+  - SCANLINES_ON
+  - VIGNETTE_ON
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SecondaryTex:
+        m_Texture: {fileID: 2800000, guid: 0ecedd370a77a4a3dbbb9cc9e09081cd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ChromaticAberration: 0
+    - _DisplacementAmplitude: 0
+    - _DisplacementFrequency: 150
+    - _DisplacementSpeed: 0
+    - _NoiseBottomHeight: 0.04
+    - _NoiseBottomIntensity: 1
+    - _OffsetNoiseX: 0.134022
+    - _OffsetNoiseY: 0.60081303
+    - _StaticIntensity: 2
+    - _UseChromaticAberration: 1
+    - _UseDisplacement: 1
+    - _UseStaticNoise: 1
+    - _UseVignette: 0
+    - _Vignette: 0.1
+    m_Colors:
+    - _OffsetPos: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
 --- !u!1001 &2094865523
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -70009,6 +70010,11 @@ PrefabInstance:
       objectReference: {fileID: 1896735492}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 22433181f3a40ef439f6ed6c5a0a86f0, type: 3}
+--- !u!1 &381598434490874078 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 381598434074184096, guid: 22433181f3a40ef439f6ed6c5a0a86f0, type: 3}
+  m_PrefabInstance: {fileID: 381598434490874077}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1187484190481998303
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -70598,6 +70604,11 @@ PrefabInstance:
       objectReference: {fileID: 779024369}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c5eaa6a0a00d02c4e958807eca85f59f, type: 3}
+--- !u!1 &4423396122380122976 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4423396121546062554, guid: c5eaa6a0a00d02c4e958807eca85f59f, type: 3}
+  m_PrefabInstance: {fileID: 4423396122380122975}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5677183534953943380
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -70623,7 +70634,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5677183536578804585, guid: 97be42360ca464c43921bc5fc20f077d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4
+      value: 4.7
       objectReference: {fileID: 0}
     - target: {fileID: 5677183536578804585, guid: 97be42360ca464c43921bc5fc20f077d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -70689,7 +70700,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 86229032593602047, guid: 03602fe1a9655944f99661f0755731f8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4
+      value: 4.7
       objectReference: {fileID: 0}
     - target: {fileID: 86229032593602047, guid: 03602fe1a9655944f99661f0755731f8, type: 3}
       propertyPath: m_LocalPosition.z
