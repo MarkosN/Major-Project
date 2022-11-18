@@ -37,6 +37,7 @@ ScriptsOnlyBuild:
     - PositionCounter
     - PositionCounterII
     - PositionCounterIII
+    - PracticeCamerasManager
     - RaceFinish
     - RaceFinish2
     - RaceStart
@@ -89,15 +90,6 @@ ScriptsOnlyBuild:
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
     - TMPro.TextMeshProUGUI
-    Unity.Timeline.dll:
-    - UnityEngine.Timeline.TimelineAsset
-    UnityEditor.Graphs.dll:
-    - UnityEditor.Graphs.AnimationBlendTree.Graph
-    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
-    - UnityEditor.Graphs.AnimationStateMachine.Graph
-    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -1019,6 +1011,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 9758}
     - Class: 114
       Script: {instanceID: 9798}
+    - Class: 114
+      Script: {instanceID: 10470}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1318,6 +1312,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3020}
     - Class: 114
+      Script: {instanceID: 3086}
+    - Class: 114
       Script: {instanceID: 3102}
     - Class: 114
       Script: {instanceID: 3126}
@@ -1344,13 +1340,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5390}
     - Class: 114
+      Script: {instanceID: 5828}
+    - Class: 114
       Script: {instanceID: 5868}
+    - Class: 114
+      Script: {instanceID: 6262}
     - Class: 114
       Script: {instanceID: 6438}
     - Class: 114
       Script: {instanceID: 6454}
     - Class: 114
       Script: {instanceID: 6536}
+    - Class: 114
+      Script: {instanceID: 6540}
     - Class: 114
       Script: {instanceID: 7092}
     - Class: 114
@@ -1680,6 +1682,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3020}
     - Class: 114
+      Script: {instanceID: 3086}
+    - Class: 114
       Script: {instanceID: 3102}
     - Class: 114
       Script: {instanceID: 3126}
@@ -1704,13 +1708,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5146}
     - Class: 114
+      Script: {instanceID: 5828}
+    - Class: 114
       Script: {instanceID: 5868}
+    - Class: 114
+      Script: {instanceID: 6262}
     - Class: 114
       Script: {instanceID: 6438}
     - Class: 114
       Script: {instanceID: 6454}
     - Class: 114
       Script: {instanceID: 6536}
+    - Class: 114
+      Script: {instanceID: 6540}
     - Class: 114
       Script: {instanceID: 7092}
     - Class: 114
@@ -2038,6 +2048,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3020}
     - Class: 114
+      Script: {instanceID: 3086}
+    - Class: 114
       Script: {instanceID: 3102}
     - Class: 114
       Script: {instanceID: 3126}
@@ -2062,13 +2074,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5146}
     - Class: 114
+      Script: {instanceID: 5828}
+    - Class: 114
       Script: {instanceID: 5868}
+    - Class: 114
+      Script: {instanceID: 6262}
     - Class: 114
       Script: {instanceID: 6438}
     - Class: 114
       Script: {instanceID: 6454}
     - Class: 114
       Script: {instanceID: 6536}
+    - Class: 114
+      Script: {instanceID: 6540}
     - Class: 114
       Script: {instanceID: 6804}
     - Class: 114
@@ -2728,7 +2746,7 @@ ScriptsOnlyBuild:
     className: SkidTrail
   - hash:
       serializedVersion: 2
-      Hash: fbf4027f9b87b1f293ce30cab72d7b3a
+      Hash: 14c55984db545401c8dc2b861c3eaf7e
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: RaceStart
@@ -3232,7 +3250,7 @@ ScriptsOnlyBuild:
     className: HorizontalLayoutGroup
   - hash:
       serializedVersion: 2
-      Hash: 72163a2c8d4e42048afb21c53591d0f4
+      Hash: 2b57f67bc38785a30550de5a8c6b61a7
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: AutomatedCameraSystem
@@ -3920,6 +3938,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnToggleValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 78aa0ce5bea5f7e4ef8368d2342bdf0b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PracticeCamerasManager
   - hash:
       serializedVersion: 2
       Hash: a2113831d3323f931007e1b3812dc814

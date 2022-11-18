@@ -1,20 +1,12 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class AutomatedCameraSystem2 : MonoBehaviour // This is the algorithm that will be responsible for which and when a camera view will be selected. [EARLY STAGE]
+public class AutomatedCameraSystem2 : MonoBehaviour // This is the algorithm that will be responsible for which and when a camera view will be selected. [EARLY STAGE - Scrapped]
 {
     public GameObject farChaseCam;
     public GameObject nearChaseCam;
     public GameObject cockpitCam;
     public GameObject bonnetCam;
     public GameObject bumperCam;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
 
     // Update is called once per frame
     void Update()
