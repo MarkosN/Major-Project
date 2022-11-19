@@ -19,6 +19,17 @@ public class RaceFinish2 : MonoBehaviour // For Player 2 Only
             Destroy(finishRacePlayer1);
             StartCoroutine(CameraViewScenario());
             StartCoroutine(CameraViewScenario2());
+
+            //Lap Time Counter Reset (Split_Screen Multiplayer Mode)
+            LapsTimerMultiplayer.minutesCounter_ = 0;
+            LapsTimerMultiplayer.secondsCounter_ = 0;
+            LapsTimerMultiplayer.millisecondsCounter_ = 0;
+            LapsTimerMultiplayerII.minutesCounter_ = 0;
+            LapsTimerMultiplayerII.secondsCounter_ = 0;
+            LapsTimerMultiplayerII.millisecondsCounter_ = 0;
+            LapsTimerMultiplayerIII.minutesCounter_ = 0;
+            LapsTimerMultiplayerIII.secondsCounter_ = 0;
+            LapsTimerMultiplayerIII.millisecondsCounter_ = 0;
         }
     }
 

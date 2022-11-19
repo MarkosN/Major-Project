@@ -19,6 +19,17 @@ public class RaceFinish : MonoBehaviour // For Player 1 Only
             Destroy(finishRacePlayer2);
             StartCoroutine(CameraViewScenario());
             StartCoroutine(CameraViewScenario2());
+
+            //Lap Time Counter Reset (Split_Screen Multiplayer Mode)
+            LapsTimerMultiplayer.minutesCounter_ = 0;
+            LapsTimerMultiplayer.secondsCounter_ = 0;
+            LapsTimerMultiplayer.millisecondsCounter_ = 0;
+            LapsTimerMultiplayerII.minutesCounter_ = 0;
+            LapsTimerMultiplayerII.secondsCounter_ = 0;
+            LapsTimerMultiplayerII.millisecondsCounter_ = 0;
+            LapsTimerMultiplayerIII.minutesCounter_ = 0;
+            LapsTimerMultiplayerIII.secondsCounter_ = 0;
+            LapsTimerMultiplayerIII.millisecondsCounter_ = 0;
         }
     }
 
@@ -31,7 +42,8 @@ public class RaceFinish : MonoBehaviour // For Player 1 Only
         cameraViewScenario1.SetActive(false);
         cameraViewScenario2.SetActive(false);
     }
-    IEnumerator CameraViewScenario2() // Enabling the scenario
+
+    IEnumerator CameraViewScenario2()
     {
         yield return new WaitForSeconds(0.2f);
         newAutomatedCameraSystem1.SetActive(false);

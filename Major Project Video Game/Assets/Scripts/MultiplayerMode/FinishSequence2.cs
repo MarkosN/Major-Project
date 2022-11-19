@@ -35,6 +35,17 @@ public class FinishSequence2 : MonoBehaviour // Race Finish Sequence Manager - W
         StartCoroutine(DisableCarPositionandRotation());
         StartCoroutine(ReturnToMenu());
         resetPositionMechanism.SetActive(false);
+
+        //Lap Time Counter Reset (Split_Screen Multiplayer Mode)
+        LapsTimerMultiplayer.minutesCounter_ = 0;
+        LapsTimerMultiplayer.secondsCounter_ = 0;
+        LapsTimerMultiplayer.millisecondsCounter_ = 0;
+        LapsTimerMultiplayerII.minutesCounter_ = 0;
+        LapsTimerMultiplayerII.secondsCounter_ = 0;
+        LapsTimerMultiplayerII.millisecondsCounter_ = 0;
+        LapsTimerMultiplayerIII.minutesCounter_ = 0;
+        LapsTimerMultiplayerIII.secondsCounter_ = 0;
+        LapsTimerMultiplayerIII.millisecondsCounter_ = 0;
     }
 
     IEnumerator DisableCarPositionandRotation() // After the race is over player won't be able to control the car anymore
